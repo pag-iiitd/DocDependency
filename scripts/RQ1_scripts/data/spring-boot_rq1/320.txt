@@ -1,0 +1,7 @@
+{"randomdocline":"@since 2.0.7","signature":"public void setProvidedClasspath(FileCollection classpath)","doc":"Sets the provided classpath to include in the {@code WEB-INF\/lib-provided}\r\ndirectory of the war.\r\n\r\n@param classpath the classpath\r\n@since 2.0.7\r\n","source":"{\r\n    this.providedClasspath = getProject().files(classpath);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot-tools\/spring-boot-gradle-plugin\/src\/main\/java\/org\/springframework\/boot\/gradle\/tasks\/bundling\/BootWar.java"}
+'1f1b06dfe2'
+'c6c03e89a4'
+'decaacddce'
+'4bc32e6358'
+'e424dfbe15'
+'ce0a3d0311'

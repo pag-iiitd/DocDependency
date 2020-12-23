@@ -1,0 +1,2 @@
+{"randomdocline":"associated {@link RequestManager}.","signature":"public RequestManagerTreeNode getRequestManagerTreeNode()","doc":"Returns the {@link RequestManagerTreeNode} that provides tree traversal methods relative to the\r\nassociated {@link RequestManager}.\r\n","source":"{\r\n    return requestManagerTreeNode;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/manager\/SupportRequestManagerFragment.java"}
+'ae2d3767a'

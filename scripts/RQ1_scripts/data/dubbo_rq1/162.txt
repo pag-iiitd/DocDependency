@@ -1,0 +1,2 @@
+{"randomdocline":"@param url Valid URL instance","signature":"protected Validator createValidator(URL url)","doc":"Return new instance of {@link JValidator}\r\n\r\n@param url Valid URL instance\r\n@return Instance of JValidator\r\n","source":"{\r\n    return new JValidator(url);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-filter\/dubbo-filter-validation\/src\/main\/java\/org\/apache\/dubbo\/validation\/support\/jvalidation\/JValidation.java"}
+'f3e8be7e9'

@@ -1,0 +1,3 @@
+{"randomdocline":"Creates (but does not start) a new stopwatch, using the specified time source.","signature":"public static Stopwatch createUnstarted(Ticker ticker)","doc":"Creates (but does not start) a new stopwatch, using the specified time source.\r\n\r\n@since 15.0\r\n","source":"{\r\n    return new Stopwatch(ticker);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/base\/Stopwatch.java"}
+'9b94fb3965'
+'9f94aa41d9'

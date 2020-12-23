@@ -1,0 +1,9 @@
+{"randomdocline":"@param model The model.","signature":"protected abstract String getUrl(Model model, int width, int height, Options options)","doc":"Returns a valid url http:\/\/ or https:\/\/ for the given model and dimensions as a string.\r\n\r\n@param model The model.\r\n@param width The width in pixels of the view\/target the image will be loaded into.\r\n@param height The height in pixels of the view\/target the image will be loaded into.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/load\/model\/stream\/BaseGlideUrlLoader.java"}
+'0dcc33fe6'
+'8f8a16008'
+'c375a2fbf'
+'7497bf066'
+'34dad9f5b'
+'f389e91cc'
+'64d97bb35'
+'78bad2aa3'

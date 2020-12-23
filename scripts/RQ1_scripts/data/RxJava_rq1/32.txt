@@ -1,0 +1,4 @@
+{"randomdocline":"or return the received value (null if none).","signature":"public T blockingGet()","doc":"Block until the latch is counted down then rethrow any exception received (wrapped if checked)\r\nor return the received value (null if none).\r\n\r\n@return the value received or null if no value received\r\n","source":"{\r\n    if (getCount() != 0) {\r\n        try {\r\n            BlockingHelper.verifyNonBlocking();\r\n            await();\r\n        } catch (InterruptedException ex) {\r\n            dispose();\r\n            throw ExceptionHelper.wrapOrThrow(ex);\r\n        }\r\n    }\r\n    Throwable ex = error;\r\n    if (ex != null) {\r\n        throw ExceptionHelper.wrapOrThrow(ex);\r\n    }\r\n    return value;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/internal\/observers\/BlockingMultiObserver.java"}
+'a1693ecc9'
+'4017e26b2'
+'1f0a116dc'

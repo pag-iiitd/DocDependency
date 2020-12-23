@@ -1,0 +1,2 @@
+{"randomdocline":"Sets the {@link Http2Settings} to use for the initial connection settings exchange.","signature":"protected Http2Settings initialSettings()","doc":"Sets the {@link Http2Settings} to use for the initial connection settings exchange.\r\n","source":"{\r\n    return initialSettings;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\codec-http2\/src\/main\/java\/io\/netty\/handler\/codec\/http2\/AbstractHttp2ConnectionHandlerBuilder.java"}
+'2202e8f967'

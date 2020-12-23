@@ -1,0 +1,3 @@
+{"randomdocline":"Returns the success value if this SingleSubject was terminated with a success value.","signature":"public T getValue()","doc":"Returns the success value if this SingleSubject was terminated with a success value.\r\n\r\n@return the success value or null\r\n","source":"{\r\n    if (observers.get() == TERMINATED) {\r\n        return value;\r\n    }\r\n    return null;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/subjects\/SingleSubject.java"}
+'a1693ecc9'
+'d173b6d4f'

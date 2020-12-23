@@ -1,0 +1,2 @@
+{"randomdocline":"Returns the name of the contributor.","signature":" String getName()","doc":"Returns the name of the contributor.\r\n\r\n@return the contributor name\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot-actuator\/src\/main\/java\/org\/springframework\/boot\/actuate\/health\/NamedContributor.java"}
+'3c535e0de3'

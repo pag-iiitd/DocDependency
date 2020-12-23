@@ -1,0 +1,1 @@
+{"randomdocline":"Get the configurator url.","signature":" URL getUrl()","doc":"Get the configurator url.\r\n\r\n@return configurator url.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-cluster\/src\/main\/java\/org\/apache\/dubbo\/rpc\/cluster\/Configurator.java"}

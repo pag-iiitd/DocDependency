@@ -1,0 +1,3 @@
+{"randomdocline":"Calls {@link System#nanoTime()}.","signature":" static long systemNanoTime()","doc":"Calls {@link System#nanoTime()}.\r\n","source":"{\r\n    return System.nanoTime();\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/base\/Platform.java"}
+'9b94fb3965'
+'bf08202a2e'

@@ -1,0 +1,4 @@
+{"randomdocline":"{@inheritDoc}","signature":"public Object getObject()","doc":"{@inheritDoc}\r\n","source":"{\r\n    return proxyObject;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-rpc\/dubbo-rpc-xml\/src\/main\/java\/org\/apache\/dubbo\/xml\/rpc\/protocol\/xmlrpc\/XmlRpcProxyFactoryBean.java"}
+'6ca5a10c4'
+'26f39d57f'
+'3c6f8aa38'

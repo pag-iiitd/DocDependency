@@ -1,0 +1,11 @@
+{"randomdocline":"@return the group","signature":"public String getGroup()","doc":"Returns the value used for the {@code build.group} property. Defaults to the\r\n{@link Project#getGroup() Project's group}.\r\n\r\n@return the group\r\n","source":"{\r\n    return this.group.getOrNull();\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot-tools\/spring-boot-gradle-plugin\/src\/main\/java\/org\/springframework\/boot\/gradle\/tasks\/buildinfo\/BuildInfoProperties.java"}
+'7bc7d86ad4'
+'0717de723f'
+'aa1954717c'
+'9543fcf44d'
+'e6a68b39a3'
+'b9b402e3db'
+'dddea70985'
+'9ebe15232e'
+'b20d11fe9c'
+'8e398dc6a7'

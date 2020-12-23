@@ -1,0 +1,2 @@
+{"randomdocline":"Create an instance using a default {@link Persister} instance for conversion.","signature":"public static SimpleXmlConverterFactory create()","doc":"Create an instance using a default {@link Persister} instance for conversion.\r\n","source":"{\r\n    return create(new Persister());\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\retrofit\\retrofit-converters\/simplexml\/src\/main\/java\/retrofit2\/converter\/simplexml\/SimpleXmlConverterFactory.java"}
+'fe6d0f9b'

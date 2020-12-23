@@ -1,0 +1,3 @@
+{"randomdocline":"@return the constructed {@link BehaviorProcessor}","signature":"public static BehaviorProcessor<T> create()","doc":"Creates a {@link BehaviorProcessor} without a default item.\r\n\r\n@param <T> the type of item the BehaviorProcessor will emit\r\n@return the constructed {@link BehaviorProcessor}\r\n","source":"{\r\n    return new BehaviorProcessor<>();\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/processors\/BehaviorProcessor.java"}
+'a1693ecc9'
+'fba05ea81'

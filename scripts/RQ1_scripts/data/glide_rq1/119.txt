@@ -1,0 +1,4 @@
+{"randomdocline":"@param dataSource The {@link com.bumptech.glide.load.DataSource} the resource was loaded from.","signature":" Transition<R> build(DataSource dataSource, boolean isFirstResource)","doc":"Returns a new {@link Transition}.\r\n\r\n@param dataSource The {@link com.bumptech.glide.load.DataSource} the resource was loaded from.\r\n@param isFirstResource True if this is the first resource to be loaded into the target.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/request\/transition\/TransitionFactory.java"}
+'0dcc33fe6'
+'8f8a16008'
+'c375a2fbf'

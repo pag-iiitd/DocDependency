@@ -1,0 +1,1 @@
+{"randomdocline":"","signature":"public int messageId()","doc":"\r\n@deprecated Use {@link #packetId()} instead.\r\n","source":"{\r\n    return packetId;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\codec-mqtt\/src\/main\/java\/io\/netty\/handler\/codec\/mqtt\/MqttPublishVariableHeader.java"}

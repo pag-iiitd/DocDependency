@@ -1,0 +1,1 @@
+{"randomdocline":"Called for [200, 300) responses.","signature":" void success(Response<T> response)","doc":"Called for [200, 300) responses.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\retrofit\\samples\/src\/main\/java\/com\/example\/retrofit\/ErrorHandlingAdapter.java"}

@@ -1,0 +1,8 @@
+{"randomdocline":"@param yMax - the maximum y-value in the data object for this axis","signature":"public void computeAxis(float yMin, float yMax, boolean inverted)","doc":"Computes the axis values.\r\n\r\n@param yMin - the minimum y-value in the data object for this axis\r\n@param yMax - the maximum y-value in the data object for this axis\r\n","source":"{\r\n    \/\/ zoom \/ contentrect bounds)\r\n    if (mViewPortHandler.contentHeight() > 10 && !mViewPortHandler.isFullyZoomedOutX()) {\r\n        MPPointD p1 = mTrans.getValuesByTouchPoint(mViewPortHandler.contentLeft(), mViewPortHandler.contentTop());\r\n        MPPointD p2 = mTrans.getValuesByTouchPoint(mViewPortHandler.contentRight(), mViewPortHandler.contentTop());\r\n        if (!inverted) {\r\n            yMin = (float) p1.x;\r\n            yMax = (float) p2.x;\r\n        } else {\r\n            yMin = (float) p2.x;\r\n            yMax = (float) p1.x;\r\n        }\r\n        MPPointD.recycleInstance(p1);\r\n        MPPointD.recycleInstance(p2);\r\n    }\r\n    computeAxisValues(yMin, yMax);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\MPAndroidChart\\MPChartLib\/src\/main\/java\/com\/github\/mikephil\/charting\/renderer\/YAxisRendererHorizontalBarChart.java"}
+'6fd2ffa2'
+'a0d39b91'
+'d2cc49b5'
+'c51f00e2'
+'d07ceda2'
+'aee1ed09'
+'7beee61c'

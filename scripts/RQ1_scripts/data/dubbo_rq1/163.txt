@@ -1,0 +1,4 @@
+{"randomdocline":"Implementations must implement this cleanup method","signature":" void cleanup()","doc":"Implementations must implement this cleanup method\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-serialization\/dubbo-serialization-api\/src\/main\/java\/org\/apache\/dubbo\/common\/serialize\/Cleanable.java"}
+'5f641a945'
+'897b80de3'
+'e63250488'

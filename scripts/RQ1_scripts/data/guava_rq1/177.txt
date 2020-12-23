@@ -1,0 +1,5 @@
+{"randomdocline":"Determines whether any of this range set's member ranges contains {@code value}.","signature":" boolean contains(C value)","doc":"Determines whether any of this range set's member ranges contains {@code value}.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/collect\/RangeSet.java"}
+'9b94fb3965'
+'97f00f8189'
+'ea728eaf52'
+'b00fc801c4'

@@ -1,0 +1,5 @@
+{"randomdocline":"@param failure the failure","signature":" FailureAnalysis analyze(Throwable failure)","doc":"Returns an analysis of the given {@code failure}, or {@code null} if no analysis\r\nwas possible.\r\n\r\n@param failure the failure\r\n@return the analysis or {@code null}\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot\/src\/main\/java\/org\/springframework\/boot\/diagnostics\/FailureAnalyzer.java"}
+'2a9bbfdb86'
+'ce1e41dce3'
+'25e72fab71'
+'df6c204193'

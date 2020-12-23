@@ -1,0 +1,5 @@
+{"randomdocline":"@since 6.0 (source-compatible since 2.0)","signature":"public static ImmutableMultiset<E> of(E element)","doc":"Returns an immutable multiset containing a single element.\r\n\r\n@throws NullPointerException if {@code element} is null\r\n@since 6.0 (source-compatible since 2.0)\r\n","source":"{\r\n    return copyFromElements(element);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/collect\/ImmutableMultiset.java"}
+'9b94fb3965'
+'63360f3f58'
+'35ca2ccdb7'
+'4fc7c37615'

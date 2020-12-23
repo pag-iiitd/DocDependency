@@ -1,0 +1,2 @@
+{"randomdocline":"Please note that {@code null} keys are not allowed.","signature":" P get(K key)","doc":"Return the {@link ChannelPool} for the {@code code}. This will never return {@code null},\r\nbut create a new {@link ChannelPool} if non exists for they requested {@code key}.\r\n\r\nPlease note that {@code null} keys are not allowed.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\transport\/src\/main\/java\/io\/netty\/channel\/pool\/ChannelPoolMap.java"}
+'56c98839c3'

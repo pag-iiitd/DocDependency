@@ -1,0 +1,4 @@
+{"randomdocline":"Set the number of selector threads to use.","signature":" void setSelectors(int selectors)","doc":"Set the number of selector threads to use.\r\n\r\n@param selectors the number of selector threads to use\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot\/src\/main\/java\/org\/springframework\/boot\/web\/embedded\/jetty\/ConfigurableJettyWebServerFactory.java"}
+'15bc718248'
+'656b509f03'
+'1def64e49e'

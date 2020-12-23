@@ -1,0 +1,2 @@
+{"randomdocline":"Return the fully qualified name of the class to import.","signature":"public String getImportClassName()","doc":"Return the fully qualified name of the class to import.\r\n","source":"{\r\n    return this.importClassName;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-context\/src\/main\/java\/org\/springframework\/context\/annotation\/DeferredImportSelector.java"}
+'cc12afdea2'

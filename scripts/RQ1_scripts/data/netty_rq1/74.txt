@@ -1,0 +1,2 @@
+{"randomdocline":"Returns length of this type.","signature":"public int length()","doc":"Returns length of this type.\r\n","source":"{\r\n    return value != null ? RedisConstants.TYPE_LENGTH : 0;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\codec-redis\/src\/main\/java\/io\/netty\/handler\/codec\/redis\/RedisMessageType.java"}
+'c75bc1f25b'

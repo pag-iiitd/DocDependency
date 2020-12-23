@@ -1,0 +1,1 @@
+{"randomdocline":"Gets underlying {@code Type} instance.","signature":"public final Type getType()","doc":"Gets underlying {@code Type} instance.\r\n","source":"{\r\n    return type;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\gson\\gson\/src\/main\/java\/com\/google\/gson\/reflect\/TypeToken.java"}

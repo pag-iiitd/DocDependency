@@ -1,0 +1,2 @@
+{"randomdocline":"@throws Exception If some exception occurs","signature":"protected abstract void doUnexport() throws Exception","doc":"Unexports the {@link MetadataService}\r\n\r\n@throws Exception If some exception occurs\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-config\/dubbo-config-api\/src\/main\/java\/org\/apache\/dubbo\/config\/metadata\/AbstractMetadataServiceExporter.java"}
+'4aaaea43a'

@@ -1,0 +1,1 @@
+{"randomdocline":"","signature":"public Instant getCreation()","doc":"\r\n@return a instance of {@link Instant} when this API key was created.\r\n","source":"{\r\n    return creation;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\elasticsearch\\client\/rest-high-level\/src\/main\/java\/org\/elasticsearch\/client\/security\/support\/ApiKey.java"}

@@ -1,0 +1,6 @@
+{"randomdocline":"@param <T> the element type of the flow","signature":"public static void subscribeStream(Observer<? super T> observer, Stream<T> stream)","doc":"Subscribes to the Stream.\r\n\r\n@param <T> the element type of the flow\r\n@param observer the observer to drive\r\n@param stream the sequence to consume\r\n","source":"{\r\n    Iterator<T> iterator;\r\n    try {\r\n        iterator = stream.iterator();\r\n        if (!iterator.hasNext()) {\r\n            EmptyDisposable.complete(observer);\r\n            closeSafely(stream);\r\n            return;\r\n        }\r\n    } catch (Throwable ex) {\r\n        Exceptions.throwIfFatal(ex);\r\n        EmptyDisposable.error(ex, observer);\r\n        closeSafely(stream);\r\n        return;\r\n    }\r\n    StreamDisposable<T> disposable = new StreamDisposable<>(observer, iterator, stream);\r\n    observer.onSubscribe(disposable);\r\n    disposable.run();\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/internal\/jdk8\/ObservableFromStream.java"}
+'4257ef563'
+'af17c6e26'
+'a249f4f12'
+'daeccff5d'
+'df7f1cdf9'

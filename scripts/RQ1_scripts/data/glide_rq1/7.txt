@@ -1,0 +1,4 @@
+{"randomdocline":"using this method.","signature":"public RequestBuilder<TranscodeType> apply(@NonNull BaseRequestOptions<?> requestOptions)","doc":"Applies the given options to the request.\r\n\r\n<p>As with {@link RequestOptions#apply(BaseRequestOptions)}, {@code #apply} only replaces those\r\nvalues that are explicitly set in the given {@link RequestOptions} object. If you need to\r\ncompletely reset all previously set options, create a new {@code RequestBuilder} instead of\r\nusing this method.\r\n\r\n@see RequestOptions#apply(BaseRequestOptions)\r\n@return This request builder.\r\n","source":"{\r\n    Preconditions.checkNotNull(requestOptions);\r\n    return super.apply(requestOptions);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/RequestBuilder.java"}
+'ed20643fb'
+'e60c451ab'
+'7da399f3b'

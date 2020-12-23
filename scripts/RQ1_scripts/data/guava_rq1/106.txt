@@ -1,0 +1,3 @@
+{"randomdocline":"Returns true if the element is public.","signature":"public final boolean isPublic()","doc":"Returns true if the element is public.\r\n","source":"{\r\n    return Modifier.isPublic(getModifiers());\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/reflect\/Element.java"}
+'9b94fb3965'
+'b84265625c'

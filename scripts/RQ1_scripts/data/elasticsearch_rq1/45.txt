@@ -1,0 +1,1 @@
+{"randomdocline":"Return the wrapped values.","signature":"public NumericDoubleValues getDoubleValues()","doc":"Return the wrapped values.\r\n","source":"{\r\n    return values;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\elasticsearch\\server\/src\/main\/java\/org\/elasticsearch\/index\/fielddata\/SortableLongBitsNumericDocValues.java"}

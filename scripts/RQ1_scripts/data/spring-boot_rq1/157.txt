@@ -1,0 +1,3 @@
+{"randomdocline":"@param loaderJarResourceName the name of the resource containing the loader classes","signature":" void writeLoaderClasses(String loaderJarResourceName) throws IOException","doc":"Write custom required spring-boot-loader classes to the JAR.\r\n\r\n@param loaderJarResourceName the name of the resource containing the loader classes\r\nto be written\r\n@throws IOException if the classes cannot be written\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot-tools\/spring-boot-loader-tools\/src\/main\/java\/org\/springframework\/boot\/loader\/tools\/LoaderClassesWriter.java"}
+'16e6bc89ed'
+'c6c6524b40'

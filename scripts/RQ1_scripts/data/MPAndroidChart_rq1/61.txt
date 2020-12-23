@@ -1,0 +1,1 @@
+{"randomdocline":"Callbacks when the chart is longpressed.","signature":" void onChartLongPressed(MotionEvent me)","doc":"Callbacks when the chart is longpressed.\r\n\r\n@param me\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\MPAndroidChart\\MPChartLib\/src\/main\/java\/com\/github\/mikephil\/charting\/listener\/OnChartGestureListener.java"}

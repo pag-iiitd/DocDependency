@@ -1,0 +1,3 @@
+{"randomdocline":"{@link TransactionManager}.","signature":" ConnectionFactory wrapConnectionFactory(XAConnectionFactory connectionFactory) throws Exception","doc":"Wrap the specific {@link XAConnectionFactory} and enroll it with a JTA\r\n{@link TransactionManager}.\r\n\r\n@param connectionFactory the connection factory to wrap\r\n@return the wrapped connection factory\r\n@throws Exception if the connection factory cannot be wrapped\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot\/src\/main\/java\/org\/springframework\/boot\/jms\/XAConnectionFactoryWrapper.java"}
+'5ef136511f'
+'b91274c0db'

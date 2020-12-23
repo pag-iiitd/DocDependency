@@ -1,0 +1,3 @@
+{"randomdocline":"Atomically terminate the container and return the contents of the last","signature":"public Throwable terminate()","doc":"Atomically terminate the container and return the contents of the last\r\nnon-terminal Throwable of it.\r\n\r\n@return the last Throwable\r\n","source":"{\r\n    return ExceptionHelper.terminate(this);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/internal\/util\/AtomicThrowable.java"}
+'a1693ecc9'
+'5688cc8ad'

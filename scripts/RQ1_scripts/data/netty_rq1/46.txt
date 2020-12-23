@@ -1,0 +1,2 @@
+{"randomdocline":"This method is visible for testing.","signature":" ChannelFuture getHandshakeFuture()","doc":"This method is visible for testing.\r\n\r\n@return current handshake future\r\n","source":"{\r\n    return handshakePromise;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\codec-http\/src\/main\/java\/io\/netty\/handler\/codec\/http\/websocketx\/WebSocketClientProtocolHandshakeHandler.java"}
+'5ffac03f1e'

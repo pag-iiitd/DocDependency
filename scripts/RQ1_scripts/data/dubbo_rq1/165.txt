@@ -1,0 +1,2 @@
+{"randomdocline":"dispatch ThreadPoolExhaustedEvent","signature":"public void dispatchThreadPoolExhaustedEvent(String msg)","doc":"dispatch ThreadPoolExhaustedEvent\r\n\r\n@param msg\r\n","source":"{\r\n    EventDispatcher.getDefaultExtension().dispatch(new ThreadPoolExhaustedEvent(this, msg));\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-common\/src\/main\/java\/org\/apache\/dubbo\/common\/threadpool\/support\/AbortPolicyWithReport.java"}
+'cfee3f835'

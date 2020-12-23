@@ -1,0 +1,1 @@
+{"randomdocline":"The variance of the collected values.","signature":" double getVariance()","doc":"The variance of the collected values.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\elasticsearch\\server\/src\/main\/java\/org\/elasticsearch\/search\/aggregations\/metrics\/ExtendedStats.java"}

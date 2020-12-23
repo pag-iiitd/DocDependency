@@ -1,0 +1,8 @@
+{"randomdocline":"Returns an immutable copy of {@code graph}.","signature":"public static ImmutableGraph<N> copyOf(Graph<N> graph)","doc":"Returns an immutable copy of {@code graph}.\r\n","source":"{\r\n    return (graph instanceof ImmutableGraph) ? (ImmutableGraph<N>) graph : new ImmutableGraph<N>(new StandardValueGraph<N, Presence>(GraphBuilder.from(graph), getNodeConnections(graph), graph.edges().size()));\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/graph\/ImmutableGraph.java"}
+'9b94fb3965'
+'d7a8ec278d'
+'cfe05dfda3'
+'ceee77fafd'
+'57ec8ce480'
+'c1c5dae452'
+'807760488e'

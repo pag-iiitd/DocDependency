@@ -1,0 +1,13 @@
+{"randomdocline":"@param request","signature":" CompletableFuture<Object> reply(ExchangeChannel channel, Object request) throws RemotingException","doc":"reply.\r\n\r\n@param channel\r\n@param request\r\n@return response\r\n@throws RemotingException\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-remoting\/dubbo-remoting-api\/src\/main\/java\/org\/apache\/dubbo\/remoting\/exchange\/ExchangeHandler.java"}
+'5fb8dc07a'
+'5cc382143'
+'248487718'
+'5f641a945'
+'897b80de3'
+'9cdb2f088'
+'215ed3664'
+'c6fd6841b'
+'e92a55364'
+'8b25a732a'
+'1a71da597'
+'10052d468'

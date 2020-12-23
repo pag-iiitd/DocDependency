@@ -1,0 +1,5 @@
+{"randomdocline":"@return url.","signature":" URL getUrl()","doc":"get url.\r\n\r\n@return url.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-common\/src\/main\/java\/org\/apache\/dubbo\/common\/Node.java"}
+'e92a55364'
+'d82f9b27e'
+'fa5b5a4b7'
+'10052d468'

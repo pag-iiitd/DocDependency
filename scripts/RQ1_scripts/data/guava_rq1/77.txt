@@ -1,0 +1,7 @@
+{"randomdocline":"<p>This implementation is highly efficient when {@code elements} is itself a {@link Multiset}.","signature":"public static TreeMultiset<E> create(Iterable<? extends E> elements)","doc":"Creates an empty multiset containing the given initial elements, sorted according to the\r\nelements' natural order.\r\n\r\n<p>This implementation is highly efficient when {@code elements} is itself a {@link Multiset}.\r\n\r\n<p>The type specification is {@code <E extends Comparable>}, instead of the more specific\r\n{@code <E extends Comparable<? super E>>}, to support classes defined without generics.\r\n","source":"{\r\n    TreeMultiset<E> multiset = create();\r\n    Iterables.addAll(multiset, elements);\r\n    return multiset;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/collect\/TreeMultiset.java"}
+'fd919e54a5'
+'b89a6586f5'
+'9b94fb3965'
+'63360f3f58'
+'24dbee5248'
+'d446df5924'

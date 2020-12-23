@@ -1,0 +1,4 @@
+{"randomdocline":"that may have been bound to a subtype.","signature":" T getInstance(Class<T> type)","doc":"Returns the value the specified class is mapped to, or {@code null} if no entry for this class\r\nis present. This will only return a value that was bound to this specific class, not a value\r\nthat may have been bound to a subtype.\r\n\r\n<p>{@code getInstance(Foo.class)} is equivalent to {@code\r\ngetInstance(TypeToken.of(Foo.class))}.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/reflect\/TypeToInstanceMap.java"}
+'fd919e54a5'
+'9b94fb3965'
+'d59c3da61e'

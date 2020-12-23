@@ -1,0 +1,1 @@
+{"randomdocline":"","signature":" String getComment()","doc":"\r\n@deprecated Use {@link #comment()} instead.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\codec-http\/src\/main\/java\/io\/netty\/handler\/codec\/http\/Cookie.java"}

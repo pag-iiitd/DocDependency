@@ -1,0 +1,2 @@
+{"randomdocline":"This method calls {@code replace(content().duplicate())} by default.","signature":"public ByteBufHolder duplicate()","doc":"{@inheritDoc}\r\n<p>\r\nThis method calls {@code replace(content().duplicate())} by default.\r\n","source":"{\r\n    return replace(data.duplicate());\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\buffer\/src\/main\/java\/io\/netty\/buffer\/DefaultByteBufHolder.java"}
+'3a9f472161'

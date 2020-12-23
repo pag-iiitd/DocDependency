@@ -1,0 +1,2 @@
+{"randomdocline":"{@code organization}.","signature":" GitHubRepository getRepository(String organization, String name)","doc":"Returns a {@link GitHubRepository} with the given {@code name} in the given\r\n{@code organization}.\r\n\r\n@param organization the organization\r\n@param name the name of the repository\r\n@return the repository\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\buildSrc\/src\/main\/java\/org\/springframework\/boot\/build\/bom\/bomr\/github\/GitHub.java"}
+'ce99db1902'

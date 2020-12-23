@@ -1,0 +1,3 @@
+{"randomdocline":"@throws Throwable if the implementation wishes to throw any type of exception","signature":" boolean test(@NonNull T1 t1, @NonNull T2 t2) throws Throwable","doc":"Test the given input values and return a boolean.\r\n\r\n@param t1 the first value\r\n@param t2 the second value\r\n@return the boolean result\r\n@throws Throwable if the implementation wishes to throw any type of exception\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/functions\/BiPredicate.java"}
+'a1693ecc9'
+'cb0372463'

@@ -1,0 +1,3 @@
+{"randomdocline":"Returns true if this DataSet is stacked (stacksize > 1) or not.","signature":" boolean isStacked()","doc":"Returns true if this DataSet is stacked (stacksize > 1) or not.\r\n\r\n@return\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\MPAndroidChart\\MPChartLib\/src\/main\/java\/com\/github\/mikephil\/charting\/interfaces\/datasets\/IBarDataSet.java"}
+'6f815804'
+'02e8149f'

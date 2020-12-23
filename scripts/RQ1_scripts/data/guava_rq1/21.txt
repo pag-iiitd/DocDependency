@@ -1,0 +1,5 @@
+{"randomdocline":"@param elements the elements that the multiset should contain","signature":"public static LinkedHashMultiset<E> create(Iterable<? extends E> elements)","doc":"Creates a new {@code LinkedHashMultiset} containing the specified elements.\r\n\r\n<p>This implementation is highly efficient when {@code elements} is itself a {@link Multiset}.\r\n\r\n@param elements the elements that the multiset should contain\r\n","source":"{\r\n    LinkedHashMultiset<E> multiset = create(Multisets.inferDistinctElements(elements));\r\n    Iterables.addAll(multiset, elements);\r\n    return multiset;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/collect\/LinkedHashMultiset.java"}
+'9b94fb3965'
+'63360f3f58'
+'c4ec873e2c'
+'b492c55704'

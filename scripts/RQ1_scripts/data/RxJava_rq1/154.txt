@@ -1,0 +1,3 @@
+{"randomdocline":"@param i the input value","signature":" T apply(int i) throws Throwable","doc":"Calculates a value based on a primitive integer input.\r\n\r\n@param i the input value\r\n@return the result Object\r\n@throws Throwable if the implementation wishes to throw any type of exception\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/functions\/IntFunction.java"}
+'a1693ecc9'
+'fba05ea81'

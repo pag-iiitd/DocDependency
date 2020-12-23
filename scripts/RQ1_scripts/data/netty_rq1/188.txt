@@ -1,0 +1,2 @@
+{"randomdocline":"@return the extension name.","signature":"public String name()","doc":"\r\n@return the extension name.\r\n","source":"{\r\n    return name;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\codec-http\/src\/main\/java\/io\/netty\/handler\/codec\/http\/websocketx\/extensions\/WebSocketExtensionData.java"}
+'dc615ecaaf'

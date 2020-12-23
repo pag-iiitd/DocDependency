@@ -1,0 +1,2 @@
+{"randomdocline":"The number of collected buckets.","signature":"public abstract long size()","doc":"The number of collected buckets.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\elasticsearch\\server\/src\/main\/java\/org\/elasticsearch\/search\/aggregations\/bucket\/terms\/LongKeyedBucketOrds.java"}
+'4a8d93f55b3'

@@ -1,0 +1,1 @@
+{"randomdocline":"@return","signature":"public int getDecimalDigits()","doc":"Returns the number of decimal digits this formatter uses.\r\n\r\n@return\r\n","source":"{\r\n    return mDecimalDigits;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\MPAndroidChart\\MPChartLib\/src\/main\/java\/com\/github\/mikephil\/charting\/formatter\/DefaultValueFormatter.java"}

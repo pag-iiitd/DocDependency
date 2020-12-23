@@ -1,0 +1,2 @@
+{"randomdocline":"Returns the children of the specified node. Must not contain null.","signature":"public abstract Iterable<T> children(T root)","doc":"Returns the children of the specified node. Must not contain null.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/collect\/TreeTraverser.java"}
+'fd919e54a5'

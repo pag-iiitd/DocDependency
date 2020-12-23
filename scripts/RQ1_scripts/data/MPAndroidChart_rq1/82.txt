@@ -1,0 +1,4 @@
+{"randomdocline":"generates a random ChartData object with just one DataSet","signature":"private BarData generateData(int cnt)","doc":"generates a random ChartData object with just one DataSet\r\n\r\n@return Bar data\r\n","source":"{\r\n    ArrayList<BarEntry> entries = new ArrayList<>();\r\n    for (int i = 0; i < 12; i++) {\r\n        entries.add(new BarEntry(i, (float) (Math.random() * 70) + 30));\r\n    }\r\n    BarDataSet d = new BarDataSet(entries, \"New DataSet \" + cnt);\r\n    d.setColors(ColorTemplate.VORDIPLOM_COLORS);\r\n    d.setBarShadowColor(Color.rgb(203, 203, 203));\r\n    ArrayList<IBarDataSet> sets = new ArrayList<>();\r\n    sets.add(d);\r\n    BarData cd = new BarData(sets);\r\n    cd.setBarWidth(0.9f);\r\n    return cd;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\MPAndroidChart\\MPChartExample\/src\/main\/java\/com\/xxmassdeveloper\/mpchartexample\/ListViewBarChartActivity.java"}
+'e36d69fa'
+'460e8965'
+'52a32402'

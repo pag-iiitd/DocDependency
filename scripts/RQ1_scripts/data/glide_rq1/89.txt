@@ -1,0 +1,2 @@
+{"randomdocline":"Returns the hex string of the given byte array representing a SHA256 hash.","signature":"public static String sha256BytesToHex(@NonNull byte[] bytes)","doc":"Returns the hex string of the given byte array representing a SHA256 hash.\r\n","source":"{\r\n    synchronized (SHA_256_CHARS) {\r\n        return bytesToHex(bytes, SHA_256_CHARS);\r\n    }\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/util\/Util.java"}
+'20676c43a'

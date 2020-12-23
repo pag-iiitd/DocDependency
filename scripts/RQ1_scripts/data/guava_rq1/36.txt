@@ -1,0 +1,4 @@
+{"randomdocline":"Creates a {@code ListenableFutureTask} that will upon running, execute the given {@code","signature":"public static ListenableFutureTask<V> create(Callable<V> callable)","doc":"Creates a {@code ListenableFutureTask} that will upon running, execute the given {@code\r\nCallable}.\r\n\r\n@param callable the callable task\r\n@since 10.0\r\n","source":"{\r\n    return new ListenableFutureTask<V>(callable);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/util\/concurrent\/ListenableFutureTask.java"}
+'fd919e54a5'
+'9b94fb3965'
+'69a75be1f1'

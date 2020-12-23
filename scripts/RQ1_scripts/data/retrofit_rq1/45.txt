@@ -1,0 +1,2 @@
+{"randomdocline":"Returns a list of the factories tried when creating a {@linkplain #callAdapter(Type,","signature":"public List<CallAdapter.Factory> callAdapterFactories()","doc":"Returns a list of the factories tried when creating a {@linkplain #callAdapter(Type,\r\nAnnotation[])} call adapter}.\r\n","source":"{\r\n    return callAdapterFactories;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\retrofit\\retrofit\/src\/main\/java\/retrofit2\/Retrofit.java"}
+'ee71a685'

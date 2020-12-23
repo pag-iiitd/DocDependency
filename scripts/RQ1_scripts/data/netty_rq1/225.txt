@@ -1,0 +1,2 @@
+{"randomdocline":"Returns the type of this request.","signature":" Socks5CommandType type()","doc":"Returns the type of this request.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\codec-socks\/src\/main\/java\/io\/netty\/handler\/codec\/socksx\/v5\/Socks5CommandRequest.java"}
+'976db9269d'

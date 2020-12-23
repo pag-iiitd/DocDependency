@@ -1,0 +1,2 @@
+{"randomdocline":"Attempts to cancel the currently running fetcher.","signature":" void cancel()","doc":"Attempts to cancel the currently running fetcher.\r\n\r\n<p>This will be called on the main thread and should complete quickly.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/load\/engine\/DataFetcherGenerator.java"}
+'fb255d3b7'

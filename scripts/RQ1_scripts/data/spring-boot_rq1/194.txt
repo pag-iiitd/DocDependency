@@ -1,0 +1,4 @@
+{"randomdocline":"Log an event.","signature":" void add(AuditEvent event)","doc":"Log an event.\r\n\r\n@param event the audit event to log\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot-actuator\/src\/main\/java\/org\/springframework\/boot\/actuate\/audit\/AuditEventRepository.java"}
+'2098e23fca'
+'261955c50b'
+'a310a79909'

@@ -1,0 +1,1 @@
+{"randomdocline":"support {@code type}.","signature":" TypeAdapter<T> create(Gson gson, TypeToken<T> type)","doc":"Returns a type adapter for {@code type}, or null if this factory doesn't\r\nsupport {@code type}.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\gson\\gson\/src\/main\/java\/com\/google\/gson\/TypeAdapterFactory.java"}

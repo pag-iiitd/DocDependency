@@ -1,0 +1,3 @@
+{"randomdocline":"Return the {@link Throwable} if {@link #isSuccess()} returns {@code false}","signature":"public final Throwable cause()","doc":"Return the {@link Throwable} if {@link #isSuccess()} returns {@code false}\r\nand so the completion failed.\r\n","source":"{\r\n    return cause;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\handler\/src\/main\/java\/io\/netty\/handler\/ssl\/SslCompletionEvent.java"}
+'d55c321306'
+'b3429af1cc'

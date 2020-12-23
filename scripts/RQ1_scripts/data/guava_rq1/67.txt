@@ -1,0 +1,6 @@
+{"randomdocline":"Remove {@code edge} from the set of incoming edges. Returns the former predecessor node.","signature":" N removeInEdge(E edge, boolean isSelfLoop)","doc":"Remove {@code edge} from the set of incoming edges. Returns the former predecessor node.\r\n\r\n<p>In the undirected case, returns {@code null} if {@code isSelfLoop} is true.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/graph\/NetworkConnections.java"}
+'9b94fb3965'
+'d6ef78ff26'
+'4c816891bd'
+'9d2a5e9bea'
+'660634db9f'

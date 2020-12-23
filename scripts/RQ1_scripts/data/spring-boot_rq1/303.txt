@@ -1,0 +1,4 @@
+{"randomdocline":"@return the location or {@code null}","signature":"public Location getLocation()","doc":"Return the location of the property within the source (if known).\r\n\r\n@return the location or {@code null}\r\n","source":"{\r\n    return this.location;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot\/src\/main\/java\/org\/springframework\/boot\/origin\/TextResourceOrigin.java"}
+'43a54c8db1'
+'721b5a2395'
+'151220f41d'

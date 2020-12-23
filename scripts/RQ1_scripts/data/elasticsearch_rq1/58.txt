@@ -1,0 +1,1 @@
+{"randomdocline":"The field name.","signature":" String getFieldName()","doc":"The field name.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\elasticsearch\\server\/src\/main\/java\/org\/elasticsearch\/index\/fielddata\/IndexFieldData.java"}

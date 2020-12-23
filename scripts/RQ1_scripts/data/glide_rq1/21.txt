@@ -1,0 +1,2 @@
+{"randomdocline":"A user facing description of the query.","signature":" String getDescription()","doc":"A user facing description of the query.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\samples\/flickr\/src\/main\/java\/com\/bumptech\/glide\/samples\/flickr\/api\/Query.java"}
+'4dc91569a'

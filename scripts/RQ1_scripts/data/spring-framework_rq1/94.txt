@@ -1,0 +1,4 @@
+{"randomdocline":"Return the path for this resource.","signature":"public final String getPath()","doc":"Return the path for this resource.\r\n","source":"{\r\n    return this.path;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-web\/src\/main\/java\/org\/springframework\/web\/context\/support\/ServletContextResource.java"}
+'2b3445df81'
+'4ea298a7b0'
+'04eaa47ec1'

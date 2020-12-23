@@ -1,0 +1,3 @@
+{"randomdocline":"@return true if the subject has any Observers","signature":"public abstract boolean hasObservers()","doc":"Returns true if the subject has any Observers.\r\n<p>The method is thread-safe.\r\n\r\n@return true if the subject has any Observers\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/subjects\/Subject.java"}
+'a1693ecc9'
+'fba05ea81'

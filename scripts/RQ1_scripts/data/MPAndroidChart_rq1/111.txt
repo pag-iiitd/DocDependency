@@ -1,0 +1,3 @@
+{"randomdocline":"Sets the width of the circle that surrounds the bubble when highlighted,","signature":" void setHighlightCircleWidth(float width)","doc":"Sets the width of the circle that surrounds the bubble when highlighted,\r\nin dp.\r\n\r\n@param width\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\MPAndroidChart\\MPChartLib\/src\/main\/java\/com\/github\/mikephil\/charting\/interfaces\/datasets\/IBubbleDataSet.java"}
+'0d6dc4e4'
+'fe9f904c'

@@ -1,0 +1,3 @@
+{"randomdocline":"Returns the range that spans the given range and entry, if the entry can be coalesced.","signature":"private static Range<K> coalesce(Range<K> range, V value, @Nullable Entry<Cut<K>, RangeMapEntry<K, V>> entry)","doc":"Returns the range that spans the given range and entry, if the entry can be coalesced.\r\n","source":"{\r\n    if (entry != null && entry.getValue().getKey().isConnected(range) && entry.getValue().getValue().equals(value)) {\r\n        return range.span(entry.getValue().getKey());\r\n    }\r\n    return range;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/collect\/TreeRangeMap.java"}
+'9b94fb3965'
+'1efc5ce983'

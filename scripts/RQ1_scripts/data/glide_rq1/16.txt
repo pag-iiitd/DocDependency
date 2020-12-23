@@ -1,0 +1,2 @@
+{"randomdocline":"Starts an asynchronous load.","signature":" void begin()","doc":"Starts an asynchronous load.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/request\/Request.java"}
+'0ba0245a9'

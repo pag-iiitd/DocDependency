@@ -1,0 +1,2 @@
+{"randomdocline":"Get the Pointcut that drives this advisor.","signature":" Pointcut getPointcut()","doc":"Get the Pointcut that drives this advisor.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-aop\/src\/main\/java\/org\/springframework\/aop\/PointcutAdvisor.java"}
+'c48f8215e6'

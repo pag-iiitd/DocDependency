@@ -1,0 +1,2 @@
+{"randomdocline":"This method can be removed when manifest parsing is no longer supported.","signature":" abstract Set<Class<?>> getExcludedModuleClasses()","doc":"This method can be removed when manifest parsing is no longer supported.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/GeneratedAppGlideModule.java"}
+'04b829d27'

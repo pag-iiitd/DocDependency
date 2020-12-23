@@ -1,0 +1,2 @@
+{"randomdocline":"Gets the {@link StandardSocketOptions#SO_SNDBUF} option.","signature":" int getSendBufferSize()","doc":"Gets the {@link StandardSocketOptions#SO_SNDBUF} option.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\transport\/src\/main\/java\/io\/netty\/channel\/socket\/DatagramChannelConfig.java"}
+'468a3228a4'

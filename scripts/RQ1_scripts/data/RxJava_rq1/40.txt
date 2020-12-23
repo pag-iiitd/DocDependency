@@ -1,0 +1,3 @@
+{"randomdocline":"Returns the upstream source of this Completable.","signature":" CompletableSource source()","doc":"Returns the upstream source of this Completable.\r\n<p>Allows discovering the chain of observables.\r\n\r\n@return the source CompletableSource\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/internal\/fuseable\/HasUpstreamCompletableSource.java"}
+'a1693ecc9'
+'52dc0500c'

@@ -1,0 +1,3 @@
+{"randomdocline":"Returns an immutable table containing a single cell.","signature":"public static ImmutableTable<R, C, V> of(R rowKey, C columnKey, V value)","doc":"Returns an immutable table containing a single cell.\r\n","source":"{\r\n    return new SingletonImmutableTable<>(rowKey, columnKey, value);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/collect\/ImmutableTable.java"}
+'9b94fb3965'
+'b00fc801c4'

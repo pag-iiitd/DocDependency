@@ -1,0 +1,2 @@
+{"randomdocline":"Notification that the operation has completed.","signature":" void finished()","doc":"Notification that the operation has completed.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot-cli\/src\/main\/java\/org\/springframework\/boot\/cli\/compiler\/grape\/ProgressReporter.java"}
+'e674d751de'

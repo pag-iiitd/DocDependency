@@ -1,0 +1,3 @@
+{"randomdocline":"Atomically adds a Throwable to this container (combining with a previous Throwable is necessary).","signature":"public boolean tryAddThrowable(Throwable t)","doc":"Atomically adds a Throwable to this container (combining with a previous Throwable is necessary).\r\n\r\n@param t the throwable to add\r\n@return true if successful, false if the container has been terminated\r\n","source":"{\r\n    return ExceptionHelper.addThrowable(this, t);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/internal\/util\/AtomicThrowable.java"}
+'a1693ecc9'
+'5688cc8ad'

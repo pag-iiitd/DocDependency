@@ -1,0 +1,2 @@
+{"randomdocline":"<p>Because a {@code SetMultimap} has unique values for a given key, this method returns a","signature":" Set<V> get(@NullableDecl K key)","doc":"{@inheritDoc}\r\n\r\n<p>Because a {@code SetMultimap} has unique values for a given key, this method returns a\r\n{@link Set}, instead of the {@link java.util.Collection} specified in the {@link Multimap}\r\ninterface.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/collect\/SetMultimap.java"}
+'fd919e54a5'

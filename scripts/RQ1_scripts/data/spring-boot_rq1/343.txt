@@ -1,0 +1,4 @@
+{"randomdocline":"builder. Calling this method will replace any existing customizers.","signature":"public void setServerCustomizers(Collection<? extends NettyServerCustomizer> serverCustomizers)","doc":"Set {@link NettyServerCustomizer}s that should be applied to the Netty server\r\nbuilder. Calling this method will replace any existing customizers.\r\n\r\n@param serverCustomizers the customizers to set\r\n","source":"{\r\n    Assert.notNull(serverCustomizers, \"ServerCustomizers must not be null\");\r\n    this.serverCustomizers = new LinkedHashSet<>(serverCustomizers);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot\/src\/main\/java\/org\/springframework\/boot\/web\/embedded\/netty\/NettyReactiveWebServerFactory.java"}
+'fd1d653c34'
+'b33944b53f'
+'6bfbcc291a'

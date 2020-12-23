@@ -1,0 +1,2 @@
+{"randomdocline":"@return {@link C Bean}","signature":"protected abstract C doBuild()","doc":"Builds {@link C Bean}\r\n\r\n@return {@link C Bean}\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-config\/dubbo-config-spring\/src\/main\/java\/org\/apache\/dubbo\/config\/spring\/beans\/factory\/annotation\/AnnotatedInterfaceConfigBeanBuilder.java"}
+'60ca9f482'

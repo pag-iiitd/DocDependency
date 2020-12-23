@@ -1,0 +1,2 @@
+{"randomdocline":"Return the source controller that contains {@link RequestMapping @RequestMapping}","signature":" Object getController()","doc":"Return the source controller that contains {@link RequestMapping @RequestMapping}\r\nmethods.\r\n\r\n@return the source controller\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot-actuator\/src\/main\/java\/org\/springframework\/boot\/actuate\/endpoint\/web\/annotation\/ExposableControllerEndpoint.java"}
+'17aaf26590'

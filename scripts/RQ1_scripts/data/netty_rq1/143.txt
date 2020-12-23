@@ -1,0 +1,5 @@
+{"randomdocline":"@return {@code true} if and only if there was an entry for the specified host name in the cache and","signature":" boolean clear(String hostname)","doc":"Clears the cached nameservers for the specified hostname.\r\n\r\n@return {@code true} if and only if there was an entry for the specified host name in the cache and\r\n        it has been removed by this method\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\resolver-dns\/src\/main\/java\/io\/netty\/resolver\/dns\/DnsCnameCache.java"}
+'5650db5826'
+'bbb6e126b1'
+'b4be040f30'
+'fdfe3149ba'

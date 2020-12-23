@@ -1,0 +1,2 @@
+{"randomdocline":"Creates a new, empty {@code LinkedHashMultiset} using the default initial capacity.","signature":"public static LinkedHashMultiset<E> create()","doc":"Creates a new, empty {@code LinkedHashMultiset} using the default initial capacity.\r\n","source":"{\r\n    return new LinkedHashMultiset<E>();\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/collect\/LinkedHashMultiset.java"}
+'fd919e54a5'

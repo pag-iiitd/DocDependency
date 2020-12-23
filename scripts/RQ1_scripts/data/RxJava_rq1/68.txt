@@ -1,0 +1,3 @@
+{"randomdocline":"Wait for the terminal signal.","signature":"public PerfAsyncConsumer await(int count)","doc":"Wait for the terminal signal.\r\n\r\n@param count if less than 1001, a spin-wait is used\r\n@return this\r\n","source":"{\r\n    if (count <= 1000) {\r\n        while (getCount() != 0) {\r\n        }\r\n    } else {\r\n        try {\r\n            await();\r\n        } catch (InterruptedException ex) {\r\n            throw new RuntimeException(ex);\r\n        }\r\n    }\r\n    return this;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/jmh\/java\/io\/reactivex\/rxjava3\/core\/PerfAsyncConsumer.java"}
+'a1693ecc9'
+'73dde07fa'

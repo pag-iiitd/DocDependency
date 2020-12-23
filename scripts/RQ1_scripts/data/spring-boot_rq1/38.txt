@@ -1,0 +1,2 @@
+{"randomdocline":"@return whether the layer tools should be included","signature":"public boolean isIncludeLayerTools()","doc":"Returns whether the layer tools should be included as a dependency in the layered\r\njar.\r\n\r\n@return whether the layer tools should be included\r\n","source":"{\r\n    return this.includeLayerTools;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot-tools\/spring-boot-gradle-plugin\/src\/main\/java\/org\/springframework\/boot\/gradle\/tasks\/bundling\/LayeredSpec.java"}
+'34e602652c'

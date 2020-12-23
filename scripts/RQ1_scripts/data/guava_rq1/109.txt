@@ -1,0 +1,7 @@
+{"randomdocline":"@return a negative value if {@code a} is less than {@code b}; a positive value if {@code a} is","signature":"public static int compare(long a, long b)","doc":"Compares the two specified {@code long} values, treating them as unsigned values between {@code\r\n0} and {@code 2^64 - 1} inclusive.\r\n\r\n<p><b>Java 8 users:<\/b> use {@link Long#compareUnsigned(long, long)} instead.\r\n\r\n@param a the first unsigned {@code long} to compare\r\n@param b the second unsigned {@code long} to compare\r\n@return a negative value if {@code a} is less than {@code b}; a positive value if {@code a} is\r\n    greater than {@code b}; or zero if they are equal\r\n","source":"{\r\n    return Longs.compare(flip(a), flip(b));\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/primitives\/UnsignedLongs.java"}
+'9b94fb3965'
+'55f03321ae'
+'211010cdea'
+'ad96fd0ccf'
+'61816638fc'
+'5fe70b8509'

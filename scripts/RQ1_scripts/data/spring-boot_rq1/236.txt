@@ -1,0 +1,2 @@
+{"randomdocline":"@param config the {@link ResourceConfig} to customize","signature":" void customize(ResourceConfig config)","doc":"Customize the resource config.\r\n\r\n@param config the {@link ResourceConfig} to customize\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot-autoconfigure\/src\/main\/java\/org\/springframework\/boot\/autoconfigure\/jersey\/ResourceConfigCustomizer.java"}
+'a27176807f'

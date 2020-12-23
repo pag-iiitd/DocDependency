@@ -1,0 +1,2 @@
+{"randomdocline":"Bind the given namespace as default namespace.","signature":"public void bindDefaultNamespaceUri(String namespaceUri)","doc":"Bind the given namespace as default namespace.\r\n\r\n@param namespaceUri the namespace uri\r\n","source":"{\r\n    bindNamespaceUri(XMLConstants.DEFAULT_NS_PREFIX, namespaceUri);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-core\/src\/main\/java\/org\/springframework\/util\/xml\/SimpleNamespaceContext.java"}
+'f8860e2938'

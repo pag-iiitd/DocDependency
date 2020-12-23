@@ -1,0 +1,3 @@
+{"randomdocline":"Returns a {@link DrawableTransitionOptions} object that enables a cross fade animation.","signature":"public static DrawableTransitionOptions withCrossFade()","doc":"Returns a {@link DrawableTransitionOptions} object that enables a cross fade animation.\r\n\r\n@see #crossFade()\r\n","source":"{\r\n    return new DrawableTransitionOptions().crossFade();\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/load\/resource\/drawable\/DrawableTransitionOptions.java"}
+'06aced3fd'
+'4aa684fa9'

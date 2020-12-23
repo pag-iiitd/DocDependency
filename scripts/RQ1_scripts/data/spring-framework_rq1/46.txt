@@ -1,0 +1,6 @@
+{"randomdocline":"Return the wrapped Runnable implementation.","signature":"public final Runnable getDelegate()","doc":"Return the wrapped Runnable implementation.\r\n","source":"{\r\n    return this.delegate;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-tx\/src\/main\/java\/org\/springframework\/jca\/work\/DelegatingWork.java"}
+'3f35bdc79a'
+'970fcab5de'
+'4df7d71c1e'
+'846b848fd3'
+'edf0d8ebbe'

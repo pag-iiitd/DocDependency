@@ -1,0 +1,5 @@
+{"randomdocline":"@param messageConverter the {@link MessageConverter}","signature":"protected void setMessageConverter(MessageConverter messageConverter)","doc":"Set the {@link MessageConverter} to use or {@code null} if the out-of-the-box\r\nconverter should be used.\r\n\r\n@param messageConverter the {@link MessageConverter}\r\n","source":"{\r\n    this.messageConverter = messageConverter;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot-autoconfigure\/src\/main\/java\/org\/springframework\/boot\/autoconfigure\/amqp\/AbstractRabbitListenerContainerFactoryConfigurer.java"}
+'bb5e09882a'
+'6eddf1b372'
+'813d86e5e0'
+'d13b9a98c5'

@@ -1,0 +1,3 @@
+{"randomdocline":"Specify the desired number of fraction digits.","signature":"public void setFractionDigits(int fractionDigits)","doc":"Specify the desired number of fraction digits.\r\nDefault is 2.\r\n","source":"{\r\n    this.fractionDigits = fractionDigits;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-context\/src\/main\/java\/org\/springframework\/format\/number\/CurrencyStyleFormatter.java"}
+'6c169bd644'
+'a86a698e5b'

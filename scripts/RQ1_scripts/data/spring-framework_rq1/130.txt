@@ -1,0 +1,2 @@
+{"randomdocline":"Typically populated via a bean reference.","signature":"public void setService(Object service)","doc":"Set the service to export.\r\nTypically populated via a bean reference.\r\n","source":"{\r\n    this.service = service;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-context\/src\/main\/java\/org\/springframework\/remoting\/support\/RemoteExporter.java"}
+'edf0d8ebbe'

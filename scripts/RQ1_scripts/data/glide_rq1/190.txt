@@ -1,0 +1,4 @@
+{"randomdocline":"For caching to work correctly, implementations <em>must<\/em> implement this method and {@link","signature":" boolean equals(Object o)","doc":"For caching to work correctly, implementations <em>must<\/em> implement this method and {@link\r\n#hashCode()}.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/load\/Key.java"}
+'0dcc33fe6'
+'8f8a16008'
+'c375a2fbf'

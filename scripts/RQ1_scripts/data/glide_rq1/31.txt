@@ -1,0 +1,6 @@
+{"randomdocline":"Returns the ImageType for the given ByteBuffer.","signature":"public static ImageType getType(@NonNull List<ImageHeaderParser> parsers, @Nullable final ByteBuffer buffer) throws IOException","doc":"Returns the ImageType for the given ByteBuffer.\r\n","source":"{\r\n    if (buffer == null) {\r\n        return ImageType.UNKNOWN;\r\n    }\r\n    return getTypeInternal(parsers, new TypeReader() {\r\n\r\n        @Override\r\n        public ImageType getType(ImageHeaderParser parser) throws IOException {\r\n            return parser.getType(buffer);\r\n        }\r\n    });\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/load\/ImageHeaderParserUtils.java"}
+'f5adbb6e2'
+'ee92824f4'
+'af4263f1b'
+'e1170977f'
+'16bbbbd4c'

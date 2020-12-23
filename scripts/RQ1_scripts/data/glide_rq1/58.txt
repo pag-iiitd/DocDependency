@@ -1,0 +1,4 @@
+{"randomdocline":"@deprecated Use {@link #newMainThreadExecutor} instead.","signature":"public static GlideExecutor newMainThreadUnlimitedExecutor()","doc":"\r\n@deprecated Use {@link #newMainThreadExecutor} instead.\r\n","source":"{\r\n    return newMainThreadExecutor();\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\mocks\/src\/main\/java\/com\/bumptech\/glide\/load\/engine\/executor\/MockGlideExecutor.java"}
+'e021f6bf8'
+'861329226'
+'6cee6d2c1'

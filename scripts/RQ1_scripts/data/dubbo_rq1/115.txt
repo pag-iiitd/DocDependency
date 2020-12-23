@@ -1,0 +1,3 @@
+{"randomdocline":"Returns the number of thread local variables bound to the current thread.","signature":"public static int size()","doc":"Returns the number of thread local variables bound to the current thread.\r\n","source":"{\r\n    InternalThreadLocalMap threadLocalMap = InternalThreadLocalMap.getIfSet();\r\n    if (threadLocalMap == null) {\r\n        return 0;\r\n    } else {\r\n        return threadLocalMap.size();\r\n    }\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-common\/src\/main\/java\/org\/apache\/dubbo\/common\/threadlocal\/InternalThreadLocal.java"}
+'e92a55364'
+'04eacfeac'

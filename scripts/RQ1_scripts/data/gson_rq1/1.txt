@@ -1,0 +1,2 @@
+{"randomdocline":"{@inheritDoc}","signature":"public void makeAccessible(AccessibleObject ao)","doc":"{@inheritDoc}\r\n","source":"{\r\n    ao.setAccessible(true);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\gson\\gson\/src\/main\/java\/com\/google\/gson\/internal\/reflect\/PreJava9ReflectionAccessor.java"}
+'8445689e'

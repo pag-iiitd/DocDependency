@@ -1,0 +1,2 @@
+{"randomdocline":"Returns the parameter name.","signature":" String getName()","doc":"Returns the parameter name.\r\n\r\n@return the name\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot-actuator\/src\/main\/java\/org\/springframework\/boot\/actuate\/endpoint\/invoke\/OperationParameter.java"}
+'1d39feffea'

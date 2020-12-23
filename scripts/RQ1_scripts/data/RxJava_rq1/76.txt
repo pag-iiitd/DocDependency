@@ -1,0 +1,2 @@
+{"randomdocline":"@param upstream the upstream {@code Maybe} instance","signature":" R apply(@NonNull Maybe<T> upstream)","doc":"Applies a function to the upstream {@link Maybe} and returns a converted value of type {@code R}.\r\n\r\n@param upstream the upstream {@code Maybe} instance\r\n@return the converted value\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/core\/MaybeConverter.java"}
+'dba670554'

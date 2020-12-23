@@ -1,0 +1,4 @@
+{"randomdocline":"Called when a value has been selected inside the chart.","signature":" void onValueSelected(Entry e, Highlight h)","doc":"Called when a value has been selected inside the chart.\r\n\r\n@param e The selected Entry\r\n@param h The corresponding highlight object that contains information\r\n         about the highlighted position such as dataSetIndex, ...\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\MPAndroidChart\\MPChartLib\/src\/main\/java\/com\/github\/mikephil\/charting\/listener\/OnChartValueSelectedListener.java"}
+'6fd2ffa2'
+'a0d39b91'
+'aea57f0b'

@@ -1,0 +1,2 @@
+{"randomdocline":"Return the package names specified from all {@link EntityScan @EntityScan}","signature":"public List<String> getPackageNames()","doc":"Return the package names specified from all {@link EntityScan @EntityScan}\r\nannotations.\r\n\r\n@return the entity scan package names\r\n","source":"{\r\n    return this.packageNames;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot-autoconfigure\/src\/main\/java\/org\/springframework\/boot\/autoconfigure\/domain\/EntityScanPackages.java"}
+'654801083b'

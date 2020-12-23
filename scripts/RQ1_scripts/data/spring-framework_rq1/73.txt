@@ -1,0 +1,2 @@
+{"randomdocline":"Set the number of nesting indent spaces. Default is {@code -1}, i.e. no indentation.","signature":"public void setIndent(int indent)","doc":"Set the number of nesting indent spaces. Default is {@code -1}, i.e. no indentation.\r\n","source":"{\r\n    this.indent = indent;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-oxm\/src\/main\/java\/org\/springframework\/oxm\/jibx\/JibxMarshaller.java"}
+'9540d2c81b'

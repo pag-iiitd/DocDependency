@@ -1,0 +1,3 @@
+{"randomdocline":"Invoked with the result of the {@code Future} computation when it is successful.","signature":" void onSuccess(@Nullable V result)","doc":"Invoked with the result of the {@code Future} computation when it is successful.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/util\/concurrent\/FutureCallback.java"}
+'9b94fb3965'
+'69a75be1f1'

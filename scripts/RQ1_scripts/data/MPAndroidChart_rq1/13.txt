@@ -1,0 +1,1 @@
+{"randomdocline":"Deprecated. Use `Fill.getGradientColors()`","signature":"public int getStartColor()","doc":"Deprecated. Use `Fill.getGradientColors()`\r\n","source":"{\r\n    return getGradientColors()[0];\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\MPAndroidChart\\MPChartLib\/src\/main\/java\/com\/github\/mikephil\/charting\/model\/GradientColor.java"}

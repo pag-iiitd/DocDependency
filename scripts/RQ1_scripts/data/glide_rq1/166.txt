@@ -1,0 +1,4 @@
+{"randomdocline":"@param query The query used to obtain the results.","signature":" void onSearchCompleted(Query query, List<Photo> photos)","doc":"Called when a search completes successfully.\r\n\r\n@param query The query used to obtain the results.\r\n@param photos A list of images that were found for the given search term.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\samples\/flickr\/src\/main\/java\/com\/bumptech\/glide\/samples\/flickr\/api\/Api.java"}
+'0dcc33fe6'
+'8f8a16008'
+'c375a2fbf'

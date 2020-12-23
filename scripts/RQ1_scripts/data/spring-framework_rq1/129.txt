@@ -1,0 +1,4 @@
+{"randomdocline":"Add a listener to be notified of all events.","signature":" void addApplicationListener(ApplicationListener<?> listener)","doc":"Add a listener to be notified of all events.\r\n\r\n@param listener the listener to add\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-context\/src\/main\/java\/org\/springframework\/context\/event\/ApplicationEventMulticaster.java"}
+'9baf9cdc2f'
+'60392d6e74'
+'edf0d8ebbe'

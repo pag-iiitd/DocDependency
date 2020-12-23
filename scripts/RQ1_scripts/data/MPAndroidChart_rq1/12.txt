@@ -1,0 +1,1 @@
+{"randomdocline":"Returns the color drawing borders around the bars.","signature":" int getBarBorderColor()","doc":"Returns the color drawing borders around the bars.\r\n\r\n@return\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\MPAndroidChart\\MPChartLib\/src\/main\/java\/com\/github\/mikephil\/charting\/interfaces\/datasets\/IBarDataSet.java"}

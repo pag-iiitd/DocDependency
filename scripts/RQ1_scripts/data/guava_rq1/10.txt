@@ -1,0 +1,6 @@
+{"randomdocline":"Note that this method is not expected to be overridden.","signature":" IThenable<R> then(@JsOptional ThenOnFulfilledCallbackFn<? super V, ? extends R> onFulfilled, @JsOptional ThenOnRejectedCallbackFn<? extends R> onRejected)","doc":"Note that this method is not expected to be overridden.\r\n","source":"{\r\n    return new Promise<V>((resolve, reject) -> {\r\n        Futures.addCallback(this, new FutureCallback<V>() {\r\n\r\n            @Override\r\n            public void onSuccess(V value) {\r\n                resolve.onInvoke(value);\r\n            }\r\n\r\n            @Override\r\n            public void onFailure(Throwable throwable) {\r\n                reject.onInvoke(throwable.getBackingJsObject());\r\n            }\r\n        }, MoreExecutors.directExecutor());\r\n    }).then((IThenable.ThenOnFulfilledCallbackFn) onFulfilled, (IThenable.ThenOnRejectedCallbackFn) onRejected);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava-gwt\/src-super\/com\/google\/common\/util\/concurrent\/super\/com\/google\/common\/util\/concurrent\/ListenableFuture.java"}
+'ad529ca542'
+'0faa8fd78f'
+'1ade5b2c0b'
+'3eaea28caf'
+'e0bac74571'

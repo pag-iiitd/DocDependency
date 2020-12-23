@@ -1,0 +1,3 @@
+{"randomdocline":"@param line the line read from the input, without delimiter","signature":" boolean processLine(String line) throws IOException","doc":"This method will be called once for each line.\r\n\r\n@param line the line read from the input, without delimiter\r\n@return true to continue processing, false to stop\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/io\/LineProcessor.java"}
+'9b94fb3965'
+'dc5915eb10'

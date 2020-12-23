@@ -1,0 +1,4 @@
+{"randomdocline":"<p>This method will be called once and only once per implementation.","signature":" void registerComponents(@NonNull Context context, @NonNull Glide glide, @NonNull Registry registry)","doc":"Lazily register components immediately after the Glide singleton is created but before any\r\nrequests can be started.\r\n\r\n<p>This method will be called once and only once per implementation.\r\n\r\n@param context An Application {@link android.content.Context}.\r\n@param glide The Glide singleton that is in the process of being initialized.\r\n@param registry An {@link com.bumptech.glide.Registry} to use to register components.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/module\/RegistersComponents.java"}
+'0dcc33fe6'
+'8f8a16008'
+'c375a2fbf'

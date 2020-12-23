@@ -1,0 +1,2 @@
+{"randomdocline":"Get the resolved address.","signature":" InetAddress address()","doc":"Get the resolved address.\r\n<p>\r\nThis may be null if the resolution failed, and in that case {@link #cause()} will describe the failure.\r\n\r\n@return the resolved address.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\resolver-dns\/src\/main\/java\/io\/netty\/resolver\/dns\/DnsCacheEntry.java"}
+'566566db3a'

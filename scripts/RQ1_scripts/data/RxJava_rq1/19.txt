@@ -1,0 +1,7 @@
+{"randomdocline":"<p>The method is thread-safe.","signature":"public abstract boolean hasSubscribers()","doc":"Returns true if the FlowableProcessor has subscribers.\r\n<p>The method is thread-safe.\r\n\r\n@return true if the FlowableProcessor has subscribers\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/processors\/FlowableProcessor.java"}
+'a1693ecc9'
+'40087e95c'
+'35c8da6ca'
+'835e4f2a0'
+'216082ce2'
+'9891ed570'

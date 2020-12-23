@@ -1,0 +1,1 @@
+{"randomdocline":"","signature":" WebSocketExtensionEncoder newExtensionEncoder()","doc":"\r\n@return create the extension encoder.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\codec-http\/src\/main\/java\/io\/netty\/handler\/codec\/http\/websocketx\/extensions\/WebSocketExtension.java"}

@@ -1,0 +1,2 @@
+{"randomdocline":"@param d the disposable, {@code null} is allowed","signature":" void setDisposable(@Nullable Disposable d)","doc":"Sets a Disposable on this emitter; any previous {@link Disposable}\r\nor {@link Cancellable} will be disposed\/cancelled.\r\n<p>This method is thread-safe.\r\n\r\n@param d the disposable, {@code null} is allowed\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/core\/FlowableEmitter.java"}
+'dba670554'

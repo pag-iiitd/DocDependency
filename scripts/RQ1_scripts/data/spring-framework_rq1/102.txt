@@ -1,0 +1,3 @@
+{"randomdocline":"<p>The default value is {@code Ordered.LOWEST_PRECEDENCE}, meaning non-ordered.","signature":"public void setOrder(int order)","doc":"Specify the order value for this ViewResolver bean.\r\n<p>The default value is {@code Ordered.LOWEST_PRECEDENCE}, meaning non-ordered.\r\n\r\n@see org.springframework.core.Ordered#getOrder()\r\n","source":"{\r\n    this.order = order;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-webmvc\/src\/main\/java\/org\/springframework\/web\/servlet\/view\/BeanNameViewResolver.java"}
+'e638fef508'
+'6393e5ce0c'

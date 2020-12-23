@@ -1,0 +1,3 @@
+{"randomdocline":"Call a method on the listener.","signature":" void call(L listener)","doc":"Call a method on the listener.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/util\/concurrent\/ListenerCallQueue.java"}
+'9b94fb3965'
+'9e25924683'

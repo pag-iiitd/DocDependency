@@ -1,0 +1,8 @@
+{"randomdocline":"@throws NullPointerException if {@code string} is null","signature":"public String escape(String string)","doc":"Returns the escaped form of a given literal string.\r\n\r\n@param string the literal string to be escaped\r\n@return the escaped form of {@code string}\r\n@throws NullPointerException if {@code string} is null\r\n","source":"{\r\n    \/\/ GWT specific check (do not optimize)\r\n    checkNotNull(string);\r\n    \/\/ Inlineable fast-path loop which hands off to escapeSlow() only if needed\r\n    int length = string.length();\r\n    for (int index = 0; index < length; index++) {\r\n        if (escape(string.charAt(index)) != null) {\r\n            return escapeSlow(string, index);\r\n        }\r\n    }\r\n    return string;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/escape\/CharEscaper.java"}
+'9b94fb3965'
+'5b8495f81e'
+'0beafad032'
+'a1ebd775d6'
+'267e41fbf2'
+'60262d5b7e'
+'8124eb561b'

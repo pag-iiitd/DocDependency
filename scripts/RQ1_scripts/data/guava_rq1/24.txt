@@ -1,0 +1,5 @@
+{"randomdocline":"which throws an {@code IllegalStateException}.)","signature":"public static Collector<T, ?, ImmutableBiMap<K, V>> toImmutableBiMap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)","doc":"Returns a {@link Collector} that accumulates elements into an {@code ImmutableBiMap} whose keys\r\nand values are the result of applying the provided mapping functions to the input elements.\r\nEntries appear in the result {@code ImmutableBiMap} in encounter order.\r\n\r\n<p>If the mapped keys or values contain duplicates (according to {@link Object#equals(Object)},\r\nan {@code IllegalArgumentException} is thrown when the collection operation is performed. (This\r\ndiffers from the {@code Collector} returned by {@link Collectors#toMap(Function, Function)},\r\nwhich throws an {@code IllegalStateException}.)\r\n\r\n@since 21.0\r\n","source":"{\r\n    return CollectCollectors.toImmutableBiMap(keyFunction, valueFunction);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/collect\/ImmutableBiMap.java"}
+'fd919e54a5'
+'ba6e0cb2e1'
+'b2c7384b37'
+'73e382fa87'

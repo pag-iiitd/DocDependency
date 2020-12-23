@@ -1,0 +1,4 @@
+{"randomdocline":"Emit a package declaration.","signature":"public void addPackage(String packageName) throws IOException","doc":"Emit a package declaration.\r\n","source":"{\r\n    if (this.packagePrefix != null) {\r\n        throw new IllegalStateException();\r\n    }\r\n    out.write(\"package \");\r\n    out.write(packageName);\r\n    out.write(\";\\n\");\r\n    this.packagePrefix = packageName + \".\";\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\gson\\codegen\/src\/main\/java\/com\/google\/gson\/codegen\/JavaWriter.java"}
+'680bd75a'
+'d1ff7bb3'
+'3be354eb'

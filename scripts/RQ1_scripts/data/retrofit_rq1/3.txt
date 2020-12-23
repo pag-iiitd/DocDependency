@@ -1,0 +1,10 @@
+{"randomdocline":"by default.","signature":"public static RxJava2CallAdapterFactory create()","doc":"Returns an instance which creates synchronous observables that do not operate on any scheduler\r\nby default.\r\n","source":"{\r\n    return new RxJava2CallAdapterFactory(null, false);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\retrofit\\retrofit-adapters\/rxjava2\/src\/main\/java\/retrofit2\/adapter\/rxjava2\/RxJava2CallAdapterFactory.java"}
+'bd33a5da'
+'f68ceb45'
+'e4acf7bf'
+'c165a4a7'
+'61f97fc5'
+'1da26d3a'
+'46598adb'
+'f4872e8a'
+'42dba217'

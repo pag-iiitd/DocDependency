@@ -1,0 +1,3 @@
+{"randomdocline":"@return result. if no result return null.","signature":" Object getValue()","doc":"Get invoke result.\r\n\r\n@return result. if no result return null.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-rpc\/dubbo-rpc-api\/src\/main\/java\/org\/apache\/dubbo\/rpc\/Result.java"}
+'e92a55364'
+'8b6f0ed73'

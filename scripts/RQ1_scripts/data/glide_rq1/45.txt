@@ -1,0 +1,2 @@
+{"randomdocline":"Returns {@code true} if requests are currently paused, and {@code false} otherwise.","signature":"public boolean isPaused()","doc":"Returns {@code true} if requests are currently paused, and {@code false} otherwise.\r\n","source":"{\r\n    return isPaused;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/manager\/RequestTracker.java"}
+'3947c741d'

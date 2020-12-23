@@ -1,0 +1,5 @@
+{"randomdocline":"Returns an immutable multimap containing a single entry.","signature":"public static ImmutableListMultimap<K, V> of(K k1, V v1)","doc":"Returns an immutable multimap containing a single entry.\r\n","source":"{\r\n    ImmutableListMultimap.Builder<K, V> builder = ImmutableListMultimap.builder();\r\n    builder.put(k1, v1);\r\n    return builder.build();\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/collect\/ImmutableListMultimap.java"}
+'9b94fb3965'
+'63360f3f58'
+'c4ec873e2c'
+'b492c55704'

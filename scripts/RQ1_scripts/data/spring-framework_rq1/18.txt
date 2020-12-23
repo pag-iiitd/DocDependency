@@ -1,0 +1,5 @@
+{"randomdocline":"Add the given {@link HandlerMethodArgumentResolver}.","signature":"public HandlerMethodArgumentResolverComposite addResolver(HandlerMethodArgumentResolver resolver)","doc":"Add the given {@link HandlerMethodArgumentResolver}.\r\n","source":"{\r\n    this.argumentResolvers.add(resolver);\r\n    return this;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-messaging\/src\/main\/java\/org\/springframework\/messaging\/handler\/invocation\/HandlerMethodArgumentResolverComposite.java"}
+'bcf4f3911b'
+'7c36549e3a'
+'078cfb3e78'
+'9c65973b33'

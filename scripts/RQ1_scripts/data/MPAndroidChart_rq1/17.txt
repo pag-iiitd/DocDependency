@@ -1,0 +1,7 @@
+{"randomdocline":"@param me","signature":" void onChartGestureStart(MotionEvent me, ChartTouchListener.ChartGesture lastPerformedGesture)","doc":"Callbacks when a touch-gesture has started on the chart (ACTION_DOWN)\r\n\r\n@param me\r\n@param lastPerformedGesture\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\MPAndroidChart\\MPChartLib\/src\/main\/java\/com\/github\/mikephil\/charting\/listener\/OnChartGestureListener.java"}
+'314a9d81'
+'0e949526'
+'ca256ace'
+'72170fd5'
+'b422a0be'
+'42d40d8c'

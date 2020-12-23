@@ -1,0 +1,4 @@
+{"randomdocline":"This implementation supports file paths beneath the root of the web application.","signature":"protected Resource getResourceByPath(String path)","doc":"This implementation supports file paths beneath the root of the web application.\r\n\r\n@see ServletContextResource\r\n","source":"{\r\n    return new ServletContextResource(this.servletContext, path);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-web\/src\/main\/java\/org\/springframework\/web\/context\/support\/ServletContextResourceLoader.java"}
+'2b3445df81'
+'4ea298a7b0'
+'04eaa47ec1'

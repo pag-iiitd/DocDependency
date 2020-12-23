@@ -1,0 +1,4 @@
+{"randomdocline":"@throws RuntimeException if thrown by a {@code flush} callback","signature":"public static void triggerFlush()","doc":"Trigger {@code flush} callbacks on all currently registered synchronizations.\r\n\r\n@throws RuntimeException if thrown by a {@code flush} callback\r\n@see TransactionSynchronization#flush()\r\n","source":"{\r\n    for (TransactionSynchronization synchronization : TransactionSynchronizationManager.getSynchronizations()) {\r\n        synchronization.flush();\r\n    }\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-tx\/src\/main\/java\/org\/springframework\/transaction\/support\/TransactionSynchronizationUtils.java"}
+'b5e5e33078'
+'beea83b9d2'
+'9540d2c81b'

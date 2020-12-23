@@ -1,0 +1,7 @@
+{"randomdocline":"json string.","signature":"public static String json(Object obj) throws IOException","doc":"json string.\r\n\r\n@param obj object.\r\n@return json string.\r\n@throws IOException\r\n","source":"{\r\n    if (obj == null) {\r\n        return NULL;\r\n    }\r\n    StringWriter sw = new StringWriter();\r\n    try {\r\n        json(obj, sw);\r\n        return sw.getBuffer().toString();\r\n    } finally {\r\n        sw.close();\r\n    }\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-common\/src\/main\/java\/org\/apache\/dubbo\/common\/json\/JSON.java"}
+'455d29a22'
+'e92a55364'
+'01ed30bb9'
+'2cbe04261'
+'c38945898'
+'10052d468'

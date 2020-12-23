@@ -1,0 +1,4 @@
+{"randomdocline":"create ScriptEngine instance by type from url parameters, then cache it","signature":"private ScriptEngine getEngine(URL url)","doc":"create ScriptEngine instance by type from url parameters, then cache it\r\n","source":"{\r\n    String type = url.getParameter(TYPE_KEY, DEFAULT_SCRIPT_TYPE_KEY);\r\n    return ENGINES.computeIfAbsent(type, t -> {\r\n        ScriptEngine scriptEngine = new ScriptEngineManager().getEngineByName(type);\r\n        if (scriptEngine == null) {\r\n            throw new IllegalStateException(\"unsupported route engine type: \" + type);\r\n        }\r\n        return scriptEngine;\r\n    });\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-cluster\/src\/main\/java\/org\/apache\/dubbo\/rpc\/cluster\/router\/script\/ScriptRouter.java"}
+'5f641a945'
+'897b80de3'
+'713a3ea96'

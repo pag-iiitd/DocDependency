@@ -1,0 +1,2 @@
+{"randomdocline":"Returns the {@link ChannelGroup} which is associated with this future.","signature":" ChannelGroup group()","doc":"Returns the {@link ChannelGroup} which is associated with this future.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\transport\/src\/main\/java\/io\/netty\/channel\/group\/ChannelGroupFuture.java"}
+'20aecc928f'

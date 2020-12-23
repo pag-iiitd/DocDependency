@@ -1,0 +1,4 @@
+{"randomdocline":"Returns the name of this InterfaceHttpData.","signature":" String getName()","doc":"Returns the name of this InterfaceHttpData.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\codec-http\/src\/main\/java\/io\/netty\/handler\/codec\/http\/multipart\/InterfaceHttpData.java"}
+'36ac52a4bd'
+'45f19d02ff'
+'c0c9f689f6'

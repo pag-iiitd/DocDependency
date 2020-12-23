@@ -1,0 +1,3 @@
+{"randomdocline":"properties and shared objects, and allows to retrieve templates.","signature":" Configuration getConfiguration()","doc":"Return the FreeMarker {@link Configuration} object for the current\r\nweb application context.\r\n<p>A FreeMarker Configuration object may be used to set FreeMarker\r\nproperties and shared objects, and allows to retrieve templates.\r\n\r\n@return the FreeMarker Configuration\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-webmvc\/src\/main\/java\/org\/springframework\/web\/servlet\/view\/freemarker\/FreeMarkerConfig.java"}
+'29db80c3e8'
+'af47a8b79b'

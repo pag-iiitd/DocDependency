@@ -1,0 +1,2 @@
+{"randomdocline":"Returns the main class name of the application.","signature":"public String getMainClassName()","doc":"Returns the main class name of the application.\r\n\r\n@return the name of the application's main class\r\n","source":"{\r\n    return this.mainClassName;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot-tools\/spring-boot-gradle-plugin\/src\/main\/java\/org\/springframework\/boot\/gradle\/dsl\/SpringBootExtension.java"}
+'ccca943e33'

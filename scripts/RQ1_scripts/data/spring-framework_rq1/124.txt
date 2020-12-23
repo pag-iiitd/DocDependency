@@ -1,0 +1,2 @@
+{"randomdocline":"Return the QueueConnectionFactory to use for obtaining JMS QueueConnections.","signature":"protected ConnectionFactory getConnectionFactory()","doc":"Return the QueueConnectionFactory to use for obtaining JMS QueueConnections.\r\n","source":"{\r\n    return this.connectionFactory;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-jms\/src\/main\/java\/org\/springframework\/jms\/remoting\/JmsInvokerClientInterceptor.java"}
+'e6b7d6222a'

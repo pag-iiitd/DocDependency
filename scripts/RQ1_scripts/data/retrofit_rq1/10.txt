@@ -1,0 +1,10 @@
+{"randomdocline":"HTTP status code.","signature":"public int code()","doc":"HTTP status code.\r\n","source":"{\r\n    return code;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\retrofit\\retrofit\/src\/main\/java\/retrofit2\/HttpException.java"}
+'4546d5d8'
+'c165a4a7'
+'b001ff6f'
+'330e9d21'
+'3c14e0bf'
+'2ca19506'
+
+
+

@@ -1,0 +1,2 @@
+{"randomdocline":"@return boolean value indicating the Datafeed started status","signature":"public boolean isStarted()","doc":"Has the Datafeed started or not\r\n\r\n@return boolean value indicating the Datafeed started status\r\n","source":"{\r\n    return started;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\elasticsearch\\client\/rest-high-level\/src\/main\/java\/org\/elasticsearch\/client\/ml\/StartDatafeedResponse.java"}
+'bf0a0f74dae'

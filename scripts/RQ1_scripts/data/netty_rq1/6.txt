@@ -1,0 +1,2 @@
+{"randomdocline":"Return the {@link EventExecutorGroup} which is the parent of this {@link EventExecutor},","signature":" EventExecutorGroup parent()","doc":"Return the {@link EventExecutorGroup} which is the parent of this {@link EventExecutor},\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\common\/src\/main\/java\/io\/netty\/util\/concurrent\/EventExecutor.java"}
+'2710af1b8a'

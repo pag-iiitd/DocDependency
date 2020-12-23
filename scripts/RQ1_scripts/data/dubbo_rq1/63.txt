@@ -1,0 +1,1 @@
+{"randomdocline":"@param invoker","signature":" T getProxy(Invoker<T> invoker, boolean generic) throws RpcException","doc":"create proxy.\r\n\r\n@param invoker\r\n@return proxy\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-rpc\/dubbo-rpc-api\/src\/main\/java\/org\/apache\/dubbo\/rpc\/ProxyFactory.java"}

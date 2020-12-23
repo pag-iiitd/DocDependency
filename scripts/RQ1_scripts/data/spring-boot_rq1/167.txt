@@ -1,0 +1,4 @@
+{"randomdocline":"Returns the managed dependencies.","signature":" List<Dependency> getDependencies()","doc":"Returns the managed dependencies.\r\n\r\n@return the managed dependencies\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot-cli\/src\/main\/java\/org\/springframework\/boot\/cli\/compiler\/dependencies\/DependencyManagement.java"}
+'51c49b69c5'
+'49ef1cd236'
+'ac54d7fe3c'

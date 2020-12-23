@@ -1,0 +1,2 @@
+{"randomdocline":"Creates a new {@link RequestBuilder} instance with a matching resource type.","signature":"public static RequestBuilder<T> mockRequestBuilder()","doc":"Creates a new {@link RequestBuilder} instance with a matching resource type.\r\n","source":"{\r\n    return (RequestBuilder<T>) mockGlideRequest(RequestBuilder.class);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\mocks\/src\/main\/java\/com\/bumptech\/glide\/mocks\/MockGlideBuilders.java"}
+'1caeff4bf'

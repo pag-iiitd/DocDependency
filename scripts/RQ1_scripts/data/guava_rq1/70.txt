@@ -1,0 +1,4 @@
+{"randomdocline":"Template method for subtypes to actually run the fallback.","signature":" abstract T doFallback(F fallback, X throwable) throws Exception","doc":"Template method for subtypes to actually run the fallback.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/util\/concurrent\/AbstractCatchingFuture.java"}
+'9b94fb3965'
+'1667927759'
+'b1bec6df36'

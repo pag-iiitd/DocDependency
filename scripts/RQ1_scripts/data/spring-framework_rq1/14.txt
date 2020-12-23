@@ -1,0 +1,5 @@
+{"randomdocline":"@param lobCreator the LobCreator to use","signature":"protected abstract void setValues(PreparedStatement ps, LobCreator lobCreator) throws SQLException, DataAccessException","doc":"Set values on the given PreparedStatement, using the given\r\nLobCreator for BLOB\/CLOB arguments.\r\n\r\n@param ps the PreparedStatement to use\r\n@param lobCreator the LobCreator to use\r\n@throws SQLException if thrown by JDBC methods\r\n@throws DataAccessException in case of custom exceptions\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-jdbc\/src\/main\/java\/org\/springframework\/jdbc\/core\/support\/AbstractLobCreatingPreparedStatementCallback.java"}
+'54004e0d78'
+'30a9dad5fe'
+'d1061e7e9f'
+'c236f9fac7'

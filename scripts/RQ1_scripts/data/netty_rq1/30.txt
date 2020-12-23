@@ -1,0 +1,4 @@
+{"randomdocline":"Sets the ID of this frame.","signature":" SpdyPingFrame setId(int id)","doc":"Sets the ID of this frame.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\codec-http\/src\/main\/java\/io\/netty\/handler\/codec\/spdy\/SpdyPingFrame.java"}
+'131eef2c51'
+'d7a198a60f'
+'58e6bec3b1'

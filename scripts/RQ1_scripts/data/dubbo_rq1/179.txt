@@ -1,0 +1,2 @@
+{"randomdocline":"Exports a {@link URL}","signature":" boolean exportURL(URL url)","doc":"Exports a {@link URL}\r\n\r\n@param url a {@link URL}\r\n@return If success , return <code>true<\/code>\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-metadata\/dubbo-metadata-api\/src\/main\/java\/org\/apache\/dubbo\/metadata\/WritableMetadataService.java"}
+'5fb8dc07a'

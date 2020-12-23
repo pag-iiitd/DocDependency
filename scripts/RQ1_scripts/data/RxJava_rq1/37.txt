@@ -1,0 +1,3 @@
+{"randomdocline":"@param value the value to append","signature":"public void add(T value)","doc":"Append a non-null value to the list.\r\n<p>Don't add null to the list!\r\n\r\n@param value the value to append\r\n","source":"{\r\n    final int c = capacity;\r\n    int o = offset;\r\n    if (o == c) {\r\n        Object[] next = new Object[c + 1];\r\n        tail[c] = next;\r\n        tail = next;\r\n        o = 0;\r\n    }\r\n    tail[o] = value;\r\n    offset = o + 1;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/internal\/util\/AppendOnlyLinkedArrayList.java"}
+'a1693ecc9'
+'9891ed570'

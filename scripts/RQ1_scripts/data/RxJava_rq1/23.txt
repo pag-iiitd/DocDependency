@@ -1,0 +1,4 @@
+{"randomdocline":"synchronous (from within {@code onSubscribe(Disposable)} itself) and asynchronous manner.","signature":" void onSubscribe(@NonNull Disposable d)","doc":"Provides the {@link SingleObserver} with the means of cancelling (disposing) the\r\nconnection (channel) with the Single in both\r\nsynchronous (from within {@code onSubscribe(Disposable)} itself) and asynchronous manner.\r\n\r\n@param d the Disposable instance whose {@link Disposable#dispose()} can\r\nbe called anytime to cancel the connection\r\n@since 2.0\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/core\/SingleObserver.java"}
+'a1693ecc9'
+'52dc0500c'
+'7aa0b347c'

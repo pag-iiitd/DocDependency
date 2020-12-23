@@ -1,0 +1,2 @@
+{"randomdocline":"Called when the connectivity state changes.","signature":" void onConnectivityChanged(boolean isConnected)","doc":"Called when the connectivity state changes.\r\n\r\n@param isConnected True if we're currently connected to a network, false otherwise.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/manager\/ConnectivityMonitor.java"}
+'5f4610b54'

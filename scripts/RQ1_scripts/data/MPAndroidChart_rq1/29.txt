@@ -1,0 +1,2 @@
+{"randomdocline":"Returns whether the candle bars should show?","signature":" boolean getShowCandleBar()","doc":"Returns whether the candle bars should show?\r\nWhen false, only \"ticks\" will show\r\n\r\n- default: true\r\n\r\n@return\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\MPAndroidChart\\MPChartLib\/src\/main\/java\/com\/github\/mikephil\/charting\/interfaces\/datasets\/ICandleDataSet.java"}
+'b8f3d49b'

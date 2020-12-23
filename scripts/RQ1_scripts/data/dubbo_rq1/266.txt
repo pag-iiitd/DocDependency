@@ -1,0 +1,3 @@
+{"randomdocline":"select one invoker in list.","signature":" Invoker<T> select(List<Invoker<T>> invokers, URL url, Invocation invocation) throws RpcException","doc":"select one invoker in list.\r\n\r\n@param invokers invokers.\r\n@param url refer url\r\n@param invocation invocation.\r\n@return selected invoker.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-cluster\/src\/main\/java\/org\/apache\/dubbo\/rpc\/cluster\/LoadBalance.java"}
+'e92a55364'
+'10052d468'

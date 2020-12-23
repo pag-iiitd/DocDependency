@@ -1,0 +1,2 @@
+{"randomdocline":"Any interruption that happens as a result of calling interruptTask will arrive before this","signature":" abstract void afterRanInterruptibly(@Nullable T result, @Nullable Throwable error)","doc":"Any interruption that happens as a result of calling interruptTask will arrive before this\r\nmethod is called. Complete Futures here.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/util\/concurrent\/InterruptibleTask.java"}
+'cf1478062f'

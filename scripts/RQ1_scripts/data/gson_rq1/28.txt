@@ -1,0 +1,1 @@
+{"randomdocline":"","signature":"public static int getMajorJavaVersion()","doc":"\r\n@return the major Java version, i.e. '8' for Java 1.8, '9' for Java 9 etc.\r\n","source":"{\r\n    return majorJavaVersion;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\gson\\gson\/src\/main\/java\/com\/google\/gson\/internal\/JavaVersion.java"}

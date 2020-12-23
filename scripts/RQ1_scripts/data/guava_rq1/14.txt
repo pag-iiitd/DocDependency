@@ -1,0 +1,3 @@
+{"randomdocline":"Returns the object that originated this event (<em>not<\/em> the object that originated the","signature":"public Object getSource()","doc":"Returns the object that originated this event (<em>not<\/em> the object that originated the\r\nwrapped event). This is generally an {@link EventBus}.\r\n\r\n@return the source of this event.\r\n","source":"{\r\n    return source;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/eventbus\/DeadEvent.java"}
+'9b94fb3965'
+'b47da45d0e'

@@ -1,0 +1,3 @@
+{"randomdocline":"Returns an off-heap copy of the specified {@link ByteBuf}, and releases the original one.","signature":"protected final ByteBuf newDirectBuffer(ByteBuf buf)","doc":"Returns an off-heap copy of the specified {@link ByteBuf}, and releases the original one.\r\n","source":"{\r\n    return newDirectBuffer(buf, buf);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\transport-native-epoll\/src\/main\/java\/io\/netty\/channel\/epoll\/AbstractEpollChannel.java"}
+'3cc4052963'
+'869687bd71'

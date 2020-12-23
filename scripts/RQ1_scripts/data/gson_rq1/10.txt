@@ -1,0 +1,13 @@
+{"randomdocline":"Invokes default serialization on the specified object.","signature":"public JsonElement serialize(Object src)","doc":"Invokes default serialization on the specified object.\r\n\r\n@param src the object that needs to be serialized.\r\n@return a tree of {@link JsonElement}s corresponding to the serialized form of {@code src}.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\gson\\gson\/src\/main\/java\/com\/google\/gson\/JsonSerializationContext.java"}
+'360cd3e2'
+'c4ea9a3d'
+'caf64dbf'
+'df31d2db'
+'dbf54866'
+'fca0ff12'
+'2a72d949'
+'90e7de92'
+'1672d2cf'
+'be2631e8'
+'9c05adf0'
+'57d1f32d'

@@ -1,0 +1,4 @@
+{"randomdocline":"message otherwise.","signature":"public static void verify(boolean expression)","doc":"Ensures that {@code expression} is {@code true}, throwing a {@code VerifyException} with no\r\nmessage otherwise.\r\n\r\n@throws VerifyException if {@code expression} is {@code false}\r\n@see Preconditions#checkState Preconditions.checkState()\r\n","source":"{\r\n    if (!expression) {\r\n        throw new VerifyException();\r\n    }\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/base\/Verify.java"}
+'631696beff'
+'9b94fb3965'
+'4061b1a8ce'

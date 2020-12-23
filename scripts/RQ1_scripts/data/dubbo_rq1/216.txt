@@ -1,0 +1,2 @@
+{"randomdocline":"@return JCache instance of cache","signature":"protected Cache createCache(URL url)","doc":"Takes url as an method argument and return new instance of cache store implemented by JCache.\r\n\r\n@param url url of the method\r\n@return JCache instance of cache\r\n","source":"{\r\n    return new JCache(url);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-filter\/dubbo-filter-cache\/src\/main\/java\/org\/apache\/dubbo\/cache\/support\/jcache\/JCacheFactory.java"}
+'f3e8be7e9'

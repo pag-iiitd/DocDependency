@@ -1,0 +1,2 @@
+{"randomdocline":"android.app.Activity#onDestroy()} is called.","signature":" void onDestroy()","doc":"Callback for when {@link android.app.Fragment#onDestroy()}} or {@link\r\nandroid.app.Activity#onDestroy()} is called.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/manager\/LifecycleListener.java"}
+'f389e91cc'

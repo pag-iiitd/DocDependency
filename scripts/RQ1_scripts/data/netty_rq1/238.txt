@@ -1,0 +1,4 @@
+{"randomdocline":"Encodes the specified cookie name-value pair into a Set-Cookie header value.","signature":"public static String encode(String name, String value)","doc":"Encodes the specified cookie name-value pair into a Set-Cookie header value.\r\n\r\n@param name the cookie name\r\n@param value the cookie value\r\n@return a single Set-Cookie header value\r\n","source":"{\r\n    return io.netty.handler.codec.http.cookie.ServerCookieEncoder.LAX.encode(name, value);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\codec-http\/src\/main\/java\/io\/netty\/handler\/codec\/http\/ServerCookieEncoder.java"}
+'97d871a755'
+'7d102084c1'
+'c298230128'

@@ -1,0 +1,3 @@
+{"randomdocline":"Creates a new {@link Closer}.","signature":"public static Closer create()","doc":"Creates a new {@link Closer}.\r\n","source":"{\r\n    return new Closer(SUPPRESSOR);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/io\/Closer.java"}
+'9b94fb3965'
+'b76ffbeab2'

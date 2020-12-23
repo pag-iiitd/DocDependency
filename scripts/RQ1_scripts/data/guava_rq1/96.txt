@@ -1,0 +1,2 @@
+{"randomdocline":"Creates an empty {@code CompactHashMap} instance.","signature":"public static CompactHashMap<K, V> create()","doc":"Creates an empty {@code CompactHashMap} instance.\r\n","source":"{\r\n    return new CompactHashMap<>();\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/collect\/CompactHashMap.java"}
+'d49a375f71'

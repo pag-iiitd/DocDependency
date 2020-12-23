@@ -1,0 +1,3 @@
+{"randomdocline":"@param response response.","signature":" void handle(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException","doc":"invoke.\r\n\r\n@param request request.\r\n@param response response.\r\n@throws IOException\r\n@throws ServletException\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-remoting\/dubbo-remoting-http\/src\/main\/java\/org\/apache\/dubbo\/remoting\/http\/HttpHandler.java"}
+'e92a55364'
+'1a71da597'

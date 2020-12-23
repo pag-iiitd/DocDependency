@@ -1,0 +1,1 @@
+{"randomdocline":"Returns the number of bytes (octets) this buffer can contain.","signature":" int capacity()","doc":"Returns the number of bytes (octets) this buffer can contain.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-remoting\/dubbo-remoting-api\/src\/main\/java\/org\/apache\/dubbo\/remoting\/buffer\/ChannelBuffer.java"}

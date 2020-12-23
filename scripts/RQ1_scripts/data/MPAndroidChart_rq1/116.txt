@@ -1,0 +1,2 @@
+{"randomdocline":"@param e the entry to color","signature":" int getColor(int index, Entry e, IDataSet set)","doc":"Returns the color to be used for the given Entry at the given index (in the entries array)\r\n\r\n@param index index in the entries array\r\n@param e the entry to color\r\n@param set the DataSet the entry belongs to\r\n@return\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\MPAndroidChart\\MPChartLib\/src\/main\/java\/com\/github\/mikephil\/charting\/formatter\/ColorFormatter.java"}
+

@@ -1,0 +1,2 @@
+{"randomdocline":"Get the {@link Http2HeadersDecoder.Configuration} for this {@link Http2FrameReader}","signature":" Http2HeadersDecoder.Configuration headersConfiguration()","doc":"Get the {@link Http2HeadersDecoder.Configuration} for this {@link Http2FrameReader}\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\codec-http2\/src\/main\/java\/io\/netty\/handler\/codec\/http2\/Http2FrameReader.java"}
+'2fd42cfc6b'

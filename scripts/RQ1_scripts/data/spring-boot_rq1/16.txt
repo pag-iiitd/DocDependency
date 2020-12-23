@@ -1,0 +1,2 @@
+{"randomdocline":"@return the origin property source","signature":"public PropertySource<?> getPropertySource()","doc":"Return the origin {@link PropertySource}.\r\n\r\n@return the origin property source\r\n","source":"{\r\n    return this.propertySource;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot\/src\/main\/java\/org\/springframework\/boot\/origin\/PropertySourceOrigin.java"}
+'dbc7e938c8'

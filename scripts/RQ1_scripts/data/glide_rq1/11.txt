@@ -1,0 +1,2 @@
+{"randomdocline":"See {@code getDrawable(Context, int, Theme)}.","signature":"public static Drawable getDrawable(Context ourContext, Context targetContext, @DrawableRes int id)","doc":"See {@code getDrawable(Context, int, Theme)}.\r\n","source":"{\r\n    return getDrawable(ourContext, targetContext, id, \/*theme=*\/\r\n    null);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/load\/resource\/drawable\/DrawableDecoderCompat.java"}
+'0f71afe21'

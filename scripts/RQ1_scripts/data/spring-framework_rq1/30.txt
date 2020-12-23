@@ -1,0 +1,6 @@
+{"randomdocline":"Default is \"true\".","signature":"public void setCache(boolean cache)","doc":"Set whether to cache the JNDI object once it has been located.\r\nDefault is \"true\".\r\n<p>Can be turned off to allow for hot redeployment of JNDI objects.\r\nIn this case, the JNDI object will be fetched for each invocation.\r\n\r\n@see #setLookupOnStartup\r\n","source":"{\r\n    this.cache = cache;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-context\/src\/main\/java\/org\/springframework\/jndi\/JndiObjectTargetSource.java"}
+'2b3445df81'
+'d21ad29982'
+'b73e39423c'
+'596571059e'
+'4ea298a7b0'

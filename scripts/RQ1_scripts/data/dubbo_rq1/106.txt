@@ -1,0 +1,3 @@
+{"randomdocline":"@param name the name of application","signature":"public DubboBootstrap application(String name, Consumer<ApplicationBuilder> consumerBuilder)","doc":"Set the name of application and it's future build\r\n\r\n@param name the name of application\r\n@param consumerBuilder {@link ApplicationBuilder}\r\n@return current {@link DubboBootstrap} instance\r\n","source":"{\r\n    ApplicationBuilder builder = createApplicationBuilder(name);\r\n    consumerBuilder.accept(builder);\r\n    return application(builder.build());\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-config\/dubbo-config-api\/src\/main\/java\/org\/apache\/dubbo\/config\/bootstrap\/DubboBootstrap.java"}
+'b0cf97ebc'
+'269178470'

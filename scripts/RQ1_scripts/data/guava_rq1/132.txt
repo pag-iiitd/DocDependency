@@ -1,0 +1,3 @@
+{"randomdocline":"Gets the current value.","signature":"public final double get()","doc":"Gets the current value.\r\n\r\n@return the current value\r\n","source":"{\r\n    return longBitsToDouble(value);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/util\/concurrent\/AtomicDouble.java"}
+'9b94fb3965'
+'9b1de11918'

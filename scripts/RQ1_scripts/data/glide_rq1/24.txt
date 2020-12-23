@@ -1,0 +1,4 @@
+{"randomdocline":"Returns an {@link Exception} with a stack trace that includes where the request originated (if","signature":"public Exception getOrigin()","doc":"Returns an {@link Exception} with a stack trace that includes where the request originated (if\r\npreviously set via {@link #setOrigin(Exception)})\r\n\r\n<p>This is an experimental API that may be removed in the future.\r\n","source":"{\r\n    return exception;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/load\/engine\/GlideException.java"}
+'0dcc33fe6'
+'8f8a16008'
+'c375a2fbf'

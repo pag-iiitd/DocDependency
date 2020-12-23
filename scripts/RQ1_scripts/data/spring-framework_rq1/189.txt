@@ -1,0 +1,6 @@
+{"randomdocline":"@return a spec for specifying the target URL","signature":" RequestHeadersUriSpec<?> head()","doc":"Start building an HTTP HEAD request.\r\n\r\n@return a spec for specifying the target URL\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-webflux\/src\/main\/java\/org\/springframework\/web\/reactive\/function\/client\/WebClient.java"}
+'5f2d2b21d9'
+'118f33aeda'
+'4b4201efa1'
+'52e87cb425'
+'f6ec35394f'

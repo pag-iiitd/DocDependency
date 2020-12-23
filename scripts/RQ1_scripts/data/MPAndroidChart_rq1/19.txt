@@ -1,0 +1,1 @@
+{"randomdocline":"@return","signature":" float getYMin()","doc":"returns the minimum y-value this DataSet holds\r\n\r\n@return\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\MPAndroidChart\\MPChartLib\/src\/main\/java\/com\/github\/mikephil\/charting\/interfaces\/datasets\/IDataSet.java"}

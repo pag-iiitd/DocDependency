@@ -1,0 +1,5 @@
+{"randomdocline":"@param expectedValuesPerKey the expected average number of values per key","signature":"public static HashMultimap<K, V> create(int expectedKeys, int expectedValuesPerKey)","doc":"Constructs an empty {@code HashMultimap} with enough capacity to hold the specified numbers of\r\nkeys and values without rehashing.\r\n\r\n<p>This method will soon be deprecated in favor of {@code\r\nMultimapBuilder.hashKeys(expectedKeys).hashSetValues(expectedValuesPerKey).build()}.\r\n\r\n@param expectedKeys the expected number of distinct keys\r\n@param expectedValuesPerKey the expected average number of values per key\r\n@throws IllegalArgumentException if {@code expectedKeys} or {@code expectedValuesPerKey} is\r\n    negative\r\n","source":"{\r\n    return new HashMultimap<>(expectedKeys, expectedValuesPerKey);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/collect\/HashMultimap.java"}
+'9b94fb3965'
+'63360f3f58'
+'c4ec873e2c'
+'b492c55704'

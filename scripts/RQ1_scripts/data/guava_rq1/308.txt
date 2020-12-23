@@ -1,0 +1,3 @@
+{"randomdocline":"Populates {@code seen} with the exception that was passed to {@code setException}.","signature":" abstract void addInitialException(Set<Throwable> seen)","doc":"Populates {@code seen} with the exception that was passed to {@code setException}.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/util\/concurrent\/AggregateFutureState.java"}
+'9b94fb3965'
+'2cf98c0fd9'

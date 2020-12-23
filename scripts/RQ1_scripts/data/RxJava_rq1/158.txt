@@ -1,0 +1,2 @@
+{"randomdocline":"@param observer the {@code CompletableObserver}, not {@code null}","signature":" void subscribe(@NonNull CompletableObserver observer)","doc":"Subscribes the given {@link CompletableObserver} to this {@code CompletableSource} instance.\r\n\r\n@param observer the {@code CompletableObserver}, not {@code null}\r\n@throws NullPointerException if {@code observer} is {@code null}\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/core\/CompletableSource.java"}
+'dba670554'

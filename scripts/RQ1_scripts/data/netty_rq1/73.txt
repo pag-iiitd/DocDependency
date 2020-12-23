@@ -1,0 +1,2 @@
+{"randomdocline":"Returns the number of bytes of heap memory used by a {@link ByteBufAllocator} or {@code -1} if unknown.","signature":" long usedHeapMemory()","doc":"Returns the number of bytes of heap memory used by a {@link ByteBufAllocator} or {@code -1} if unknown.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\buffer\/src\/main\/java\/io\/netty\/buffer\/ByteBufAllocatorMetric.java"}
+'461f9a1212'

@@ -1,0 +1,7 @@
+{"randomdocline":"@since 2.0.4","signature":"protected final boolean isBridgeJulIntoSlf4j()","doc":"Return whether bridging JUL into SLF4J or not.\r\n\r\n@return whether bridging JUL into SLF4J or not\r\n@since 2.0.4\r\n","source":"{\r\n    return isBridgeHandlerAvailable() && isJulUsingASingleConsoleHandlerAtMost();\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot\/src\/main\/java\/org\/springframework\/boot\/logging\/Slf4JLoggingSystem.java"}
+'9a9111af21'
+'f363fe7dd1'
+'f2cef87878'
+'068e22d60b'
+'1b3fa3ff0d'
+'3423c5dddb'

@@ -1,0 +1,4 @@
+{"randomdocline":"        a success. Otherwise {@code false} because this future is","signature":" boolean trySuccess(V result)","doc":"Marks this future as a success and notifies all\r\nlisteners.\r\n\r\n@return {@code true} if and only if successfully marked this future as\r\n        a success. Otherwise {@code false} because this future is\r\n        already marked as either a success or a failure.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\common\/src\/main\/java\/io\/netty\/util\/concurrent\/Promise.java"}
+'88cc8c1739'
+'4e77bacdf7'
+'0886c11645'

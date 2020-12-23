@@ -1,0 +1,2 @@
+{"randomdocline":"Returns the multiplier that should be applied to the initial maximum size of Glide's memory","signature":"public float getMultiplier()","doc":"Returns the multiplier that should be applied to the initial maximum size of Glide's memory\r\ncache and bitmap pool.\r\n","source":"{\r\n    return multiplier;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/MemoryCategory.java"}
+'5f4610b54'

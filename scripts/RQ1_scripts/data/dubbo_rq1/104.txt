@@ -1,0 +1,4 @@
+{"randomdocline":"get url.","signature":" URL getUrl()","doc":"get url.\r\n\r\n@return url\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-remoting\/dubbo-remoting-api\/src\/main\/java\/org\/apache\/dubbo\/remoting\/Endpoint.java"}
+'e92a55364'
+'4990572d2'
+'10052d468'

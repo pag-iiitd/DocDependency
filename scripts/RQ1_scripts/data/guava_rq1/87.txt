@@ -1,0 +1,4 @@
+{"randomdocline":"Maps the specified class to the specified value. Does <i>not<\/i> associate this value with any","signature":" T putInstance(Class<T> type, @NullableDecl T value)","doc":"Maps the specified class to the specified value. Does <i>not<\/i> associate this value with any\r\nof the class's supertypes.\r\n\r\n@return the value previously associated with this class (possibly {@code null}), or {@code\r\n    null} if there was no previous entry.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/collect\/ClassToInstanceMap.java"}
+'fd919e54a5'
+'9b94fb3965'
+'018ed188c7'

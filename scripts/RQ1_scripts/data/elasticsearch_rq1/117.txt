@@ -1,0 +1,1 @@
+{"randomdocline":"Returns the geo point of the context","signature":"public GeoPoint getGeoPoint()","doc":"Returns the geo point of the context\r\n","source":"{\r\n    return geoPoint;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\elasticsearch\\server\/src\/main\/java\/org\/elasticsearch\/search\/suggest\/completion\/context\/GeoQueryContext.java"}

@@ -1,0 +1,13 @@
+{"randomdocline":"<\/ol>","signature":"public T poll()","doc":"{@inheritDoc} <br>\r\n<p>\r\nIMPLEMENTATION NOTES:<br>\r\nPoll is allowed from a SINGLE thread.<br>\r\nPoll reads the next node from the consumerNode and:\r\n<ol>\r\n<li>If it is null, the queue is assumed empty (though it might not be).\r\n<li>If it is not null set it as the consumer node and return it's now evacuated value.\r\n<\/ol>\r\nThis means the consumerNode.value is always null, which is also the starting point for the queue. Because null\r\nvalues are not allowed to be offered this is the only node with it's value set to null at any one time.\r\n\r\n@see java.util.Queue#poll()\r\n","source":"{\r\n    \/\/ don't load twice, it's alright\r\n    LinkedQueueNode<T> currConsumerNode = lpConsumerNode();\r\n    LinkedQueueNode<T> nextNode = currConsumerNode.lvNext();\r\n    if (nextNode != null) {\r\n        \/\/ we have to null out the value because we are going to hang on to the node\r\n        final T nextValue = nextNode.getAndNullValue();\r\n        spConsumerNode(nextNode);\r\n        return nextValue;\r\n    } else if (currConsumerNode != lvProducerNode()) {\r\n        \/\/ NOPMD\r\n        while ((nextNode = currConsumerNode.lvNext()) == null) {\r\n        }\r\n        \/\/ got the next node...\r\n        \/\/ we have to null out the value because we are going to hang on to the node\r\n        final T nextValue = nextNode.getAndNullValue();\r\n        spConsumerNode(nextNode);\r\n        return nextValue;\r\n    }\r\n    return null;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/internal\/queue\/MpscLinkedQueue.java"}
+'a1693ecc9'
+'fa62fe71a'
+'639cbc529'
+'0e0949d84'
+'39be31087'
+'d1530a89f'
+'07fb3280c'
+'821398635'
+'7039d62b4'
+'779272529'
+'7a8b681f5'
+'ee001549e'

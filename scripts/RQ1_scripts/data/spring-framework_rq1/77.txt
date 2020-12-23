@@ -1,0 +1,2 @@
+{"randomdocline":"@see #setWorkManagerName","signature":"public void setWorkManager(WorkManager workManager)","doc":"Specify the CommonJ WorkManager to delegate to.\r\n<p>Alternatively, you can also specify the JNDI name of the target WorkManager.\r\n\r\n@see #setWorkManagerName\r\n","source":"{\r\n    this.workManager = workManager;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-context-support\/src\/main\/java\/org\/springframework\/scheduling\/commonj\/WorkManagerTaskExecutor.java"}
+'4df7d71c1e'

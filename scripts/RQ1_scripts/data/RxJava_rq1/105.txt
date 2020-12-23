@@ -1,0 +1,6 @@
+{"randomdocline":"Subscribes to the source again via trampolining.","signature":" void subscribeNext()","doc":"Subscribes to the source again via trampolining.\r\n","source":"{\r\n    if (getAndIncrement() == 0) {\r\n        int missed = 1;\r\n        for (; ; ) {\r\n            if (upstream.isDisposed()) {\r\n                return;\r\n            }\r\n            source.subscribe(this);\r\n            missed = addAndGet(-missed);\r\n            if (missed == 0) {\r\n                break;\r\n            }\r\n        }\r\n    }\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/internal\/operators\/observable\/ObservableRetryPredicate.java"}
+'a1693ecc9'
+'835e4f2a0'
+'216082ce2'
+'fc7338e4f'
+'af625be79'

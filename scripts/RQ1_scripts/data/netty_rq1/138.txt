@@ -1,0 +1,3 @@
+{"randomdocline":"Represents the value for","signature":" void maxHeaderTableSize(long max) throws Http2Exception","doc":"Represents the value for\r\n<a href=\"https:\/\/tools.ietf.org\/html\/rfc7540#section-6.5.2\">SETTINGS_HEADER_TABLE_SIZE<\/a>.\r\nThis method should only be called by Netty (not users) as a result of a receiving a {@code SETTINGS} frame.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\codec-http2\/src\/main\/java\/io\/netty\/handler\/codec\/http2\/Http2HeadersEncoder.java"}
+'2fd42cfc6b'
+'540c26bb56'

@@ -1,0 +1,7 @@
+{"randomdocline":"Table} interface.","signature":"public SortedSet<R> rowKeySet()","doc":"{@inheritDoc}\r\n\r\n<p>This method returns a {@link SortedSet}, instead of the {@code Set} specified in the {@link\r\nTable} interface.\r\n","source":"{\r\n    return (SortedSet<R>) rowMap().keySet();\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/collect\/StandardRowSortedTable.java"}
+'fd919e54a5'
+'9b94fb3965'
+'252e992199'
+'9413cf4a7b'
+'509fe0a4e7'
+'c4ec873e2c'

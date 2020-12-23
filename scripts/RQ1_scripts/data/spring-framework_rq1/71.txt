@@ -1,0 +1,2 @@
+{"randomdocline":"Return the BindingResult if the failure is validation-related,","signature":"public final BindingResult getBindingResult()","doc":"Return the BindingResult if the failure is validation-related,\r\nor {@code null} if none.\r\n","source":"{\r\n    return this.bindingResult;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-messaging\/src\/main\/java\/org\/springframework\/messaging\/handler\/annotation\/support\/MethodArgumentNotValidException.java"}
+'058714b03a'

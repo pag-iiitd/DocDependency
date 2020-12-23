@@ -1,0 +1,2 @@
+{"randomdocline":"Returns a {@link ChannelOption} for the given {@link java.net.SocketOption}.","signature":"public static ChannelOption<T> of(java.net.SocketOption<T> option)","doc":"Returns a {@link ChannelOption} for the given {@link java.net.SocketOption}.\r\n","source":"{\r\n    return new NioChannelOption<T>(option);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\transport\/src\/main\/java\/io\/netty\/channel\/socket\/nio\/NioChannelOption.java"}
+'2c13f71c73'

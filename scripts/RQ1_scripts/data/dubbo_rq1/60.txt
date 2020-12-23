@@ -1,0 +1,1 @@
+{"randomdocline":"The id of the registered service instance.","signature":" String getId()","doc":"The id of the registered service instance.\r\n\r\n@return nullable\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-registry\/dubbo-registry-api\/src\/main\/java\/org\/apache\/dubbo\/registry\/client\/ServiceInstance.java"}

@@ -1,0 +1,4 @@
+{"randomdocline":"@return the old resource, can be null","signature":"public Disposable replaceResource(int index, Disposable resource)","doc":"Replaces the resource at the specified index and returns the old resource.\r\n\r\n@param index the index of the resource to replace\r\n@param resource the new resource\r\n@return the old resource, can be null\r\n","source":"{\r\n    for (; ; ) {\r\n        Disposable o = get(index);\r\n        if (o == DisposableHelper.DISPOSED) {\r\n            resource.dispose();\r\n            return null;\r\n        }\r\n        if (compareAndSet(index, o, resource)) {\r\n            return o;\r\n        }\r\n    }\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/internal\/disposables\/ArrayCompositeDisposable.java"}
+'a1693ecc9'
+'68a9a66d2'
+'f946a349e'

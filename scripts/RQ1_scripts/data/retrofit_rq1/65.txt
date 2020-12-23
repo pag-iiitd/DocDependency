@@ -1,0 +1,1 @@
+{"randomdocline":"Called for unexpected errors while making the call.","signature":" void unexpectedError(Throwable t)","doc":"Called for unexpected errors while making the call.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\retrofit\\samples\/src\/main\/java\/com\/example\/retrofit\/ErrorHandlingAdapter.java"}

@@ -1,0 +1,2 @@
+{"randomdocline":"@deprecated 2.7.8","signature":" void removeServiceMetadata(ServiceMetadataIdentifier metadataIdentifier)","doc":"\r\n@deprecated 2.7.8\r\n","source":"{\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-metadata\/dubbo-metadata-api\/src\/main\/java\/org\/apache\/dubbo\/metadata\/report\/MetadataReport.java"}
+'4aaaea43a'

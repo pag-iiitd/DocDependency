@@ -1,0 +1,5 @@
+{"randomdocline":"@param request the request","signature":"private static Response buildErrorResponse(Request request, Throwable t)","doc":"build a bad request's response\r\n\r\n@param request the request\r\n@param t the throwable. In most cases, serialization fails.\r\n@return the response\r\n","source":"{\r\n    Response response = new Response(request.getId(), request.getVersion());\r\n    response.setStatus(Response.BAD_REQUEST);\r\n    response.setErrorMessage(StringUtils.toString(t));\r\n    return response;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-remoting\/dubbo-remoting-netty4\/src\/main\/java\/org\/apache\/dubbo\/remoting\/transport\/netty4\/NettyClientHandler.java"}
+'5f641a945'
+'897b80de3'
+'9cdb2f088'
+'c6fd6841b'

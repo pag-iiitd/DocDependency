@@ -1,0 +1,2 @@
+{"randomdocline":"Set the ConnectionHolder for this transaction object.","signature":"public void setConnectionHolder(@Nullable ConnectionHolder connectionHolder)","doc":"Set the ConnectionHolder for this transaction object.\r\n","source":"{\r\n    this.connectionHolder = connectionHolder;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-jdbc\/src\/main\/java\/org\/springframework\/jdbc\/datasource\/JdbcTransactionObjectSupport.java"}
+'773b2f06a1'

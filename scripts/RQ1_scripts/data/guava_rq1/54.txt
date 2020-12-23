@@ -1,0 +1,3 @@
+{"randomdocline":"    such index exists.","signature":"public static int indexOf(byte[] array, byte target)","doc":"Returns the index of the first appearance of the value {@code target} in {@code array}.\r\n\r\n@param array an array of {@code byte} values, possibly empty\r\n@param target a primitive {@code byte} value\r\n@return the least index {@code i} for which {@code array[i] == target}, or {@code -1} if no\r\n    such index exists.\r\n","source":"{\r\n    return indexOf(array, target, 0, array.length);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/primitives\/Bytes.java"}
+'9b94fb3965'
+'55f03321ae'

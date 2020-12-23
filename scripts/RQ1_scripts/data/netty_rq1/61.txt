@@ -1,0 +1,2 @@
+{"randomdocline":"@return indicates whether the content of this message is {@code null}.","signature":"public boolean isNull()","doc":"Returns whether the content of this message is {@code null}.\r\n\r\n@return indicates whether the content of this message is {@code null}.\r\n","source":"{\r\n    return false;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\netty\\codec-redis\/src\/main\/java\/io\/netty\/handler\/codec\/redis\/FullBulkStringRedisMessage.java"}
+'96455a9558'

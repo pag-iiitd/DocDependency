@@ -1,0 +1,1 @@
+{"randomdocline":"The index name of the action.","signature":"public String getIndex()","doc":"The index name of the action.\r\n","source":"{\r\n    return this.index;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\elasticsearch\\server\/src\/main\/java\/org\/elasticsearch\/action\/termvectors\/MultiTermVectorsResponse.java"}

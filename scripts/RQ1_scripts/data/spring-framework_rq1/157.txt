@@ -1,0 +1,4 @@
+{"randomdocline":"A scheduler instance to use for scheduling heart-beat messages.","signature":"public TaskScheduler getTaskScheduler()","doc":"A scheduler instance to use for scheduling heart-beat messages.\r\n","source":"{\r\n    return this.taskScheduler;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-websocket\/src\/main\/java\/org\/springframework\/web\/socket\/sockjs\/support\/AbstractSockJsService.java"}
+'a5143057ce'
+'ad40ecff4b'
+'36148b7cb1'

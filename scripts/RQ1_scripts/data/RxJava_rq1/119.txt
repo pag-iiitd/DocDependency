@@ -1,0 +1,7 @@
+{"randomdocline":"thread expect {@link Iterator#next()} called from a different thread to work.","signature":"public Iterator getIterable()","doc":"The {@link Iterator} return is not thread safe. In other words don't call {@link Iterator#hasNext()} in one\r\nthread expect {@link Iterator#next()} called from a different thread to work.\r\n\r\n@return the Iterator\r\n","source":"{\r\n    return new Iterator();\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\RxJava\\src\/main\/java\/io\/reactivex\/rxjava3\/internal\/operators\/flowable\/BlockingFlowableMostRecent.java"}
+'a1693ecc9'
+'835e4f2a0'
+'216082ce2'
+'461fa9e94'
+'639cbc529'
+'1f252c0ac'

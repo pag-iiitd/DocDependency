@@ -1,0 +1,1 @@
+{"randomdocline":"The name of the analysis component in the API.","signature":"public String getName()","doc":"The name of the analysis component in the API.\r\n","source":"{\r\n    return name;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\elasticsearch\\server\/src\/main\/java\/org\/elasticsearch\/index\/analysis\/PreConfiguredAnalysisComponent.java"}

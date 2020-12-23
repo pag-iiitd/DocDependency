@@ -1,0 +1,7 @@
+{"randomdocline":"Returns all descendant {@link RequestManager}s relative to the context of the current {@link","signature":" Set<RequestManager> getDescendants()","doc":"Returns all descendant {@link RequestManager}s relative to the context of the current {@link\r\nRequestManager}.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/manager\/RequestManagerTreeNode.java"}
+'0dcc33fe6'
+'8f8a16008'
+'c375a2fbf'
+'5210ba8d3'
+'d520efbca'
+'66db4a409'

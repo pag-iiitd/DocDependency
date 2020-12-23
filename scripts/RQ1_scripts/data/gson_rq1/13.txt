@@ -1,0 +1,4 @@
+{"randomdocline":"Returns a new instance.","signature":"public T construct()","doc":"Returns a new instance.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\gson\\gson\/src\/main\/java\/com\/google\/gson\/internal\/ObjectConstructor.java"}
+'dbf54866'
+'fca0ff12'
+'25c6ae17'

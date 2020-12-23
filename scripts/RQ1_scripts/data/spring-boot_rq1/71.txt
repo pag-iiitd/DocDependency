@@ -1,0 +1,3 @@
+{"randomdocline":"Set the {@link ReactorResourceFactory} to get the shared resources from.","signature":"public void setResourceFactory(ReactorResourceFactory resourceFactory)","doc":"Set the {@link ReactorResourceFactory} to get the shared resources from.\r\n\r\n@param resourceFactory the server resources\r\n","source":"{\r\n    this.resourceFactory = resourceFactory;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot\/src\/main\/java\/org\/springframework\/boot\/rsocket\/netty\/NettyRSocketServerFactory.java"}
+'b33944b53f'
+'2588a71ac4'

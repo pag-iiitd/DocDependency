@@ -1,0 +1,6 @@
+{"randomdocline":"@param value The value to store.","signature":"public void put(A model, int width, int height, B value)","doc":"Add a value.\r\n\r\n@param model The model.\r\n@param width The width in pixels of the view the image is being loaded into.\r\n@param height The height in pixels of the view the image is being loaded into.\r\n@param value The value to store.\r\n","source":"{\r\n    ModelKey<A> key = ModelKey.get(model, width, height);\r\n    cache.put(key, value);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/load\/model\/ModelCache.java"}
+'0dcc33fe6'
+'8f8a16008'
+'c375a2fbf'
+'f389e91cc'
+'78bad2aa3'

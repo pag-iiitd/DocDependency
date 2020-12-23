@@ -1,0 +1,3 @@
+{"randomdocline":"response types such as {@code SimpleResponse} from a {@code Call<SimpleResponse>}","signature":"public Converter<ResponseBody, ?> responseBodyConverter(Type type, Annotation[] annotations, Retrofit retrofit)","doc":"Returns a {@link Converter} for converting an HTTP response body to {@code type}, or null if\r\n{@code type} cannot be handled by this factory. This is used to create converters for\r\nresponse types such as {@code SimpleResponse} from a {@code Call<SimpleResponse>}\r\ndeclaration.\r\n","source":"{\r\n    return null;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\retrofit\\retrofit\/src\/main\/java\/retrofit2\/Converter.java"}
+'4ce7b69c'
+

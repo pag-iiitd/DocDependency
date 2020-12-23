@@ -1,0 +1,2 @@
+{"randomdocline":"Return the SockJS session id.","signature":"public String getSockJsSessionId()","doc":"Return the SockJS session id.\r\n","source":"{\r\n    return this.sessionId;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-websocket\/src\/main\/java\/org\/springframework\/web\/socket\/sockjs\/SockJsException.java"}
+'e0a11f2ae7'

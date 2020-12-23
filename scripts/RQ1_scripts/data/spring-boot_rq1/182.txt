@@ -1,0 +1,3 @@
+{"randomdocline":"Returns a {@link StaticResourceRequest} that can be used to create a matcher for","signature":"public static StaticResourceRequest toStaticResources()","doc":"Returns a {@link StaticResourceRequest} that can be used to create a matcher for\r\n{@link StaticResourceLocation locations}.\r\n\r\n@return a {@link StaticResourceRequest}\r\n","source":"{\r\n    return StaticResourceRequest.INSTANCE;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-boot\\spring-boot-project\/spring-boot-autoconfigure\/src\/main\/java\/org\/springframework\/boot\/autoconfigure\/security\/reactive\/PathRequest.java"}
+'134628a62d'
+'e80c22cbf8'

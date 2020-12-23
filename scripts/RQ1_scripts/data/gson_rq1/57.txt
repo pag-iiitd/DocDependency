@@ -1,0 +1,10 @@
+{"randomdocline":"    text is not valid JSON","signature":"public static JsonElement parseReader(JsonReader reader) throws JsonIOException, JsonSyntaxException","doc":"Returns the next value from the JSON stream as a parse tree.\r\n\r\n@throws JsonParseException if there is an IOException or if the specified\r\n    text is not valid JSON\r\n","source":"{\r\n    boolean lenient = reader.isLenient();\r\n    reader.setLenient(true);\r\n    try {\r\n        return Streams.parse(reader);\r\n    } catch (StackOverflowError e) {\r\n        throw new JsonParseException(\"Failed parsing JSON source: \" + reader + \" to Json\", e);\r\n    } catch (OutOfMemoryError e) {\r\n        throw new JsonParseException(\"Failed parsing JSON source: \" + reader + \" to Json\", e);\r\n    } finally {\r\n        reader.setLenient(lenient);\r\n    }\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\gson\\gson\/src\/main\/java\/com\/google\/gson\/JsonParser.java"}
+'360cd3e2'
+'c4ea9a3d'
+'caf64dbf'
+'df31d2db'
+'dbf54866'
+'fca0ff12'
+'2a72d949'
+'90e7de92'
+'747e3c30'

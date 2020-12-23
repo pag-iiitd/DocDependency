@@ -1,0 +1,3 @@
+{"randomdocline":"related resources, e.g. links to other resources.","signature":" ResourceResolverChain getResolverChain()","doc":"Return the {@code ResourceResolverChain} that was used to resolve the\r\n{@code Resource} being transformed. This may be needed for resolving\r\nrelated resources, e.g. links to other resources.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\spring-framework\\spring-webmvc\/src\/main\/java\/org\/springframework\/web\/servlet\/resource\/ResourceTransformerChain.java"}
+'1ae64bfbd3'
+'6966e89578'

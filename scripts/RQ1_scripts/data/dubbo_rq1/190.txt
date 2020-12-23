@@ -1,0 +1,1 @@
+{"randomdocline":"","signature":"public final Executor getExecutor()","doc":"\r\n@return the non-null {@link Executor}\r\n","source":"{\r\n    return executor;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\dubbo\\dubbo-common\/src\/main\/java\/org\/apache\/dubbo\/event\/AbstractEventDispatcher.java"}

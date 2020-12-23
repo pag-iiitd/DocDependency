@@ -1,0 +1,2 @@
+{"randomdocline":"Returns the recommended memory cache size for the device it is run on in bytes.","signature":"public int getMemoryCacheSize()","doc":"Returns the recommended memory cache size for the device it is run on in bytes.\r\n","source":"{\r\n    return memoryCacheSize;\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\glide\\library\/src\/main\/java\/com\/bumptech\/glide\/load\/engine\/cache\/MemorySizeCalculator.java"}
+'5f4610b54'

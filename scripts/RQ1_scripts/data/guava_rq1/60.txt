@@ -1,0 +1,4 @@
+{"randomdocline":"@param values a series of values, which will be converted to {@code double} values (this may","signature":"public static Stats of(Iterable<? extends Number> values)","doc":"Returns statistics over a dataset containing the given values.\r\n\r\n@param values a series of values, which will be converted to {@code double} values (this may\r\n    cause loss of precision)\r\n","source":"{\r\n    StatsAccumulator accumulator = new StatsAccumulator();\r\n    accumulator.addAll(values);\r\n    return accumulator.snapshot();\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/math\/Stats.java"}
+'e2f4eba636'
+'9b94fb3965'
+'2fa06edd82'
