@@ -31,9 +31,10 @@ The project jars have been provided in 'project_jars' folder
 3.  This script will create a file named **<project_name>_last_2_years.json**. This file contains all the files changed in a given commit with the line numbers changed in each file between the commits.
 
 ## Getting functions changed between two commits (using ExtractCodeDocModularity):       
-1.  Execute the compiled ExtractCodeDocModularity.class by including the jars in the classpath, as in the command below. Pass the two arguments: the absolute path to <project_folder>. Eg is given below and the project's name       
-    `> java -cp ".;./path/to/javaparser-core-3.14.3.jar;./path/to/org.json.simple-0.4.jar" ExtractCodeDocModularity`       
-    For example: below project_jars folder is located in the project folder itself.
+1.  Execute the compiled ExtractCodeDocModularity.class by including the jars in the classpath, as in the command below.       
+    `> java -cp ".;./path/to/javaparser-core-3.14.3.jar;./path/to/org.json.simple-0.4.jar" ExtractCodeDocModularity`         
+    For example: below project_jars folder is located in the project folder itself.       
+    `> java -cp ".;./project_jars/javaparser-core-3.14.3.jar;./project_jars/org.json.simple-0.4.jar" ExtractCodeDocModularity`       
     OR       
     Execute the ExtractCodeDocModularity.jar using the command below:       
     `> java -jar .\ExtractCodeDocMoularity.jar`       
@@ -48,9 +49,9 @@ The project jars have been provided in 'project_jars' folder
     >(Assuming filter_database.py and "<project_name>_changedFunctions.json" exist in this directory)       
 3.  Run the python script using command       
     `> python3 filter_database.py <project_name>`       
-4.  This script will create a file named **<project_name>_changedFunctionsFiltered.json**. This file contains all the functions for which only documentation was changed in the commit.
+4.  This script will create a file named **<project_name>_changedFunctionsFiltered.json**. This file contains all the functions for which only documentation was changed in the commit.       
 
-## Examples
+## Examples        
  1. [Glide](https://github.com/pag-iiitd/DocDependency/tree/master/scripts/RQ2_exmples/glide_examples)
  2. [Gson](https://github.com/pag-iiitd/DocDependency/tree/master/scripts/RQ2_exmples/gson_examples)
 
