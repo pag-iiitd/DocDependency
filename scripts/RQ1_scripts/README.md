@@ -1,7 +1,7 @@
-# System Environment:        
+# System Environment        
 These scripts have been executed on a Windows 10 OS       
        
-# Pre-requisites:       
+# Pre-requisites   
 1.  Python version 3.8.3 (or above)       
 2.  Java(TM) SE Runtime Environment (build 1.8.0_144 and above)       
        
@@ -30,5 +30,5 @@ For convenience all these files have been provided along, project-wise, in the '
 Sample:        
 `python getRQ1_commits.py "D:\Study\guava\paths.txt" "guava"`       
        
-# Output: 
+# Output
 The script will create a folder **<project-name_rq1>** (example: guava_rq1) inside the project's folder and store a list of files contaning method details(signature, javadoc, source-code) used in analyzing RQ1.
