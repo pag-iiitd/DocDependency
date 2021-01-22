@@ -35,9 +35,9 @@ The project jars have been provided in 'project_jars' folder
     Execute the ExtractCodeDocModularity.jar using the command below:       
     `> java -jar .\ExtractCodeDocMoularity.jar`       
 2.  Program will take three inputs project name, location of the output of getting_line_numbers.py and location of .git file of the corresponding project. For example:        
-    `Enter the project name: gson`
-    `Enter the location of directory where output of getting_line_numbers.py is present: C:/Users/Avyakt/Desktop/project_folder/`
-    `Enter the path where .git file for the repo is saved: C:/Users/Avyakt/Desktop/project_folder/gson/.git`
+    `Enter the project name: gson`                     
+    `Enter the location of directory where output of getting_line_numbers.py is present: C:/Users/Avyakt/Desktop/project_folder/`             
+    `Enter the path where .git file for the repo is saved: C:/Users/Avyakt/Desktop/project_folder/gson/.git`        
 3.  It will create a new JSON file with name **"<project_name>_changedFunctions.json"**. This file contains all the functions which evolved between two commits with the component which evolved in the commit (code/doc).        
        
 ## Getting functions where only functions were changed (using filter_database.py):       
