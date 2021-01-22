@@ -1,0 +1,3898 @@
+{
+    "081b905e2_library/src/main/java/com/bumptech/glide/request/RequestListener.java_ boolean onLoadFailed(@Nullable GlideException e, Object model, Target<R> target, boolean isFirstResource)": {
+        "Code": false,
+        "Doc": true
+    },
+    "081b905e2_library/src/main/java/com/bumptech/glide/request/RequestListener.java_ boolean onResourceReady(R resource, Object model, Target<R> target, DataSource dataSource, boolean isFirstResource)": {
+        "Code": false,
+        "Doc": true
+    },
+    "092e06240_library/src/main/java/com/bumptech/glide/RequestBuilder.java_protected RequestBuilder(@NonNull Glide glide, RequestManager requestManager, Class<TranscodeType> transcodeClass, Context context)": {
+        "Code": false,
+        "Doc": true
+    },
+    "09544555e_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> clone()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0c73d1c4c_library/src/main/java/com/bumptech/glide/load/model/ModelLoaderRegistry.java_public List<ModelLoader<A, ?>> getModelLoaders(@NonNull A model)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0c73d1c4c_library/src/main/java/com/bumptech/glide/request/target/CustomViewTarget.java_protected abstract void onResourceCleared(@Nullable Drawable placeholder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0c73d1c4c_library/src/main/java/com/bumptech/glide/util/ByteBufferUtil.java_public static byte[] toBytes(@NonNull ByteBuffer byteBuffer)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_annotation/compiler/src/main/java/com/bumptech/glide/annotation/compiler/ProcessorUtil.java_private TypeName getJavadocSafeName(Element element)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_annotation/compiler/src/main/java/com/bumptech/glide/annotation/compiler/RequestOptionsGenerator.java_private static String getInstanceMethodNameFromStaticMethodName(String staticMethodName)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_integration/recyclerview/src/main/java/com/bumptech/glide/integration/recyclerview/RecyclerViewPreloader.java_public RecyclerViewPreloader(@NonNull Fragment fragment, @NonNull PreloadModelProvider<T> preloadModelProvider, @NonNull PreloadSizeProvider<T> preloadDimensionProvider, int maxPreload)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_integration/recyclerview/src/main/java/com/bumptech/glide/integration/recyclerview/RecyclerViewPreloader.java_public RecyclerViewPreloader(@NonNull FragmentActivity fragmentActivity, @NonNull PreloadModelProvider<T> preloadModelProvider, @NonNull PreloadSizeProvider<T> preloadDimensionProvider, int maxPreload)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_integration/recyclerview/src/main/java/com/bumptech/glide/integration/recyclerview/RecyclerViewPreloader.java_public RecyclerViewPreloader(@NonNull android.app.Fragment fragment, @NonNull PreloadModelProvider<T> preloadModelProvider, @NonNull PreloadSizeProvider<T> preloadDimensionProvider, int maxPreload)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_integration/volley/src/main/java/com/bumptech/glide/integration/volley/VolleyRequestFactory.java_ Request<byte[]> create(String url, DataCallback<? super InputStream> callback, Priority priority, Map<String, String> headers)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/GeneratedAppGlideModule.java_ abstract Set<Class<?>> getExcludedModuleClasses()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Glide.java_public BitmapPool getBitmapPool()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Glide.java_public Context getContext()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Glide.java_public MemoryCategory setMemoryCategory(@NonNull MemoryCategory memoryCategory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Glide.java_public RequestManagerRetriever getRequestManagerRetriever()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Glide.java_public static File getPhotoCacheDir(@NonNull Context context, @NonNull String cacheName)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Glide.java_public static RequestManager with(@NonNull Context context)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Glide.java_public static RequestManager with(@NonNull Fragment fragment)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Glide.java_public static RequestManager with(@NonNull FragmentActivity activity)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Glide.java_public static RequestManager with(@NonNull View view)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Glide.java_public static RequestManager with(@NonNull android.app.Fragment fragment)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Glide.java_public static synchronized void init(Glide glide)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Glide.java_public synchronized void preFillBitmapPool(@NonNull PreFillType.Builder... bitmapAttributeBuilders)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/GlideBuilder.java_public GlideBuilder addGlobalRequestListener(@NonNull RequestListener<Object> listener)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/GlideBuilder.java_public GlideBuilder setArrayPool(@Nullable ArrayPool arrayPool)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/GlideBuilder.java_public GlideBuilder setDefaultRequestOptions(@NonNull RequestOptionsFactory factory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/GlideBuilder.java_public GlideBuilder setLogRequestOrigins(boolean isEnabled)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/GlideBuilder.java_public GlideBuilder setResizeExecutor(@Nullable GlideExecutor service)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/GlideContext.java_public boolean isLoggingRequestOriginsEnabled()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Registry.java_public Registry append(@NonNull Class<Data> dataClass, @NonNull Class<TResource> resourceClass, @NonNull ResourceDecoder<Data, TResource> decoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Registry.java_public Registry append(@NonNull Class<Data> dataClass, @NonNull Encoder<Data> encoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Registry.java_public Registry append(@NonNull Class<Model> modelClass, @NonNull Class<Data> dataClass, @NonNull ModelLoaderFactory<Model, Data> factory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Registry.java_public Registry append(@NonNull Class<TResource> resourceClass, @NonNull ResourceEncoder<TResource> encoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Registry.java_public Registry append(@NonNull String bucket, @NonNull Class<Data> dataClass, @NonNull Class<TResource> resourceClass, @NonNull ResourceDecoder<Data, TResource> decoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Registry.java_public Registry prepend(@NonNull Class<Data> dataClass, @NonNull Class<TResource> resourceClass, @NonNull ResourceDecoder<Data, TResource> decoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Registry.java_public Registry prepend(@NonNull Class<Data> dataClass, @NonNull Encoder<Data> encoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Registry.java_public Registry prepend(@NonNull Class<Model> modelClass, @NonNull Class<Data> dataClass, @NonNull ModelLoaderFactory<Model, Data> factory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Registry.java_public Registry prepend(@NonNull Class<TResource> resourceClass, @NonNull ResourceEncoder<TResource> encoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Registry.java_public Registry prepend(@NonNull String bucket, @NonNull Class<Data> dataClass, @NonNull Class<TResource> resourceClass, @NonNull ResourceDecoder<Data, TResource> decoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Registry.java_public Registry register(@NonNull Class<Data> dataClass, @NonNull Encoder<Data> encoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Registry.java_public Registry register(@NonNull Class<TResource> resourceClass, @NonNull Class<Transcode> transcodeClass, @NonNull ResourceTranscoder<TResource, Transcode> transcoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Registry.java_public Registry register(@NonNull Class<TResource> resourceClass, @NonNull ResourceEncoder<TResource> encoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/Registry.java_public Registry replace(@NonNull Class<Model> modelClass, @NonNull Class<Data> dataClass, @NonNull ModelLoaderFactory<? extends Model, ? extends Data> factory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public FutureTarget<File> downloadOnly(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public FutureTarget<TranscodeType> into(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public FutureTarget<TranscodeType> submit(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> addListener(@Nullable RequestListener<TranscodeType> requestListener)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> clone()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> error(@Nullable RequestBuilder<TranscodeType> errorBuilder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> load(@Nullable File file)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> load(@Nullable String string)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> load(@Nullable URL url)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> load(@Nullable Uri uri)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> load(@RawRes @DrawableRes @Nullable Integer resourceId)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> thumbnail(@Nullable RequestBuilder<TranscodeType> thumbnailRequest)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> thumbnail(@Nullable RequestBuilder<TranscodeType>... thumbnails)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> thumbnail(float sizeMultiplier)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public Target<TranscodeType> preload()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public Target<TranscodeType> preload(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public ViewTarget<ImageView, TranscodeType> into(@NonNull ImageView view)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public Y downloadOnly(@NonNull Y target)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestManager.java_public RequestBuilder<Drawable> asDrawable()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestManager.java_public RequestBuilder<File> asFile()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestManager.java_public RequestBuilder<File> downloadOnly()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestManager.java_public RequestBuilder<GifDrawable> asGif()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestManager.java_public RequestBuilder<ResourceType> as(@NonNull Class<ResourceType> resourceClass)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/RequestManager.java_public void clear(@NonNull View view)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/TransitionOptions.java_public final CHILD transition(@NonNull TransitionFactory<? super TranscodeType> transitionFactory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/TransitionOptions.java_public final CHILD transition(@NonNull ViewPropertyTransition.Animator animator)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/TransitionOptions.java_public final CHILD transition(int viewAnimationId)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/HttpException.java_public int getStatusCode()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/ImageHeaderParser.java_ int getOrientation(@NonNull InputStream is, @NonNull ArrayPool byteArrayPool)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/Key.java_ boolean equals(Object o)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/Key.java_ int hashCode()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/Key.java_ void updateDiskCacheKey(@NonNull MessageDigest messageDigest)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/Option.java_public static Option<T> memory(@NonNull String key)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/Option.java_public static Option<T> memory(@NonNull String key, @NonNull T defaultValue)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/Option.java_public void update(@NonNull T value, @NonNull MessageDigest messageDigest)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/ResourceDecoder.java_ Resource<Z> decode(@NonNull T source, int width, int height, @NonNull Options options)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/Transformation.java_ Resource<T> transform(@NonNull Context context, @NonNull Resource<T> resource, int outWidth, int outHeight)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/data/AssetPathFetcher.java_protected abstract T loadResource(AssetManager assetManager, String path)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/data/DataFetcher.java_ Class<T> getDataClass()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/data/DataFetcher.java_ DataSource getDataSource()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/data/DataFetcher.java_ void cancel()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/data/DataFetcher.java_ void cleanup()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/data/DataFetcher.java_ void loadData(@NonNull Priority priority, @NonNull DataCallback<? super T> callback)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/data/DataRewinder.java_ void cleanup()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/data/LocalUriFetcher.java_protected abstract void close(T data)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/DataFetcherGenerator.java_ boolean startNext()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/DataFetcherGenerator.java_ void cancel()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java_ void release(boolean isRemovedFromQueue)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java_private void onLoadFailed()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/DiskCacheStrategy.java_public abstract boolean decodeCachedData()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/DiskCacheStrategy.java_public abstract boolean decodeCachedResource()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/DiskCacheStrategy.java_public abstract boolean isResourceCacheable(boolean isFromAlternateCacheKey, DataSource dataSource, EncodeStrategy encodeStrategy)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/GlideException.java_public Exception getOrigin()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/GlideException.java_public List<Throwable> getCauses()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/Initializable.java_ void initialize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/Resource.java_ Class<Z> getResourceClass()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/Resource.java_ Z get()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/Resource.java_ void recycle()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayAdapterInterface.java_ String getTag()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayAdapterInterface.java_ T newArray(int length)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayAdapterInterface.java_ int getArrayLength(T array)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayAdapterInterface.java_ int getElementSizeInBytes()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayPool.java_ void clearMemory()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayPool.java_ void put(T array)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayPool.java_ void put(T array, Class<T> arrayClass)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ Bitmap get(int width, int height, Bitmap.Config config)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ Bitmap getDirty(int width, int height, Bitmap.Config config)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ long getMaxSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ void clearMemory()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ void put(Bitmap bitmap)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ void setSizeMultiplier(float sizeMultiplier)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ void trimMemory(int level)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/cache/DiskCache.java_ File get(Key key)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/cache/DiskCache.java_ void clear()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/cache/DiskCache.java_ void put(Key key, Writer writer)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/cache/DiskLruCacheWrapper.java_protected DiskLruCacheWrapper(File directory, long maxSize)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/cache/DiskLruCacheWrapper.java_public static DiskCache create(File directory, long maxSize)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/cache/DiskLruCacheWrapper.java_public static synchronized DiskCache get(File directory, long maxSize)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCache.java_ Resource<?> put(@NonNull Key key, @Nullable Resource<?> resource)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCache.java_ long getCurrentSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCache.java_ long getMaxSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCache.java_ void clearMemory()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCache.java_ void setSizeMultiplier(float multiplier)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCache.java_ void trimMemory(int level)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/cache/MemorySizeCalculator.java_public int getArrayPoolSizeInBytes()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/cache/MemorySizeCalculator.java_public int getBitmapPoolSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/cache/MemorySizeCalculator.java_public int getMemoryCacheSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/executor/GlideExecutor.java_public static GlideExecutor newDiskCacheExecutor()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/executor/GlideExecutor.java_public static GlideExecutor newSourceExecutor()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/executor/RuntimeCompat.java_ static int availableProcessors()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillType.java_ Bitmap.Config getConfig()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillType.java_ PreFillType(int width, int height, Bitmap.Config config, int weight)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillType.java_ int getHeight()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillType.java_ int getWeight()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillType.java_ int getWidth()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/model/GlideUrl.java_public Map<String, String> getHeaders()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/model/Headers.java_ Map<String, String> getHeaders()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/model/Model.java_ boolean isEquivalentTo(@Nullable Object other)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/model/ModelCache.java_public B get(A model, int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/model/ModelCache.java_public void clear()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/model/ModelCache.java_public void put(A model, int width, int height, B value)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/model/ModelLoader.java_ LoadData<Data> buildLoadData(@NonNull Model model, int width, int height, @NonNull Options options)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/model/ModelLoader.java_ boolean handles(@NonNull Model model)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/model/ModelLoaderFactory.java_ ModelLoader<T, Y> build(@NonNull MultiModelLoaderFactory multiFactory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/model/ModelLoaderFactory.java_ void teardown()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/model/stream/BaseGlideUrlLoader.java_protected abstract String getUrl(Model model, int width, int height, Options options)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapDrawableDecoder.java_public BitmapDrawableDecoder(Resources resources, @SuppressWarnings(\"unused\") BitmapPool bitmapPool, ResourceDecoder<DataType, Bitmap> decoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapEncoder.java_public BitmapEncoder()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapResource.java_public static BitmapResource obtain(@Nullable Bitmap bitmap, @NonNull BitmapPool bitmapPool)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapTransformation.java_protected abstract Bitmap transform(@NonNull BitmapPool pool, @NonNull Bitmap toTransform, int outWidth, int outHeight)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapTransitionOptions.java_public BitmapTransitionOptions crossFade(int duration)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapTransitionOptions.java_public BitmapTransitionOptions transitionUsing(@NonNull TransitionFactory<Drawable> drawableCrossFadeFactory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapTransitionOptions.java_public static BitmapTransitionOptions withWrapped(@NonNull TransitionFactory<Drawable> drawableCrossFadeFactory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser.java_private int getOrientation(Reader reader, ArrayPool byteArrayPool)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/bitmap/DownsampleStrategy.java_public abstract SampleSizeRounding getSampleSizeRounding(int sourceWidth, int sourceHeight, int requestedWidth, int requestedHeight)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/bitmap/DownsampleStrategy.java_public abstract float getScaleFactor(int sourceWidth, int sourceHeight, int requestedWidth, int requestedHeight)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream.java_public synchronized long skip(long byteCount)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/bitmap/Rotate.java_public Rotate(int degreesToRotate)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/bitmap/TransformationUtils.java_public static Bitmap roundedCorners(@NonNull BitmapPool pool, @NonNull Bitmap inBitmap, @SuppressWarnings(\"unused\") int width, @SuppressWarnings(\"unused\") int height, int roundingRadius)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/bitmap/TransformationUtils.java_public static void setAlpha(Bitmap inBitmap, Bitmap outBitmap)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/bytes/BytesResource.java_public byte[] get()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/drawable/DrawableDecoderCompat.java_public static Drawable getDrawable(Context ourContext, @DrawableRes int id, @Nullable Theme theme)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/drawable/DrawableDecoderCompat.java_public static Drawable getDrawable(Context ourContext, Context targetContext, @DrawableRes int id)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/drawable/DrawableTransitionOptions.java_public DrawableTransitionOptions crossFade(int duration)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/gif/GifDrawable.java_public GifDrawable(Context context, GifDecoder gifDecoder, @SuppressWarnings(\"unused\") BitmapPool bitmapPool, Transformation<Bitmap> frameTransformation, int targetFrameWidth, int targetFrameHeight, Bitmap firstFrame)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/gif/GifDrawable.java_public GifDrawable(Context context, GifDecoder gifDecoder, Transformation<Bitmap> frameTransformation, int targetFrameWidth, int targetFrameHeight, Bitmap firstFrame)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/gif/GifDrawable.java_public void recycle()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/gif/GifDrawable.java_public void registerAnimationCallback(@NonNull AnimationCallback animationCallback)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/transcode/BitmapDrawableTranscoder.java_public BitmapDrawableTranscoder(@NonNull Resources resources, @SuppressWarnings(\"unused\") BitmapPool bitmapPool)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/transcode/TranscoderRegistry.java_public synchronized ResourceTranscoder<Z, R> get(@NonNull Class<Z> resourceClass, @NonNull Class<R> transcodedClass)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/load/resource/transcode/TranscoderRegistry.java_public synchronized void register(@NonNull Class<Z> decodedClass, @NonNull Class<R> transcodedClass, @NonNull ResourceTranscoder<Z, R> transcoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/manager/ActivityFragmentLifecycle.java_public void addListener(@NonNull LifecycleListener listener)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/manager/Lifecycle.java_ void addListener(@NonNull LifecycleListener listener)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/manager/RequestManagerFragment.java_private boolean isDescendant(@NonNull Fragment fragment)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/manager/RequestManagerFragment.java_public RequestManager getRequestManager()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/manager/RequestManagerFragment.java_public RequestManagerTreeNode getRequestManagerTreeNode()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/manager/RequestManagerTreeNode.java_ Set<RequestManager> getDescendants()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/manager/RequestTracker.java_public boolean isPaused()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/manager/RequestTracker.java_public void pauseRequests()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/manager/RequestTracker.java_public void restartRequests()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/manager/RequestTracker.java_public void resumeRequests()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/manager/RequestTracker.java_public void runRequest(@NonNull Request request)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/manager/SupportRequestManagerFragment.java_private boolean isDescendant(@NonNull Fragment fragment)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/manager/SupportRequestManagerFragment.java_public RequestManager getRequestManager()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/manager/SupportRequestManagerFragment.java_public RequestManagerTreeNode getRequestManagerTreeNode()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/module/AppliesOptions.java_ void applyOptions(@NonNull Context context, @NonNull GlideBuilder builder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/module/RegistersComponents.java_ void registerComponents(@NonNull Context context, @NonNull Glide glide, @NonNull Registry registry)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/provider/LoadPathCache.java_public boolean isEmptyLoadPath(@Nullable LoadPath<?, ?, ?> path)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T apply(@NonNull BaseRequestOptions<?> o)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T centerCrop()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T centerInside()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T clone()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T disallowHardwareConfig()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T diskCacheStrategy(@NonNull DiskCacheStrategy strategy)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T dontTransform()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T downsample(@NonNull DownsampleStrategy strategy)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T encodeFormat(@NonNull Bitmap.CompressFormat format)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T encodeQuality(@IntRange(from = 0, to = 100) int quality)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T fallback(@DrawableRes int resourceId)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T fallback(@Nullable Drawable drawable)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T fitCenter()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T frame(@IntRange(from = 0) long frameTimeMicros)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T lock()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T optionalCenterInside()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T optionalFitCenter()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T optionalTransform(@NonNull Class<Y> resourceClass, @NonNull Transformation<Y> transformation)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T override(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T placeholder(@DrawableRes int resourceId)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T signature(@NonNull Key signature)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T sizeMultiplier(@FloatRange(from = 0, to = 1) float sizeMultiplier)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T skipMemoryCache(boolean skip)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T theme(@Nullable Resources.Theme theme)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T timeout(@IntRange(from = 0) int timeoutMs)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T useAnimationPool(boolean flag)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T useUnlimitedSourceGeneratorsPool(boolean flag)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/Request.java_ boolean isCleared()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/Request.java_ boolean isComplete()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/Request.java_ boolean isEquivalentTo(Request other)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/Request.java_ boolean isFailed()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/Request.java_ boolean isRunning()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/Request.java_ void begin()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/Request.java_ void recycle()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestCoordinator.java_ boolean canNotifyCleared(Request request)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestCoordinator.java_ void onRequestSuccess(Request request)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestFutureTarget.java_public synchronized void onLoadFailed(@Nullable Drawable errorDrawable)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestFutureTarget.java_public void getSize(@NonNull SizeReadyCallback cb)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestFutureTarget.java_public void onLoadCleared(@Nullable Drawable placeholder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestFutureTarget.java_public void onLoadStarted(@Nullable Drawable placeholder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestListener.java_ boolean onLoadFailed(@Nullable GlideException e, Object model, Target<R> target, boolean isFirstResource)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions bitmapTransform(@NonNull Transformation<Bitmap> transformation)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions decodeTypeOf(@NonNull Class<?> resourceClass)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions downsampleOf(@NonNull DownsampleStrategy strategy)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions encodeQualityOf(@IntRange(from = 0, to = 100) int quality)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions errorOf(@DrawableRes int errorId)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions errorOf(@Nullable Drawable errorDrawable)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions formatOf(@NonNull DecodeFormat format)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions frameOf(@IntRange(from = 0) long frameTimeMicros)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions option(@NonNull Option<T> option, @NonNull T value)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions overrideOf(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions placeholderOf(@DrawableRes int placeholderId)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions placeholderOf(@Nullable Drawable placeholder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions signatureOf(@NonNull Key signature)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions sizeMultiplierOf(@FloatRange(from = 0, to = 1) float sizeMultiplier)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions skipMemoryCacheOf(boolean skipMemoryCache)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions timeoutOf(@IntRange(from = 0) int timeout)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/SingleRequest.java_private void cancel()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/SingleRequest.java_public synchronized void onSizeReady(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/ThumbnailRequestCoordinator.java_public boolean isComplete()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/ThumbnailRequestCoordinator.java_public boolean isFailed()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/ThumbnailRequestCoordinator.java_public boolean isRunning()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/ThumbnailRequestCoordinator.java_public void begin()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/target/AppWidgetTarget.java_private void update()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/target/BitmapThumbnailImageViewTarget.java_public BitmapThumbnailImageViewTarget(ImageView view, boolean waitForLayout)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/target/CustomViewTarget.java_protected abstract void onResourceCleared(@Nullable Drawable placeholder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/target/DrawableThumbnailImageViewTarget.java_public DrawableThumbnailImageViewTarget(ImageView view, boolean waitForLayout)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/target/ImageViewTarget.java_public ImageViewTarget(ImageView view, boolean waitForLayout)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/target/NotificationTarget.java_private void update()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/target/NotificationTarget.java_public NotificationTarget(Context context, int width, int height, int viewId, RemoteViews remoteViews, Notification notification, int notificationId, String notificationTag)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/target/PreloadTarget.java_public static PreloadTarget<Z> obtain(RequestManager requestManager, int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/target/SizeReadyCallback.java_ void onSizeReady(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/target/Target.java_ Request getRequest()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/target/Target.java_ void onLoadStarted(@Nullable Drawable placeholder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/target/Target.java_ void setRequest(@Nullable Request request)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/target/ThumbnailImageViewTarget.java_public ThumbnailImageViewTarget(ImageView view, boolean waitForLayout)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/target/ViewTarget.java_public Request getRequest()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/target/ViewTarget.java_public T getView()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/target/ViewTarget.java_public ViewTarget(@NonNull T view)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/target/ViewTarget.java_public ViewTarget(@NonNull T view, boolean waitForLayout)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/target/ViewTarget.java_public final ViewTarget<T, Z> waitForLayout()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/transition/BitmapContainerTransitionFactory.java_protected abstract Bitmap getBitmap(R current)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/transition/NoTransition.java_public boolean transition(Object current, ViewAdapter adapter)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/transition/NoTransition.java_public static Transition<R> get()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/transition/NoTransition.java_public static TransitionFactory<R> getFactory()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/transition/Transition.java_ boolean transition(R current, ViewAdapter adapter)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/transition/TransitionFactory.java_ Transition<R> build(DataSource dataSource, boolean isFirstResource)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/transition/ViewAnimationFactory.java_public Transition<R> build(DataSource dataSource, boolean isFirstResource)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/request/transition/ViewTransition.java_public boolean transition(R current, ViewAdapter adapter)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/signature/MediaStoreSignature.java_public MediaStoreSignature(@Nullable String mimeType, long dateModified, int orientation)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/LruCache.java_protected synchronized int getCount()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/LruCache.java_protected void onItemEvicted(@NonNull T key, @Nullable Y item)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/LruCache.java_public LruCache(long size)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/LruCache.java_public synchronized Y put(@NonNull T key, @Nullable Y item)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/LruCache.java_public synchronized long getCurrentSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/LruCache.java_public synchronized long getMaxSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/LruCache.java_public void clearMemory()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/Util.java_public static Queue<T> createQueue(int size)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/Util.java_public static String sha256BytesToHex(@NonNull byte[] bytes)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/Util.java_public static boolean isOnBackgroundThread()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/Util.java_public static boolean isOnMainThread()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/Util.java_public static boolean isValidDimensions(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/Util.java_public static int getSize(@NonNull Bitmap bitmap)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/Util.java_public static void assertBackgroundThread()": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/ViewPreloadSizeProvider.java_public void setView(@NonNull View view)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/pool/FactoryPools.java_public static Pool<T> simple(int size, @NonNull Factory<T> factory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/pool/FactoryPools.java_public static Pool<T> threadSafe(int size, @NonNull Factory<T> factory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/pool/StateVerifier.java_ abstract void setRecycled(boolean isRecycled)": {
+        "Code": false,
+        "Doc": true
+    },
+    "0dcc33fe6_library/src/main/java/com/bumptech/glide/util/pool/StateVerifier.java_public static StateVerifier newInstance()": {
+        "Code": false,
+        "Doc": true
+    },
+    "2f561534c_library/src/main/java/com/bumptech/glide/request/Request.java_ void pause()": {
+        "Code": false,
+        "Doc": true
+    },
+    "3a7060777_library/src/main/java/com/bumptech/glide/request/target/CustomViewTarget.java_protected abstract void onResourceCleared(@Nullable Drawable placeholder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "3a7060777_library/src/main/java/com/bumptech/glide/request/target/Target.java_ void onLoadCleared(@Nullable Drawable placeholder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "3a7060777_library/src/main/java/com/bumptech/glide/request/target/Target.java_ void onLoadFailed(@Nullable Drawable errorDrawable)": {
+        "Code": false,
+        "Doc": true
+    },
+    "4c8a7b591_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> error(@Nullable RequestBuilder<TranscodeType> errorBuilder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "52e177a56_library/src/main/java/com/bumptech/glide/request/RequestListener.java_ boolean onResourceReady(R resource, Object model, Target<R> target, DataSource dataSource, boolean isFirstResource)": {
+        "Code": false,
+        "Doc": true
+    },
+    "5cccdfba8_library/src/main/java/com/bumptech/glide/request/ResourceCallback.java_ Object getLock()": {
+        "Code": false,
+        "Doc": true
+    },
+    "67825410a_library/src/main/java/com/bumptech/glide/request/RequestListener.java_ boolean onResourceReady(R resource, Object model, Target<R> target, DataSource dataSource, boolean isFirstResource)": {
+        "Code": false,
+        "Doc": true
+    },
+    "690f81526_library/src/main/java/com/bumptech/glide/request/Request.java_ boolean isAnyResourceSet()": {
+        "Code": false,
+        "Doc": true
+    },
+    "690f81526_library/src/main/java/com/bumptech/glide/request/RequestCoordinator.java_ RequestCoordinator getRoot()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8a26a6b8d_library/src/main/java/com/bumptech/glide/load/resource/bitmap/TransformationUtils.java_public static Bitmap roundedCorners(@NonNull BitmapPool pool, @NonNull Bitmap inBitmap, int roundingRadius)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8a26a6b8d_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T transforms(@NonNull Transformation<Bitmap>... transformations)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f1ea5c07_library/src/main/java/com/bumptech/glide/request/RequestListener.java_ boolean onResourceReady(R resource, Object model, Target<R> target, DataSource dataSource, boolean isFirstResource)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_annotation/compiler/src/main/java/com/bumptech/glide/annotation/compiler/ProcessorUtil.java_private TypeName getJavadocSafeName(Element element)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_annotation/compiler/src/main/java/com/bumptech/glide/annotation/compiler/RequestOptionsGenerator.java_private static String getInstanceMethodNameFromStaticMethodName(String staticMethodName)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_integration/recyclerview/src/main/java/com/bumptech/glide/integration/recyclerview/RecyclerViewPreloader.java_public RecyclerViewPreloader(@NonNull Fragment fragment, @NonNull PreloadModelProvider<T> preloadModelProvider, @NonNull PreloadSizeProvider<T> preloadDimensionProvider, int maxPreload)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_integration/recyclerview/src/main/java/com/bumptech/glide/integration/recyclerview/RecyclerViewPreloader.java_public RecyclerViewPreloader(@NonNull FragmentActivity fragmentActivity, @NonNull PreloadModelProvider<T> preloadModelProvider, @NonNull PreloadSizeProvider<T> preloadDimensionProvider, int maxPreload)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/GeneratedAppGlideModule.java_ abstract Set<Class<?>> getExcludedModuleClasses()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Glide.java_public BitmapPool getBitmapPool()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Glide.java_public Context getContext()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Glide.java_public MemoryCategory setMemoryCategory(@NonNull MemoryCategory memoryCategory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Glide.java_public RequestManagerRetriever getRequestManagerRetriever()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Glide.java_public static File getPhotoCacheDir(@NonNull Context context, @NonNull String cacheName)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Glide.java_public static RequestManager with(@NonNull Context context)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Glide.java_public static RequestManager with(@NonNull Fragment fragment)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Glide.java_public static RequestManager with(@NonNull FragmentActivity activity)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Glide.java_public static RequestManager with(@NonNull View view)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Glide.java_public static RequestManager with(@NonNull android.app.Fragment fragment)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Glide.java_public static synchronized void init(Glide glide)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Glide.java_public synchronized void preFillBitmapPool(@NonNull PreFillType.Builder... bitmapAttributeBuilders)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/GlideBuilder.java_public GlideBuilder addGlobalRequestListener(@NonNull RequestListener<Object> listener)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/GlideBuilder.java_public GlideBuilder setArrayPool(@Nullable ArrayPool arrayPool)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/GlideBuilder.java_public GlideBuilder setDefaultRequestOptions(@NonNull RequestOptionsFactory factory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/GlideBuilder.java_public GlideBuilder setLogRequestOrigins(boolean isEnabled)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/GlideBuilder.java_public GlideBuilder setResizeExecutor(@Nullable GlideExecutor service)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/GlideContext.java_public boolean isLoggingRequestOriginsEnabled()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Registry.java_public Registry append(@NonNull Class<Data> dataClass, @NonNull Class<TResource> resourceClass, @NonNull ResourceDecoder<Data, TResource> decoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Registry.java_public Registry append(@NonNull Class<Data> dataClass, @NonNull Encoder<Data> encoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Registry.java_public Registry append(@NonNull Class<Model> modelClass, @NonNull Class<Data> dataClass, @NonNull ModelLoaderFactory<Model, Data> factory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Registry.java_public Registry append(@NonNull Class<TResource> resourceClass, @NonNull ResourceEncoder<TResource> encoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Registry.java_public Registry append(@NonNull String bucket, @NonNull Class<Data> dataClass, @NonNull Class<TResource> resourceClass, @NonNull ResourceDecoder<Data, TResource> decoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Registry.java_public Registry prepend(@NonNull Class<Data> dataClass, @NonNull Class<TResource> resourceClass, @NonNull ResourceDecoder<Data, TResource> decoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Registry.java_public Registry prepend(@NonNull Class<Data> dataClass, @NonNull Encoder<Data> encoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Registry.java_public Registry prepend(@NonNull Class<Model> modelClass, @NonNull Class<Data> dataClass, @NonNull ModelLoaderFactory<Model, Data> factory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Registry.java_public Registry prepend(@NonNull Class<TResource> resourceClass, @NonNull ResourceEncoder<TResource> encoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Registry.java_public Registry prepend(@NonNull String bucket, @NonNull Class<Data> dataClass, @NonNull Class<TResource> resourceClass, @NonNull ResourceDecoder<Data, TResource> decoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Registry.java_public Registry register(@NonNull Class<Data> dataClass, @NonNull Encoder<Data> encoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Registry.java_public Registry register(@NonNull Class<TResource> resourceClass, @NonNull Class<Transcode> transcodeClass, @NonNull ResourceTranscoder<TResource, Transcode> transcoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Registry.java_public Registry register(@NonNull Class<TResource> resourceClass, @NonNull ResourceEncoder<TResource> encoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/Registry.java_public Registry replace(@NonNull Class<Model> modelClass, @NonNull Class<Data> dataClass, @NonNull ModelLoaderFactory<? extends Model, ? extends Data> factory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public FutureTarget<File> downloadOnly(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public FutureTarget<TranscodeType> into(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public FutureTarget<TranscodeType> submit(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> addListener(@Nullable RequestListener<TranscodeType> requestListener)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> clone()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> error(@Nullable RequestBuilder<TranscodeType> errorBuilder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> load(@Nullable File file)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> load(@Nullable String string)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> load(@Nullable URL url)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> load(@Nullable Uri uri)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> load(@RawRes @DrawableRes @Nullable Integer resourceId)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> thumbnail(@Nullable RequestBuilder<TranscodeType> thumbnailRequest)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> thumbnail(@Nullable RequestBuilder<TranscodeType>... thumbnails)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> thumbnail(float sizeMultiplier)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public Target<TranscodeType> preload()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public Target<TranscodeType> preload(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public ViewTarget<ImageView, TranscodeType> into(@NonNull ImageView view)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public Y downloadOnly(@NonNull Y target)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestManager.java_public RequestBuilder<Drawable> asDrawable()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestManager.java_public RequestBuilder<File> asFile()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestManager.java_public RequestBuilder<File> downloadOnly()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestManager.java_public RequestBuilder<GifDrawable> asGif()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestManager.java_public RequestBuilder<ResourceType> as(@NonNull Class<ResourceType> resourceClass)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestManager.java_public synchronized RequestManager applyDefaultRequestOptions(@NonNull RequestOptions requestOptions)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/RequestManager.java_public void clear(@NonNull View view)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/TransitionOptions.java_public final CHILD transition(@NonNull TransitionFactory<? super TranscodeType> transitionFactory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/TransitionOptions.java_public final CHILD transition(@NonNull ViewPropertyTransition.Animator animator)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/TransitionOptions.java_public final CHILD transition(int viewAnimationId)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/HttpException.java_public int getStatusCode()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/ImageHeaderParser.java_ int getOrientation(@NonNull InputStream is, @NonNull ArrayPool byteArrayPool)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/Key.java_ boolean equals(Object o)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/Key.java_ int hashCode()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/Key.java_ void updateDiskCacheKey(@NonNull MessageDigest messageDigest)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/Option.java_public static Option<T> memory(@NonNull String key)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/Option.java_public static Option<T> memory(@NonNull String key, @NonNull T defaultValue)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/Option.java_public void update(@NonNull T value, @NonNull MessageDigest messageDigest)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/ResourceDecoder.java_ Resource<Z> decode(@NonNull T source, int width, int height, @NonNull Options options)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/Transformation.java_ Resource<T> transform(@NonNull Context context, @NonNull Resource<T> resource, int outWidth, int outHeight)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/data/AssetPathFetcher.java_protected abstract T loadResource(AssetManager assetManager, String path)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/data/DataFetcher.java_ Class<T> getDataClass()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/data/DataFetcher.java_ DataSource getDataSource()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/data/DataFetcher.java_ void cancel()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/data/DataFetcher.java_ void cleanup()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/data/DataFetcher.java_ void loadData(@NonNull Priority priority, @NonNull DataCallback<? super T> callback)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/data/DataRewinder.java_ void cleanup()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/data/LocalUriFetcher.java_protected abstract void close(T data)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/DataFetcherGenerator.java_ boolean startNext()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/DataFetcherGenerator.java_ void cancel()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java_ void release(boolean isRemovedFromQueue)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java_private void onLoadFailed()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/DiskCacheStrategy.java_public abstract boolean decodeCachedData()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/DiskCacheStrategy.java_public abstract boolean decodeCachedResource()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/DiskCacheStrategy.java_public abstract boolean isResourceCacheable(boolean isFromAlternateCacheKey, DataSource dataSource, EncodeStrategy encodeStrategy)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/GlideException.java_public Exception getOrigin()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/GlideException.java_public List<Throwable> getCauses()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/Initializable.java_ void initialize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/Resource.java_ Class<Z> getResourceClass()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/Resource.java_ Z get()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/Resource.java_ void recycle()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayAdapterInterface.java_ String getTag()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayAdapterInterface.java_ T newArray(int length)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayAdapterInterface.java_ int getArrayLength(T array)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayAdapterInterface.java_ int getElementSizeInBytes()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayPool.java_ void clearMemory()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayPool.java_ void put(T array)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayPool.java_ void put(T array, Class<T> arrayClass)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ Bitmap get(int width, int height, Bitmap.Config config)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ Bitmap getDirty(int width, int height, Bitmap.Config config)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ long getMaxSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ void clearMemory()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ void put(Bitmap bitmap)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ void setSizeMultiplier(float sizeMultiplier)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ void trimMemory(int level)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/cache/DiskCache.java_ File get(Key key)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/cache/DiskCache.java_ void clear()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/cache/DiskCache.java_ void put(Key key, Writer writer)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/cache/DiskLruCacheWrapper.java_protected DiskLruCacheWrapper(File directory, long maxSize)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/cache/DiskLruCacheWrapper.java_public static DiskCache create(File directory, long maxSize)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/cache/DiskLruCacheWrapper.java_public static synchronized DiskCache get(File directory, long maxSize)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCache.java_ Resource<?> put(@NonNull Key key, @Nullable Resource<?> resource)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCache.java_ long getCurrentSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCache.java_ long getMaxSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCache.java_ void clearMemory()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCache.java_ void setSizeMultiplier(float multiplier)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCache.java_ void trimMemory(int level)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/cache/MemorySizeCalculator.java_public int getArrayPoolSizeInBytes()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/cache/MemorySizeCalculator.java_public int getBitmapPoolSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/cache/MemorySizeCalculator.java_public int getMemoryCacheSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/executor/GlideExecutor.java_public static GlideExecutor newDiskCacheExecutor()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/executor/GlideExecutor.java_public static GlideExecutor newSourceExecutor()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/executor/RuntimeCompat.java_ static int availableProcessors()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillType.java_ Bitmap.Config getConfig()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillType.java_ PreFillType(int width, int height, Bitmap.Config config, int weight)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillType.java_ int getHeight()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillType.java_ int getWeight()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillType.java_ int getWidth()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/model/GlideUrl.java_public Map<String, String> getHeaders()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/model/Headers.java_ Map<String, String> getHeaders()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/model/Model.java_ boolean isEquivalentTo(@Nullable Object other)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/model/ModelCache.java_public B get(A model, int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/model/ModelCache.java_public void clear()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/model/ModelCache.java_public void put(A model, int width, int height, B value)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/model/ModelLoader.java_ LoadData<Data> buildLoadData(@NonNull Model model, int width, int height, @NonNull Options options)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/model/ModelLoader.java_ boolean handles(@NonNull Model model)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/model/ModelLoaderFactory.java_ ModelLoader<T, Y> build(@NonNull MultiModelLoaderFactory multiFactory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/model/ModelLoaderFactory.java_ void teardown()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/model/stream/BaseGlideUrlLoader.java_protected abstract String getUrl(Model model, int width, int height, Options options)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapDrawableDecoder.java_public BitmapDrawableDecoder(Resources resources, @SuppressWarnings(\"unused\") BitmapPool bitmapPool, ResourceDecoder<DataType, Bitmap> decoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapEncoder.java_public BitmapEncoder()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapResource.java_public static BitmapResource obtain(@Nullable Bitmap bitmap, @NonNull BitmapPool bitmapPool)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapTransformation.java_protected abstract Bitmap transform(@NonNull BitmapPool pool, @NonNull Bitmap toTransform, int outWidth, int outHeight)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapTransitionOptions.java_public BitmapTransitionOptions crossFade(int duration)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapTransitionOptions.java_public BitmapTransitionOptions transitionUsing(@NonNull TransitionFactory<Drawable> drawableCrossFadeFactory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapTransitionOptions.java_public static BitmapTransitionOptions withWrapped(@NonNull TransitionFactory<Drawable> drawableCrossFadeFactory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser.java_private int getOrientation(Reader reader, ArrayPool byteArrayPool)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/bitmap/DownsampleStrategy.java_public abstract SampleSizeRounding getSampleSizeRounding(int sourceWidth, int sourceHeight, int requestedWidth, int requestedHeight)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/bitmap/DownsampleStrategy.java_public abstract float getScaleFactor(int sourceWidth, int sourceHeight, int requestedWidth, int requestedHeight)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream.java_public synchronized long skip(long byteCount)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/bitmap/Rotate.java_public Rotate(int degreesToRotate)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/bitmap/TransformationUtils.java_public static Bitmap roundedCorners(@NonNull BitmapPool pool, @NonNull Bitmap inBitmap, @SuppressWarnings(\"unused\") int width, @SuppressWarnings(\"unused\") int height, int roundingRadius)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/bitmap/TransformationUtils.java_public static void setAlpha(Bitmap inBitmap, Bitmap outBitmap)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/bytes/BytesResource.java_public byte[] get()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/drawable/DrawableDecoderCompat.java_public static Drawable getDrawable(Context ourContext, @DrawableRes int id, @Nullable Theme theme)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/drawable/DrawableDecoderCompat.java_public static Drawable getDrawable(Context ourContext, Context targetContext, @DrawableRes int id)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/drawable/DrawableTransitionOptions.java_public DrawableTransitionOptions crossFade(int duration)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/gif/GifDrawable.java_public GifDrawable(Context context, GifDecoder gifDecoder, @SuppressWarnings(\"unused\") BitmapPool bitmapPool, Transformation<Bitmap> frameTransformation, int targetFrameWidth, int targetFrameHeight, Bitmap firstFrame)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/gif/GifDrawable.java_public GifDrawable(Context context, GifDecoder gifDecoder, Transformation<Bitmap> frameTransformation, int targetFrameWidth, int targetFrameHeight, Bitmap firstFrame)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/gif/GifDrawable.java_public void recycle()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/gif/GifDrawable.java_public void registerAnimationCallback(@NonNull AnimationCallback animationCallback)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/transcode/BitmapDrawableTranscoder.java_public BitmapDrawableTranscoder(@NonNull Resources resources, @SuppressWarnings(\"unused\") BitmapPool bitmapPool)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/transcode/TranscoderRegistry.java_public synchronized ResourceTranscoder<Z, R> get(@NonNull Class<Z> resourceClass, @NonNull Class<R> transcodedClass)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/load/resource/transcode/TranscoderRegistry.java_public synchronized void register(@NonNull Class<Z> decodedClass, @NonNull Class<R> transcodedClass, @NonNull ResourceTranscoder<Z, R> transcoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/manager/ActivityFragmentLifecycle.java_public void addListener(@NonNull LifecycleListener listener)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/manager/Lifecycle.java_ void addListener(@NonNull LifecycleListener listener)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/manager/RequestManagerFragment.java_private boolean isDescendant(@NonNull Fragment fragment)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/manager/RequestManagerFragment.java_public RequestManager getRequestManager()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/manager/RequestManagerFragment.java_public RequestManagerTreeNode getRequestManagerTreeNode()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/manager/RequestManagerTreeNode.java_ Set<RequestManager> getDescendants()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/manager/RequestTracker.java_public boolean isPaused()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/manager/RequestTracker.java_public void pauseRequests()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/manager/RequestTracker.java_public void restartRequests()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/manager/RequestTracker.java_public void resumeRequests()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/manager/RequestTracker.java_public void runRequest(@NonNull Request request)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/manager/SupportRequestManagerFragment.java_private boolean isDescendant(@NonNull Fragment fragment)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/manager/SupportRequestManagerFragment.java_public RequestManager getRequestManager()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/manager/SupportRequestManagerFragment.java_public RequestManagerTreeNode getRequestManagerTreeNode()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/module/AppliesOptions.java_ void applyOptions(@NonNull Context context, @NonNull GlideBuilder builder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/module/RegistersComponents.java_ void registerComponents(@NonNull Context context, @NonNull Glide glide, @NonNull Registry registry)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/provider/LoadPathCache.java_public boolean isEmptyLoadPath(@Nullable LoadPath<?, ?, ?> path)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T apply(@NonNull BaseRequestOptions<?> o)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T centerCrop()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T centerInside()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T clone()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T disallowHardwareConfig()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T diskCacheStrategy(@NonNull DiskCacheStrategy strategy)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T dontTransform()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T downsample(@NonNull DownsampleStrategy strategy)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T encodeFormat(@NonNull Bitmap.CompressFormat format)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T encodeQuality(@IntRange(from = 0, to = 100) int quality)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T fallback(@DrawableRes int resourceId)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T fallback(@Nullable Drawable drawable)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T fitCenter()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T frame(@IntRange(from = 0) long frameTimeMicros)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T lock()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T onlyRetrieveFromCache(boolean flag)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T optionalCenterInside()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T optionalFitCenter()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T optionalTransform(@NonNull Class<Y> resourceClass, @NonNull Transformation<Y> transformation)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T override(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T placeholder(@DrawableRes int resourceId)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T signature(@NonNull Key signature)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T sizeMultiplier(@FloatRange(from = 0, to = 1) float sizeMultiplier)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T skipMemoryCache(boolean skip)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T theme(@Nullable Resources.Theme theme)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T timeout(@IntRange(from = 0) int timeoutMs)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T useAnimationPool(boolean flag)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T useUnlimitedSourceGeneratorsPool(boolean flag)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/Request.java_ boolean isCleared()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/Request.java_ boolean isComplete()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/Request.java_ boolean isEquivalentTo(Request other)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/Request.java_ boolean isFailed()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/Request.java_ boolean isRunning()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/Request.java_ void begin()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/Request.java_ void recycle()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestCoordinator.java_ boolean canNotifyCleared(Request request)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestCoordinator.java_ void onRequestSuccess(Request request)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestFutureTarget.java_public synchronized void onLoadFailed(@Nullable Drawable errorDrawable)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestFutureTarget.java_public void getSize(@NonNull SizeReadyCallback cb)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestFutureTarget.java_public void onLoadCleared(@Nullable Drawable placeholder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestFutureTarget.java_public void onLoadStarted(@Nullable Drawable placeholder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestListener.java_ boolean onLoadFailed(@Nullable GlideException e, Object model, Target<R> target, boolean isFirstResource)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions bitmapTransform(@NonNull Transformation<Bitmap> transformation)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions decodeTypeOf(@NonNull Class<?> resourceClass)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions downsampleOf(@NonNull DownsampleStrategy strategy)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions encodeQualityOf(@IntRange(from = 0, to = 100) int quality)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions errorOf(@DrawableRes int errorId)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions errorOf(@Nullable Drawable errorDrawable)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions formatOf(@NonNull DecodeFormat format)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions frameOf(@IntRange(from = 0) long frameTimeMicros)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions option(@NonNull Option<T> option, @NonNull T value)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions overrideOf(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions placeholderOf(@DrawableRes int placeholderId)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions placeholderOf(@Nullable Drawable placeholder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions signatureOf(@NonNull Key signature)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions sizeMultiplierOf(@FloatRange(from = 0, to = 1) float sizeMultiplier)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions skipMemoryCacheOf(boolean skipMemoryCache)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions timeoutOf(@IntRange(from = 0) int timeout)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/SingleRequest.java_private void cancel()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/SingleRequest.java_public synchronized void onSizeReady(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/ThumbnailRequestCoordinator.java_public boolean isComplete()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/ThumbnailRequestCoordinator.java_public boolean isFailed()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/ThumbnailRequestCoordinator.java_public boolean isRunning()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/ThumbnailRequestCoordinator.java_public void begin()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/target/AppWidgetTarget.java_private void update()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/target/BitmapThumbnailImageViewTarget.java_public BitmapThumbnailImageViewTarget(ImageView view, boolean waitForLayout)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/target/CustomViewTarget.java_protected abstract void onResourceCleared(@Nullable Drawable placeholder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/target/DrawableThumbnailImageViewTarget.java_public DrawableThumbnailImageViewTarget(ImageView view, boolean waitForLayout)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/target/ImageViewTarget.java_public ImageViewTarget(ImageView view, boolean waitForLayout)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/target/NotificationTarget.java_private void update()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/target/NotificationTarget.java_public NotificationTarget(Context context, int width, int height, int viewId, RemoteViews remoteViews, Notification notification, int notificationId, String notificationTag)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/target/PreloadTarget.java_public static PreloadTarget<Z> obtain(RequestManager requestManager, int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/target/SizeReadyCallback.java_ void onSizeReady(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/target/Target.java_ Request getRequest()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/target/Target.java_ void onLoadStarted(@Nullable Drawable placeholder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/target/Target.java_ void setRequest(@Nullable Request request)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/target/ThumbnailImageViewTarget.java_public ThumbnailImageViewTarget(ImageView view, boolean waitForLayout)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/target/ViewTarget.java_public Request getRequest()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/target/ViewTarget.java_public T getView()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/target/ViewTarget.java_public ViewTarget(@NonNull T view)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/target/ViewTarget.java_public ViewTarget(@NonNull T view, boolean waitForLayout)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/target/ViewTarget.java_public final ViewTarget<T, Z> waitForLayout()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/transition/BitmapContainerTransitionFactory.java_protected abstract Bitmap getBitmap(R current)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/transition/NoTransition.java_public boolean transition(Object current, ViewAdapter adapter)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/transition/NoTransition.java_public static Transition<R> get()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/transition/NoTransition.java_public static TransitionFactory<R> getFactory()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/transition/Transition.java_ boolean transition(R current, ViewAdapter adapter)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/transition/TransitionFactory.java_ Transition<R> build(DataSource dataSource, boolean isFirstResource)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/transition/ViewAnimationFactory.java_public Transition<R> build(DataSource dataSource, boolean isFirstResource)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/request/transition/ViewTransition.java_public boolean transition(R current, ViewAdapter adapter)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/signature/MediaStoreSignature.java_public MediaStoreSignature(@Nullable String mimeType, long dateModified, int orientation)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/LruCache.java_protected synchronized int getCount()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/LruCache.java_protected void onItemEvicted(@NonNull T key, @Nullable Y item)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/LruCache.java_public LruCache(long size)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/LruCache.java_public synchronized Y put(@NonNull T key, @Nullable Y item)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/LruCache.java_public synchronized long getCurrentSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/LruCache.java_public synchronized long getMaxSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/LruCache.java_public void clearMemory()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/Util.java_public static Queue<T> createQueue(int size)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/Util.java_public static String sha256BytesToHex(@NonNull byte[] bytes)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/Util.java_public static boolean isOnBackgroundThread()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/Util.java_public static boolean isOnMainThread()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/Util.java_public static boolean isValidDimensions(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/Util.java_public static int getSize(@NonNull Bitmap bitmap)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/Util.java_public static void assertBackgroundThread()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/ViewPreloadSizeProvider.java_public void setView(@NonNull View view)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/pool/FactoryPools.java_public static Pool<T> simple(int size, @NonNull Factory<T> factory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/pool/FactoryPools.java_public static Pool<T> threadSafe(int size, @NonNull Factory<T> factory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/pool/StateVerifier.java_ abstract void setRecycled(boolean isRecycled)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_library/src/main/java/com/bumptech/glide/util/pool/StateVerifier.java_public static StateVerifier newInstance()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifDecoder.java_ int getLoopCount()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifDecoder.java_ int getNetscapeLoopCount()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifDecoder.java_ int getNextDelay()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifDecoder.java_ int getStatus()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifDecoder.java_ int getTotalIterationCount()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifDecoder.java_ void advance()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifDecoder.java_ void resetFrameIndex()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifDecoder.java_ void setDefaultBitmapConfig(@NonNull Bitmap.Config format)": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeader.java_public int getStatus()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private int read()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private int readShort()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private void readBitmap()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private void readContents()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private void readGraphicControlExt()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private void readHeader()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private void readLSD()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private void readNetscapeExt()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private void skip()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private void skipImageData()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_public boolean isAnimated()": {
+        "Code": false,
+        "Doc": true
+    },
+    "8f8a16008_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/StandardGifDecoder.java_private int readByte()": {
+        "Code": false,
+        "Doc": true
+    },
+    "9089752d2_library/src/main/java/com/bumptech/glide/request/Request.java_ boolean isCleared()": {
+        "Code": false,
+        "Doc": true
+    },
+    "a03ca14f4_library/src/main/java/com/bumptech/glide/GlideBuilder.java_public GlideBuilder setDefaultRequestOptions(@Nullable RequestOptions requestOptions)": {
+        "Code": false,
+        "Doc": true
+    },
+    "a03ca14f4_library/src/main/java/com/bumptech/glide/RequestManager.java_public RequestManager applyDefaultRequestOptions(@NonNull RequestOptions requestOptions)": {
+        "Code": false,
+        "Doc": true
+    },
+    "a03ca14f4_library/src/main/java/com/bumptech/glide/request/target/CustomTarget.java_public CustomTarget(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "ac4aa53c6_library/src/main/java/com/bumptech/glide/load/engine/executor/GlideExecutor.java_public static GlideExecutor newAnimationExecutor()": {
+        "Code": false,
+        "Doc": true
+    },
+    "b7c2b1360_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ Bitmap getDirty(int width, int height, Bitmap.Config config)": {
+        "Code": false,
+        "Doc": true
+    },
+    "ba995829f_integration/cronet/src/main/java/com/bumptech/glide/integration/cronet/ByteBufferParser.java_ Class<T> getDataClass()": {
+        "Code": false,
+        "Doc": true
+    },
+    "ba995829f_integration/cronet/src/main/java/com/bumptech/glide/integration/cronet/ByteBufferParser.java_ T parse(ByteBuffer byteBuffer)": {
+        "Code": false,
+        "Doc": true
+    },
+    "ba995829f_integration/cronet/src/main/java/com/bumptech/glide/integration/cronet/DataLogger.java_ void logNetworkData(@Nullable UrlResponseInfo httpUrlRequest, long startTimeMs, long responseStartTimeMs, long endTimeMs)": {
+        "Code": false,
+        "Doc": true
+    },
+    "bdca4aaa4_library/src/main/java/com/bumptech/glide/load/data/DataRewinder.java_ T rewindAndGet()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_annotation/compiler/src/main/java/com/bumptech/glide/annotation/compiler/ProcessorUtil.java_private TypeName getJavadocSafeName(Element element)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_annotation/compiler/src/main/java/com/bumptech/glide/annotation/compiler/RequestOptionsGenerator.java_private static String getInstanceMethodNameFromStaticMethodName(String staticMethodName)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_integration/recyclerview/src/main/java/com/bumptech/glide/integration/recyclerview/RecyclerViewPreloader.java_public RecyclerViewPreloader(@NonNull Fragment fragment, @NonNull PreloadModelProvider<T> preloadModelProvider, @NonNull PreloadSizeProvider<T> preloadDimensionProvider, int maxPreload)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_integration/recyclerview/src/main/java/com/bumptech/glide/integration/recyclerview/RecyclerViewPreloader.java_public RecyclerViewPreloader(@NonNull FragmentActivity fragmentActivity, @NonNull PreloadModelProvider<T> preloadModelProvider, @NonNull PreloadSizeProvider<T> preloadDimensionProvider, int maxPreload)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_integration/recyclerview/src/main/java/com/bumptech/glide/integration/recyclerview/RecyclerViewPreloader.java_public RecyclerViewPreloader(@NonNull android.app.Fragment fragment, @NonNull PreloadModelProvider<T> preloadModelProvider, @NonNull PreloadSizeProvider<T> preloadDimensionProvider, int maxPreload)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_integration/volley/src/main/java/com/bumptech/glide/integration/volley/VolleyRequestFactory.java_ Request<byte[]> create(String url, DataCallback<? super InputStream> callback, Priority priority, Map<String, String> headers)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/GeneratedAppGlideModule.java_ abstract Set<Class<?>> getExcludedModuleClasses()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Glide.java_public BitmapPool getBitmapPool()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Glide.java_public Context getContext()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Glide.java_public MemoryCategory setMemoryCategory(@NonNull MemoryCategory memoryCategory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Glide.java_public RequestManagerRetriever getRequestManagerRetriever()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Glide.java_public static File getPhotoCacheDir(@NonNull Context context, @NonNull String cacheName)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Glide.java_public static RequestManager with(@NonNull Context context)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Glide.java_public static RequestManager with(@NonNull Fragment fragment)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Glide.java_public static RequestManager with(@NonNull FragmentActivity activity)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Glide.java_public static RequestManager with(@NonNull View view)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Glide.java_public static RequestManager with(@NonNull android.app.Fragment fragment)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Glide.java_public static synchronized void init(Glide glide)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Glide.java_public synchronized void preFillBitmapPool(@NonNull PreFillType.Builder... bitmapAttributeBuilders)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/GlideBuilder.java_public GlideBuilder addGlobalRequestListener(@NonNull RequestListener<Object> listener)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/GlideBuilder.java_public GlideBuilder setArrayPool(@Nullable ArrayPool arrayPool)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/GlideBuilder.java_public GlideBuilder setDefaultRequestOptions(@NonNull RequestOptionsFactory factory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/GlideBuilder.java_public GlideBuilder setLogRequestOrigins(boolean isEnabled)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/GlideBuilder.java_public GlideBuilder setResizeExecutor(@Nullable GlideExecutor service)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/GlideContext.java_public boolean isLoggingRequestOriginsEnabled()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Registry.java_public Registry append(@NonNull Class<Data> dataClass, @NonNull Class<TResource> resourceClass, @NonNull ResourceDecoder<Data, TResource> decoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Registry.java_public Registry append(@NonNull Class<Data> dataClass, @NonNull Encoder<Data> encoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Registry.java_public Registry append(@NonNull Class<Model> modelClass, @NonNull Class<Data> dataClass, @NonNull ModelLoaderFactory<Model, Data> factory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Registry.java_public Registry append(@NonNull Class<TResource> resourceClass, @NonNull ResourceEncoder<TResource> encoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Registry.java_public Registry append(@NonNull String bucket, @NonNull Class<Data> dataClass, @NonNull Class<TResource> resourceClass, @NonNull ResourceDecoder<Data, TResource> decoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Registry.java_public Registry prepend(@NonNull Class<Data> dataClass, @NonNull Class<TResource> resourceClass, @NonNull ResourceDecoder<Data, TResource> decoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Registry.java_public Registry prepend(@NonNull Class<Data> dataClass, @NonNull Encoder<Data> encoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Registry.java_public Registry prepend(@NonNull Class<Model> modelClass, @NonNull Class<Data> dataClass, @NonNull ModelLoaderFactory<Model, Data> factory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Registry.java_public Registry prepend(@NonNull Class<TResource> resourceClass, @NonNull ResourceEncoder<TResource> encoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Registry.java_public Registry prepend(@NonNull String bucket, @NonNull Class<Data> dataClass, @NonNull Class<TResource> resourceClass, @NonNull ResourceDecoder<Data, TResource> decoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Registry.java_public Registry register(@NonNull Class<Data> dataClass, @NonNull Encoder<Data> encoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Registry.java_public Registry register(@NonNull Class<TResource> resourceClass, @NonNull Class<Transcode> transcodeClass, @NonNull ResourceTranscoder<TResource, Transcode> transcoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Registry.java_public Registry register(@NonNull Class<TResource> resourceClass, @NonNull ResourceEncoder<TResource> encoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/Registry.java_public Registry replace(@NonNull Class<Model> modelClass, @NonNull Class<Data> dataClass, @NonNull ModelLoaderFactory<? extends Model, ? extends Data> factory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public FutureTarget<File> downloadOnly(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public FutureTarget<TranscodeType> into(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public FutureTarget<TranscodeType> submit(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> addListener(@Nullable RequestListener<TranscodeType> requestListener)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> clone()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> error(@Nullable RequestBuilder<TranscodeType> errorBuilder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> load(@Nullable File file)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> load(@Nullable String string)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> load(@Nullable URL url)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> load(@Nullable Uri uri)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> load(@RawRes @DrawableRes @Nullable Integer resourceId)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> thumbnail(@Nullable RequestBuilder<TranscodeType> thumbnailRequest)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> thumbnail(@Nullable RequestBuilder<TranscodeType>... thumbnails)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> thumbnail(float sizeMultiplier)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public Target<TranscodeType> preload()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public Target<TranscodeType> preload(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public ViewTarget<ImageView, TranscodeType> into(@NonNull ImageView view)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public Y downloadOnly(@NonNull Y target)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestManager.java_public RequestBuilder<Drawable> asDrawable()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestManager.java_public RequestBuilder<File> asFile()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestManager.java_public RequestBuilder<File> downloadOnly()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestManager.java_public RequestBuilder<GifDrawable> asGif()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestManager.java_public RequestBuilder<ResourceType> as(@NonNull Class<ResourceType> resourceClass)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/RequestManager.java_public void clear(@NonNull View view)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/TransitionOptions.java_public final CHILD transition(@NonNull TransitionFactory<? super TranscodeType> transitionFactory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/TransitionOptions.java_public final CHILD transition(@NonNull ViewPropertyTransition.Animator animator)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/TransitionOptions.java_public final CHILD transition(int viewAnimationId)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/HttpException.java_public int getStatusCode()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/ImageHeaderParser.java_ int getOrientation(@NonNull InputStream is, @NonNull ArrayPool byteArrayPool)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/Key.java_ boolean equals(Object o)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/Key.java_ int hashCode()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/Key.java_ void updateDiskCacheKey(@NonNull MessageDigest messageDigest)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/Option.java_public static Option<T> memory(@NonNull String key)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/Option.java_public static Option<T> memory(@NonNull String key, @NonNull T defaultValue)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/Option.java_public void update(@NonNull T value, @NonNull MessageDigest messageDigest)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/ResourceDecoder.java_ Resource<Z> decode(@NonNull T source, int width, int height, @NonNull Options options)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/Transformation.java_ Resource<T> transform(@NonNull Context context, @NonNull Resource<T> resource, int outWidth, int outHeight)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/data/AssetPathFetcher.java_protected abstract T loadResource(AssetManager assetManager, String path)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/data/DataFetcher.java_ Class<T> getDataClass()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/data/DataFetcher.java_ DataSource getDataSource()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/data/DataFetcher.java_ void cancel()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/data/DataFetcher.java_ void cleanup()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/data/DataFetcher.java_ void loadData(@NonNull Priority priority, @NonNull DataCallback<? super T> callback)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/data/DataRewinder.java_ void cleanup()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/data/LocalUriFetcher.java_protected abstract void close(T data)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/DataFetcherGenerator.java_ boolean startNext()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/DataFetcherGenerator.java_ void cancel()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java_ void release(boolean isRemovedFromQueue)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java_private void onLoadFailed()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/DiskCacheStrategy.java_public abstract boolean decodeCachedData()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/DiskCacheStrategy.java_public abstract boolean decodeCachedResource()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/DiskCacheStrategy.java_public abstract boolean isResourceCacheable(boolean isFromAlternateCacheKey, DataSource dataSource, EncodeStrategy encodeStrategy)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/GlideException.java_public Exception getOrigin()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/GlideException.java_public List<Throwable> getCauses()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/Initializable.java_ void initialize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/Resource.java_ Class<Z> getResourceClass()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/Resource.java_ Z get()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/Resource.java_ void recycle()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayAdapterInterface.java_ String getTag()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayAdapterInterface.java_ T newArray(int length)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayAdapterInterface.java_ int getArrayLength(T array)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayAdapterInterface.java_ int getElementSizeInBytes()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayPool.java_ void clearMemory()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayPool.java_ void put(T array)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/ArrayPool.java_ void put(T array, Class<T> arrayClass)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ Bitmap get(int width, int height, Bitmap.Config config)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ Bitmap getDirty(int width, int height, Bitmap.Config config)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ long getMaxSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ void clearMemory()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ void put(Bitmap bitmap)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ void setSizeMultiplier(float sizeMultiplier)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.java_ void trimMemory(int level)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/cache/DiskCache.java_ File get(Key key)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/cache/DiskCache.java_ void clear()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/cache/DiskCache.java_ void put(Key key, Writer writer)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/cache/DiskLruCacheWrapper.java_protected DiskLruCacheWrapper(File directory, long maxSize)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/cache/DiskLruCacheWrapper.java_public static DiskCache create(File directory, long maxSize)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/cache/DiskLruCacheWrapper.java_public static synchronized DiskCache get(File directory, long maxSize)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCache.java_ Resource<?> put(@NonNull Key key, @Nullable Resource<?> resource)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCache.java_ long getCurrentSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCache.java_ long getMaxSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCache.java_ void clearMemory()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCache.java_ void setSizeMultiplier(float multiplier)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCache.java_ void trimMemory(int level)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/cache/MemorySizeCalculator.java_public int getArrayPoolSizeInBytes()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/cache/MemorySizeCalculator.java_public int getBitmapPoolSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/cache/MemorySizeCalculator.java_public int getMemoryCacheSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/executor/GlideExecutor.java_public static GlideExecutor newDiskCacheExecutor()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/executor/GlideExecutor.java_public static GlideExecutor newSourceExecutor()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/executor/RuntimeCompat.java_ static int availableProcessors()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillType.java_ Bitmap.Config getConfig()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillType.java_ PreFillType(int width, int height, Bitmap.Config config, int weight)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillType.java_ int getHeight()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillType.java_ int getWeight()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillType.java_ int getWidth()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/model/GlideUrl.java_public Map<String, String> getHeaders()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/model/Headers.java_ Map<String, String> getHeaders()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/model/Model.java_ boolean isEquivalentTo(@Nullable Object other)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/model/ModelCache.java_public B get(A model, int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/model/ModelCache.java_public void clear()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/model/ModelCache.java_public void put(A model, int width, int height, B value)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/model/ModelLoader.java_ LoadData<Data> buildLoadData(@NonNull Model model, int width, int height, @NonNull Options options)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/model/ModelLoader.java_ boolean handles(@NonNull Model model)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/model/ModelLoaderFactory.java_ ModelLoader<T, Y> build(@NonNull MultiModelLoaderFactory multiFactory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/model/ModelLoaderFactory.java_ void teardown()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/model/stream/BaseGlideUrlLoader.java_protected abstract String getUrl(Model model, int width, int height, Options options)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapDrawableDecoder.java_public BitmapDrawableDecoder(Resources resources, @SuppressWarnings(\"unused\") BitmapPool bitmapPool, ResourceDecoder<DataType, Bitmap> decoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapEncoder.java_public BitmapEncoder()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapResource.java_public static BitmapResource obtain(@Nullable Bitmap bitmap, @NonNull BitmapPool bitmapPool)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapTransformation.java_protected abstract Bitmap transform(@NonNull BitmapPool pool, @NonNull Bitmap toTransform, int outWidth, int outHeight)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapTransitionOptions.java_public BitmapTransitionOptions crossFade(int duration)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapTransitionOptions.java_public BitmapTransitionOptions transitionUsing(@NonNull TransitionFactory<Drawable> drawableCrossFadeFactory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapTransitionOptions.java_public static BitmapTransitionOptions withWrapped(@NonNull TransitionFactory<Drawable> drawableCrossFadeFactory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser.java_private int getOrientation(Reader reader, ArrayPool byteArrayPool)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/bitmap/DownsampleStrategy.java_public abstract SampleSizeRounding getSampleSizeRounding(int sourceWidth, int sourceHeight, int requestedWidth, int requestedHeight)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/bitmap/DownsampleStrategy.java_public abstract float getScaleFactor(int sourceWidth, int sourceHeight, int requestedWidth, int requestedHeight)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream.java_public synchronized long skip(long byteCount)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/bitmap/Rotate.java_public Rotate(int degreesToRotate)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/bitmap/TransformationUtils.java_public static Bitmap roundedCorners(@NonNull BitmapPool pool, @NonNull Bitmap inBitmap, @SuppressWarnings(\"unused\") int width, @SuppressWarnings(\"unused\") int height, int roundingRadius)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/bitmap/TransformationUtils.java_public static void setAlpha(Bitmap inBitmap, Bitmap outBitmap)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/bytes/BytesResource.java_public byte[] get()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/drawable/DrawableDecoderCompat.java_public static Drawable getDrawable(Context ourContext, @DrawableRes int id, @Nullable Theme theme)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/drawable/DrawableDecoderCompat.java_public static Drawable getDrawable(Context ourContext, Context targetContext, @DrawableRes int id)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/drawable/DrawableTransitionOptions.java_public DrawableTransitionOptions crossFade(int duration)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/gif/GifDrawable.java_public GifDrawable(Context context, GifDecoder gifDecoder, @SuppressWarnings(\"unused\") BitmapPool bitmapPool, Transformation<Bitmap> frameTransformation, int targetFrameWidth, int targetFrameHeight, Bitmap firstFrame)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/gif/GifDrawable.java_public GifDrawable(Context context, GifDecoder gifDecoder, Transformation<Bitmap> frameTransformation, int targetFrameWidth, int targetFrameHeight, Bitmap firstFrame)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/gif/GifDrawable.java_public void recycle()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/gif/GifDrawable.java_public void registerAnimationCallback(@NonNull AnimationCallback animationCallback)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/transcode/BitmapDrawableTranscoder.java_public BitmapDrawableTranscoder(@NonNull Resources resources, @SuppressWarnings(\"unused\") BitmapPool bitmapPool)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/transcode/TranscoderRegistry.java_public synchronized ResourceTranscoder<Z, R> get(@NonNull Class<Z> resourceClass, @NonNull Class<R> transcodedClass)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/load/resource/transcode/TranscoderRegistry.java_public synchronized void register(@NonNull Class<Z> decodedClass, @NonNull Class<R> transcodedClass, @NonNull ResourceTranscoder<Z, R> transcoder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/manager/ActivityFragmentLifecycle.java_public void addListener(@NonNull LifecycleListener listener)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/manager/Lifecycle.java_ void addListener(@NonNull LifecycleListener listener)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/manager/RequestManagerFragment.java_private boolean isDescendant(@NonNull Fragment fragment)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/manager/RequestManagerFragment.java_public RequestManager getRequestManager()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/manager/RequestManagerFragment.java_public RequestManagerTreeNode getRequestManagerTreeNode()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/manager/RequestManagerTreeNode.java_ Set<RequestManager> getDescendants()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/manager/RequestTracker.java_public boolean isPaused()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/manager/RequestTracker.java_public void pauseRequests()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/manager/RequestTracker.java_public void restartRequests()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/manager/RequestTracker.java_public void resumeRequests()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/manager/RequestTracker.java_public void runRequest(@NonNull Request request)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/manager/SupportRequestManagerFragment.java_private boolean isDescendant(@NonNull Fragment fragment)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/manager/SupportRequestManagerFragment.java_public RequestManager getRequestManager()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/manager/SupportRequestManagerFragment.java_public RequestManagerTreeNode getRequestManagerTreeNode()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/module/AppliesOptions.java_ void applyOptions(@NonNull Context context, @NonNull GlideBuilder builder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/module/RegistersComponents.java_ void registerComponents(@NonNull Context context, @NonNull Glide glide, @NonNull Registry registry)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/provider/LoadPathCache.java_public boolean isEmptyLoadPath(@Nullable LoadPath<?, ?, ?> path)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T apply(@NonNull BaseRequestOptions<?> o)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T centerCrop()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T centerInside()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T clone()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T disallowHardwareConfig()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T diskCacheStrategy(@NonNull DiskCacheStrategy strategy)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T dontTransform()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T downsample(@NonNull DownsampleStrategy strategy)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T encodeFormat(@NonNull Bitmap.CompressFormat format)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T encodeQuality(@IntRange(from = 0, to = 100) int quality)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T fallback(@DrawableRes int resourceId)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T fallback(@Nullable Drawable drawable)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T fitCenter()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T frame(@IntRange(from = 0) long frameTimeMicros)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T lock()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T optionalCenterInside()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T optionalFitCenter()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T optionalTransform(@NonNull Class<Y> resourceClass, @NonNull Transformation<Y> transformation)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T override(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T placeholder(@DrawableRes int resourceId)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T signature(@NonNull Key signature)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T sizeMultiplier(@FloatRange(from = 0, to = 1) float sizeMultiplier)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T skipMemoryCache(boolean skip)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T theme(@Nullable Resources.Theme theme)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T timeout(@IntRange(from = 0) int timeoutMs)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T useAnimationPool(boolean flag)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/BaseRequestOptions.java_public T useUnlimitedSourceGeneratorsPool(boolean flag)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/Request.java_ boolean isCleared()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/Request.java_ boolean isComplete()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/Request.java_ boolean isEquivalentTo(Request other)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/Request.java_ boolean isFailed()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/Request.java_ boolean isRunning()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/Request.java_ void begin()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/Request.java_ void recycle()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestCoordinator.java_ boolean canNotifyCleared(Request request)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestCoordinator.java_ void onRequestSuccess(Request request)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestFutureTarget.java_public synchronized void onLoadFailed(@Nullable Drawable errorDrawable)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestFutureTarget.java_public void getSize(@NonNull SizeReadyCallback cb)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestFutureTarget.java_public void onLoadCleared(@Nullable Drawable placeholder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestFutureTarget.java_public void onLoadStarted(@Nullable Drawable placeholder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestListener.java_ boolean onLoadFailed(@Nullable GlideException e, Object model, Target<R> target, boolean isFirstResource)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions bitmapTransform(@NonNull Transformation<Bitmap> transformation)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions decodeTypeOf(@NonNull Class<?> resourceClass)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions downsampleOf(@NonNull DownsampleStrategy strategy)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions encodeQualityOf(@IntRange(from = 0, to = 100) int quality)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions errorOf(@DrawableRes int errorId)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions errorOf(@Nullable Drawable errorDrawable)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions formatOf(@NonNull DecodeFormat format)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions frameOf(@IntRange(from = 0) long frameTimeMicros)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions option(@NonNull Option<T> option, @NonNull T value)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions overrideOf(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions placeholderOf(@DrawableRes int placeholderId)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions placeholderOf(@Nullable Drawable placeholder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions signatureOf(@NonNull Key signature)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions sizeMultiplierOf(@FloatRange(from = 0, to = 1) float sizeMultiplier)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions skipMemoryCacheOf(boolean skipMemoryCache)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions timeoutOf(@IntRange(from = 0) int timeout)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/SingleRequest.java_private void cancel()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/SingleRequest.java_public synchronized void onSizeReady(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/ThumbnailRequestCoordinator.java_public boolean isComplete()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/ThumbnailRequestCoordinator.java_public boolean isFailed()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/ThumbnailRequestCoordinator.java_public boolean isRunning()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/ThumbnailRequestCoordinator.java_public void begin()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/target/AppWidgetTarget.java_private void update()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/target/BitmapThumbnailImageViewTarget.java_public BitmapThumbnailImageViewTarget(ImageView view, boolean waitForLayout)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/target/CustomViewTarget.java_protected abstract void onResourceCleared(@Nullable Drawable placeholder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/target/DrawableThumbnailImageViewTarget.java_public DrawableThumbnailImageViewTarget(ImageView view, boolean waitForLayout)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/target/ImageViewTarget.java_public ImageViewTarget(ImageView view, boolean waitForLayout)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/target/NotificationTarget.java_private void update()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/target/NotificationTarget.java_public NotificationTarget(Context context, int width, int height, int viewId, RemoteViews remoteViews, Notification notification, int notificationId, String notificationTag)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/target/PreloadTarget.java_public static PreloadTarget<Z> obtain(RequestManager requestManager, int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/target/SizeReadyCallback.java_ void onSizeReady(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/target/Target.java_ Request getRequest()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/target/Target.java_ void onLoadStarted(@Nullable Drawable placeholder)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/target/Target.java_ void setRequest(@Nullable Request request)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/target/ThumbnailImageViewTarget.java_public ThumbnailImageViewTarget(ImageView view, boolean waitForLayout)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/target/ViewTarget.java_public Request getRequest()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/target/ViewTarget.java_public T getView()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/target/ViewTarget.java_public ViewTarget(@NonNull T view)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/target/ViewTarget.java_public ViewTarget(@NonNull T view, boolean waitForLayout)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/target/ViewTarget.java_public final ViewTarget<T, Z> waitForLayout()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/transition/BitmapContainerTransitionFactory.java_protected abstract Bitmap getBitmap(R current)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/transition/NoTransition.java_public boolean transition(Object current, ViewAdapter adapter)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/transition/NoTransition.java_public static Transition<R> get()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/transition/NoTransition.java_public static TransitionFactory<R> getFactory()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/transition/Transition.java_ boolean transition(R current, ViewAdapter adapter)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/transition/TransitionFactory.java_ Transition<R> build(DataSource dataSource, boolean isFirstResource)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/transition/ViewAnimationFactory.java_public Transition<R> build(DataSource dataSource, boolean isFirstResource)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/request/transition/ViewTransition.java_public boolean transition(R current, ViewAdapter adapter)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/signature/MediaStoreSignature.java_public MediaStoreSignature(@Nullable String mimeType, long dateModified, int orientation)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/LruCache.java_protected synchronized int getCount()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/LruCache.java_protected void onItemEvicted(@NonNull T key, @Nullable Y item)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/LruCache.java_public LruCache(long size)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/LruCache.java_public synchronized Y put(@NonNull T key, @Nullable Y item)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/LruCache.java_public synchronized long getCurrentSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/LruCache.java_public synchronized long getMaxSize()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/LruCache.java_public void clearMemory()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/Util.java_public static Queue<T> createQueue(int size)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/Util.java_public static String sha256BytesToHex(@NonNull byte[] bytes)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/Util.java_public static boolean isOnBackgroundThread()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/Util.java_public static boolean isOnMainThread()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/Util.java_public static boolean isValidDimensions(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/Util.java_public static int getSize(@NonNull Bitmap bitmap)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/Util.java_public static void assertBackgroundThread()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/ViewPreloadSizeProvider.java_public void setView(@NonNull View view)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/pool/FactoryPools.java_public static Pool<T> simple(int size, @NonNull Factory<T> factory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/pool/FactoryPools.java_public static Pool<T> threadSafe(int size, @NonNull Factory<T> factory)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/pool/StateVerifier.java_ abstract void setRecycled(boolean isRecycled)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_library/src/main/java/com/bumptech/glide/util/pool/StateVerifier.java_public static StateVerifier newInstance()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifDecoder.java_ int getLoopCount()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifDecoder.java_ int getNetscapeLoopCount()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifDecoder.java_ int getNextDelay()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifDecoder.java_ int getStatus()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifDecoder.java_ int getTotalIterationCount()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifDecoder.java_ void advance()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifDecoder.java_ void resetFrameIndex()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifDecoder.java_ void setDefaultBitmapConfig(@NonNull Bitmap.Config format)": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeader.java_public int getStatus()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private int read()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private int readShort()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private void readBitmap()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private void readContents()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private void readGraphicControlExt()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private void readHeader()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private void readLSD()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private void readNetscapeExt()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private void skip()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_private void skipImageData()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/GifHeaderParser.java_public boolean isAnimated()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c375a2fbf_third_party/gif_decoder/src/main/java/com/bumptech/glide/gifdecoder/StandardGifDecoder.java_private int readByte()": {
+        "Code": false,
+        "Doc": true
+    },
+    "c9132b3af_library/src/main/java/com/bumptech/glide/load/Encoder.java_ boolean encode(@NonNull T data, @NonNull File file, @NonNull Options options)": {
+        "Code": false,
+        "Doc": true
+    },
+    "d8278f43a_library/src/main/java/com/bumptech/glide/Glide.java_public static RequestManager with(@NonNull Context context)": {
+        "Code": false,
+        "Doc": true
+    },
+    "d8278f43a_library/src/main/java/com/bumptech/glide/Glide.java_public static RequestManager with(@NonNull Fragment fragment)": {
+        "Code": false,
+        "Doc": true
+    },
+    "d8278f43a_library/src/main/java/com/bumptech/glide/Glide.java_public static RequestManager with(@NonNull FragmentActivity activity)": {
+        "Code": false,
+        "Doc": true
+    },
+    "e2df4d068_library/src/main/java/com/bumptech/glide/RequestManager.java_public synchronized RequestManager applyDefaultRequestOptions(@NonNull RequestOptions requestOptions)": {
+        "Code": false,
+        "Doc": true
+    },
+    "e2df4d068_library/src/main/java/com/bumptech/glide/request/target/CustomTarget.java_public CustomTarget(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    },
+    "ed20643fb_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> load(@Nullable Bitmap bitmap)": {
+        "Code": false,
+        "Doc": true
+    },
+    "ed20643fb_library/src/main/java/com/bumptech/glide/RequestBuilder.java_public RequestBuilder<TranscodeType> load(@Nullable Drawable drawable)": {
+        "Code": false,
+        "Doc": true
+    },
+    "ed20643fb_library/src/main/java/com/bumptech/glide/request/RequestOptions.java_public static RequestOptions priorityOf(@NonNull Priority priority)": {
+        "Code": false,
+        "Doc": true
+    },
+    "efe8023ae_library/src/main/java/com/bumptech/glide/load/HttpException.java_public HttpException(String message)": {
+        "Code": false,
+        "Doc": true
+    },
+    "f083d8740_library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java_public void run()": {
+        "Code": false,
+        "Doc": true
+    },
+    "f083d8740_library/src/main/java/com/bumptech/glide/load/engine/EngineJob.java_ void notifyCallbacksOfException()": {
+        "Code": false,
+        "Doc": true
+    },
+    "f083d8740_library/src/main/java/com/bumptech/glide/load/engine/EngineJob.java_ void notifyCallbacksOfResult()": {
+        "Code": false,
+        "Doc": true
+    },
+    "fbd31f41d_library/src/main/java/com/bumptech/glide/request/target/CustomTarget.java_public CustomTarget(int width, int height)": {
+        "Code": false,
+        "Doc": true
+    }
+}

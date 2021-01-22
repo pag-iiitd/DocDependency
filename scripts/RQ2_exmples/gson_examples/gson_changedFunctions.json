@@ -1,0 +1,210 @@
+{
+    "3958b1f7_f885e602_gson/src/main/java/com/google/gson/stream/JsonWriter.java_private JsonWriter open(int empty, char openBracket)": {
+        "Code": true,
+        "Doc": false
+    },
+    "3958b1f7_f885e602_gson/src/main/java/com/google/gson/stream/JsonWriter.java_private void newline()": {
+        "Code": true,
+        "Doc": false
+    },
+    "3958b1f7_f885e602_gson/src/main/java/com/google/gson/stream/JsonWriter.java_private void string(String value)": {
+        "Code": true,
+        "Doc": false
+    },
+    "3958b1f7_f885e602_gson/src/main/java/com/google/gson/stream/JsonWriter.java_public JsonWriter beginArray()": {
+        "Code": true,
+        "Doc": false
+    },
+    "3958b1f7_f885e602_gson/src/main/java/com/google/gson/stream/JsonWriter.java_public JsonWriter beginObject()": {
+        "Code": true,
+        "Doc": false
+    },
+    "3958b1f7_f885e602_gson/src/main/java/com/google/gson/stream/JsonWriter.java_public JsonWriter endArray()": {
+        "Code": true,
+        "Doc": false
+    },
+    "3958b1f7_f885e602_gson/src/main/java/com/google/gson/stream/JsonWriter.java_public JsonWriter endObject()": {
+        "Code": true,
+        "Doc": false
+    },
+    "3ee3c150_fc63a6af_gson/src/main/java/com/google/gson/JsonPrimitive.java_public String getAsString()": {
+        "Code": true,
+        "Doc": false
+    },
+    "3ee3c150_fc63a6af_gson/src/main/java/com/google/gson/JsonPrimitive.java_public boolean getAsBoolean()": {
+        "Code": true,
+        "Doc": false
+    },
+    "46d0f58d_3ee3c150_gson/src/main/java/com/google/gson/JsonPrimitive.java_public boolean getAsBoolean()": {
+        "Code": true,
+        "Doc": false
+    },
+    "477b3f77_62f89ac9_gson/src/main/java/com/google/gson/internal/Primitives.java_private Primitives()": {
+        "Code": true,
+        "Doc": false
+    },
+    "477b3f77_62f89ac9_gson/src/main/java/com/google/gson/internal/Primitives.java_public static Class<T> unwrap(Class<T> type)": {
+        "Code": true,
+        "Doc": false
+    },
+    "477b3f77_62f89ac9_gson/src/main/java/com/google/gson/internal/Primitives.java_public static Class<T> wrap(Class<T> type)": {
+        "Code": true,
+        "Doc": false
+    },
+    "477b3f77_62f89ac9_gson/src/main/java/com/google/gson/internal/Primitives.java_public static boolean isPrimitive(Type type)": {
+        "Code": true,
+        "Doc": false
+    },
+    "477b3f77_62f89ac9_gson/src/main/java/com/google/gson/internal/Primitives.java_public static boolean isWrapperType(Type type)": {
+        "Code": true,
+        "Doc": false
+    },
+    "4d942db1_da5cae37_gson/src/main/java/com/google/gson/Gson.java_public T fromJson(JsonElement json, Class<T> classOfT)": {
+        "Code": false,
+        "Doc": true
+    },
+    "4d942db1_da5cae37_gson/src/main/java/com/google/gson/Gson.java_public T fromJson(JsonElement json, Type typeOfT)": {
+        "Code": false,
+        "Doc": true
+    },
+    "4d942db1_da5cae37_gson/src/main/java/com/google/gson/Gson.java_public T fromJson(String json, Type typeOfT)": {
+        "Code": false,
+        "Doc": true
+    },
+    "55acc23d_fa947212_gson/src/main/java/com/google/gson/internal/bind/JsonTreeWriter.java_public JsonWriter name(String name)": {
+        "Code": true,
+        "Doc": false
+    },
+    "5bbc768f_27c93352_gson/src/main/java/com/google/gson/Gson.java_public T fromJson(JsonReader reader, Type typeOfT)": {
+        "Code": true,
+        "Doc": false
+    },
+    "5bbc768f_27c93352_gson/src/main/java/com/google/gson/Gson.java_public void toJson(JsonElement jsonElement, JsonWriter writer)": {
+        "Code": true,
+        "Doc": false
+    },
+    "5bbc768f_27c93352_gson/src/main/java/com/google/gson/Gson.java_public void toJson(Object src, Type typeOfSrc, JsonWriter writer)": {
+        "Code": true,
+        "Doc": false
+    },
+    "63ee47cb_c5a3f21f_gson/src/main/java/com/google/gson/FieldNamingPolicy.java_ static String upperCaseFirstLetter(String name)": {
+        "Code": true,
+        "Doc": false
+    },
+    "8bf2949c_a817604a_gson/src/main/java/com/google/gson/JsonObject.java_public void add(String property, JsonElement value)": {
+        "Code": true,
+        "Doc": false
+    },
+    "8bf2949c_a817604a_gson/src/main/java/com/google/gson/JsonObject.java_public void addProperty(String property, Boolean value)": {
+        "Code": true,
+        "Doc": false
+    },
+    "8bf2949c_a817604a_gson/src/main/java/com/google/gson/JsonObject.java_public void addProperty(String property, Character value)": {
+        "Code": true,
+        "Doc": false
+    },
+    "8bf2949c_a817604a_gson/src/main/java/com/google/gson/JsonObject.java_public void addProperty(String property, Number value)": {
+        "Code": true,
+        "Doc": false
+    },
+    "8bf2949c_a817604a_gson/src/main/java/com/google/gson/JsonObject.java_public void addProperty(String property, String value)": {
+        "Code": true,
+        "Doc": false
+    },
+    "8bf2949c_a817604a_gson/src/main/java/com/google/gson/JsonPrimitive.java_public JsonPrimitive(Boolean bool)": {
+        "Code": true,
+        "Doc": false
+    },
+    "8bf2949c_a817604a_gson/src/main/java/com/google/gson/JsonPrimitive.java_public JsonPrimitive(Character c)": {
+        "Code": true,
+        "Doc": false
+    },
+    "8bf2949c_a817604a_gson/src/main/java/com/google/gson/JsonPrimitive.java_public JsonPrimitive(Number number)": {
+        "Code": true,
+        "Doc": false
+    },
+    "8bf2949c_a817604a_gson/src/main/java/com/google/gson/JsonPrimitive.java_public JsonPrimitive(String string)": {
+        "Code": true,
+        "Doc": false
+    },
+    "92b61737_d8d8ccb9_gson/src/main/java/com/google/gson/JsonElement.java_public char getAsCharacter()": {
+        "Code": false,
+        "Doc": true
+    },
+    "9bf25c2e_236533eb_gson/src/main/java/com/google/gson/stream/JsonReader.java_private void consumeNonExecutePrefix()": {
+        "Code": true,
+        "Doc": false
+    },
+    "aa236ec3_49d86309_metrics/src/main/java/com/google/gson/metrics/BagOfPrimitives.java_public boolean equals(Object obj)": {
+        "Code": true,
+        "Doc": false
+    },
+    "bac26b8e_3c6eea6b_gson/src/main/java/com/google/gson/internal/bind/JsonTreeReader.java_private void push(Object newTop)": {
+        "Code": true,
+        "Doc": false
+    },
+    "bac26b8e_3c6eea6b_gson/src/main/java/com/google/gson/stream/JsonReader.java_private void push(int newTop)": {
+        "Code": true,
+        "Doc": false
+    },
+    "bac26b8e_3c6eea6b_gson/src/main/java/com/google/gson/stream/JsonWriter.java_private void push(int newTop)": {
+        "Code": true,
+        "Doc": false
+    },
+    "c1e7e2d2_67ff7d51_extras/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java_private RuntimeTypeAdapterFactory(Class<?> baseType, String typeFieldName, boolean maintainType)": {
+        "Code": true,
+        "Doc": false
+    },
+    "c1e7e2d2_67ff7d51_extras/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java_public TypeAdapter<R> create(Gson gson, TypeToken<R> type)": {
+        "Code": true,
+        "Doc": false
+    },
+    "c1e7e2d2_67ff7d51_extras/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java_public static RuntimeTypeAdapterFactory<T> of(Class<T> baseType)": {
+        "Code": true,
+        "Doc": false
+    },
+    "c1e7e2d2_67ff7d51_extras/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java_public static RuntimeTypeAdapterFactory<T> of(Class<T> baseType, String typeFieldName)": {
+        "Code": true,
+        "Doc": false
+    },
+    "c1e7e2d2_67ff7d51_extras/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java_public static RuntimeTypeAdapterFactory<T> of(Class<T> baseType, String typeFieldName, boolean maintainType)": {
+        "Code": true,
+        "Doc": true
+    },
+    "c5a3f21f_477b3f77_gson/src/main/java/com/google/gson/JsonParser.java_public JsonElement parse(JsonReader json)": {
+        "Code": true,
+        "Doc": true
+    },
+    "c5a3f21f_477b3f77_gson/src/main/java/com/google/gson/JsonParser.java_public JsonElement parse(Reader json)": {
+        "Code": true,
+        "Doc": true
+    },
+    "c5a3f21f_477b3f77_gson/src/main/java/com/google/gson/JsonParser.java_public JsonElement parse(String json)": {
+        "Code": true,
+        "Doc": true
+    },
+    "c5a3f21f_477b3f77_gson/src/main/java/com/google/gson/JsonParser.java_public JsonParser()": {
+        "Code": true,
+        "Doc": true
+    },
+    "c5a3f21f_477b3f77_gson/src/main/java/com/google/gson/JsonParser.java_public static JsonElement parseReader(JsonReader reader)": {
+        "Code": true,
+        "Doc": false
+    },
+    "c5a3f21f_477b3f77_gson/src/main/java/com/google/gson/JsonParser.java_public static JsonElement parseReader(Reader reader)": {
+        "Code": true,
+        "Doc": true
+    },
+    "c5a3f21f_477b3f77_gson/src/main/java/com/google/gson/JsonParser.java_public static JsonElement parseString(String json)": {
+        "Code": true,
+        "Doc": false
+    },
+    "d8d8ccb9_c1e7e2d2_extras/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java_public TypeAdapter<R> create(Gson gson, TypeToken<R> type)": {
+        "Code": true,
+        "Doc": false
+    },
+    "fa947212_360cd3e2_gson/src/main/java/com/google/gson/JsonArray.java_public boolean isEmpty()": {
+        "Code": true,
+        "Doc": true
+    }
+}

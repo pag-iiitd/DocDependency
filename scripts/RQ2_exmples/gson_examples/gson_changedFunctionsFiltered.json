@@ -1,0 +1,18 @@
+{
+    "4d942db1_gson/src/main/java/com/google/gson/Gson.java_public T fromJson(JsonElement json, Class<T> classOfT)": {
+        "Code": false,
+        "Doc": true
+    },
+    "4d942db1_gson/src/main/java/com/google/gson/Gson.java_public T fromJson(JsonElement json, Type typeOfT)": {
+        "Code": false,
+        "Doc": true
+    },
+    "4d942db1_gson/src/main/java/com/google/gson/Gson.java_public T fromJson(String json, Type typeOfT)": {
+        "Code": false,
+        "Doc": true
+    },
+    "92b61737_gson/src/main/java/com/google/gson/JsonElement.java_public char getAsCharacter()": {
+        "Code": false,
+        "Doc": true
+    }
+}
