@@ -35,11 +35,6 @@ for i in filtered_database:
 		D[commit_id] = 1
 print('commits to be processed:', len(D))
 
-# print('-----')
-# for i in D:
-# 	print(i)
-# print('-----')
-
 count1 = 0
 for i in D:
 	count1 += D[i]
