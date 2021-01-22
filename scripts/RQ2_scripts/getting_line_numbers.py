@@ -2,6 +2,7 @@ import git
 import json
 import random
 import sys
+from timeit import default_timer as timer
 
 # pip install progress
 from progress.bar import Bar 		# used for tracking the progress
@@ -11,9 +12,8 @@ from progress.bar import Bar 		# used for tracking the progress
 	the given log
 '''
 def get_parent(repo, log_id):
-	parent_ids = repo.log(['--pretty=format:%p', '-n', '1', log_id])
-	parent_ids = parent_ids.split()
-	return parent_ids
+	parent_id = repo.log(['--pretty=format:%p', '-n', '1', log_id])
+	return parent_id
 
 '''
 	To get all the insertions and deletions
@@ -57,6 +57,7 @@ def get_line_differences (commit1, commit2, filename):
 
 if __name__ == '__main__':
 
+	start = timer()
 	# Path to git repo
 	path = sys.argv[1]
 	repo = git.Git(path)
@@ -72,7 +73,7 @@ if __name__ == '__main__':
 	# Iterating over the commit history
 	for log_id in log_ids:
 		# Getting parent of a given log
-		parents = get_parent(repo, log_id)
+		parent = get_parent(repo, log_id)
 
 		# Get files changed in the given commit
 		files_altered = repo.show('--pretty=format:""',  '--name-only', log_id).split("\n")
@@ -83,24 +84,23 @@ if __name__ == '__main__':
 				continue
 
 			# Iterating over all the parents
-			for parent in parents:
-				commit1 = log_id
-				commit2 = parent
-				filename = file
+			commit1 = log_id
+			commit2 = parent
+			filename = file
 
-				key = f'{commit1}_{commit2}_{filename}'
-				# trying to get insertions and deletions for the given filename
-				try:
-					insertions, deletions = get_line_differences(commit1, commit2, filename)
-					commit_line_numbers[key] = insertions, deletions
-					pass
-				# Exception occurs if a file was deleted in the current commit or if it is not present in previous commit
-				except Exception as e:
-					pass
-				else:
-					pass
-				finally:
-					pass
+			key = f'{commit1}_{commit2}_{filename}'
+			# trying to get insertions and deletions for the given filename
+			try:
+				insertions, deletions = get_line_differences(commit1, commit2, filename)
+				commit_line_numbers[key] = insertions, deletions
+				pass
+			# Exception occurs if a file was deleted in the current commit or if it is not present in previous commit
+			except Exception as e:
+				pass
+			else:
+				pass
+			finally:
+				pass
 		bar.next()
 	bar.finish()
 
@@ -109,3 +109,5 @@ if __name__ == '__main__':
 	# Writing to sample.json 
 	with open(f"{path}_last_2_years.json", "w") as outfile: 
 	    outfile.write(json_object)
+	end = timer()
+	print(f"Total Time taken = {end - start}")
