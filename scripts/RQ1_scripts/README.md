@@ -14,16 +14,12 @@ For convenience all these files have been provided along, project-wise, in the '
        
 1.	Change your directory to the path where to clone the project repository       
 `> cd <absolute_path_to_working_folder>`       
-       
 2.	clone the project repository. Sample to clone guava project:        
 `> git clone https://github.com/google/guava.git`       
-       
 3.	Change the directory to the cloned repository. For eg.        
 `> cd guava`       
-       
 4.	Store the paths to all .java files in paths.txt       
 `> find . -type f -name "*.java" >paths.txt`       
-       
 5.	Change the directory to the folder containing this README file and execute getRQ1_commits.py:       
 `> cd <path to getRQ1_commits.py>`       
 `> python getRQ1_commits.py  <Absolute path to the paths.txt> <project-name as appears in the github repo.>`    
