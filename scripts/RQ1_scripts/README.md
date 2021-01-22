@@ -7,7 +7,7 @@ These scripts have been executed on a Windows 10 OS
        
 This readme file contains steps to produce files, containing method details, analysed per project (the Github repo.) for RQ 1: Are the documentations written independently       
        
-For convenience all these files have been provided along, project-wise, in the 'data' folder.       
+For convenience all these files have been provided along, project-wise, in the 'data' folder. Running all these steps per project will likely take less than 1 minute.  
        
 # Steps       
 0.	Unzip the scripts.zip file. Launch the command prompt and execute the below described commands       
