@@ -28,7 +28,12 @@ Getting the line numbers which changed between commits (using getting_line_numbe
 Getting functions changed between two commits (using ExtractCodeDocModularity.class):
 1.  Execute the compiled ExtractCodeDocModularity.class by including the jars in the classpath, as in the command below. Pass the two arguments: the absolute path to <project_folder>. Eg is given below and the project's name
     java -cp project_jars/*;. ExtractCodeDocModularity "C:/Users/USER/Desktop/project_folder/" "gson"
-2.  It will create a new JSON file with name "<project_name>_changedFunctions.json". This file contains all the functions which evolved between two commits with the component which evolved in the commit (code/doc). 
+
+    OR
+    Execute the ExtractCodeDocModularity.jar using the command below:
+    java -jar .\ExtractCodeDocMoularity.jar
+2.	Program will take three inputs project name, location of the output of getting_line_numbers.py and location of .git file of the corresponding project.
+3.  It will create a new JSON file with name "<project_name>_changedFunctions.json". This file contains all the functions which evolved between two commits with the component which evolved in the commit (code/doc). 
 
 Getting functions where only functions were changed (using filter_database.py):
 1.  Open a terminal in the project folder (Assuming filter_database.py and "<project_name>_changedFunctions.json" exist in this directory)

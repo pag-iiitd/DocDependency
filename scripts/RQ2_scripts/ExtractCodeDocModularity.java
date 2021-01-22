@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.util.Map.Entry;
 import java.util.function.BiFunction;
+import java.util.Scanner;
 
 import org.json.simple.*;
 import org.json.simple.parser.*;
@@ -20,6 +21,9 @@ public class ExtractCodeDocModularity {
 	ArrayList<Long> insertions = new ArrayList<Long>();
 	ArrayList<Long> deletions = new ArrayList<Long>();
 	
+	static Scanner input = new Scanner(System.in); 
+	
+	static String gitdir;
 	// JSON Object to store the loaded json file
 	JSONObject jsonObject;
 	
@@ -60,9 +64,9 @@ public class ExtractCodeDocModularity {
 	 * Commit Hash and filename. Makes use of the exec
 	 * command to return the following things.
 	 */
-	public String getSourceCode (String commitHash, String filename, String project_folder, String project_name) throws IOException {
+	public String getSourceCode (String commitHash, String filename) throws IOException {
 		// Enter the path of github library you want to process
-		String gitdir = project_folder+"/"+project_name+"/.git";//"C:/Users/Avyakt/Desktop/project_folder/gson/.git";
+//		String gitdir = "C:/Users/Avyakt/Desktop/project_folder/elasticsearch/.git";
 		String command = "git --git-dir=" + gitdir + " show " + commitHash + ":" + filename;
 		ProcessBuilder builder = new ProcessBuilder();
 		
@@ -85,11 +89,6 @@ public class ExtractCodeDocModularity {
 	}
 	
 	
-	/*
-	 * Given source code and the array of insertions or deletions
-	 * getChanges helps in getting the changes made in the code
-	 * corresponding to the changes array.
-	 */
 	public HashMap<String, ArrayList<Boolean>> getChanges(String SourceCode, ArrayList<Long> changes) 
 	{	
 		// ArrayList to maintain whether the code or documentation was changed
@@ -213,13 +212,12 @@ public class ExtractCodeDocModularity {
 		return changedMethods;
 	}
 	
-	
 	/*
 	 * Given a string key of the format commit1_commit2_filename
 	 * the following function returns the hashmap of all the method 
 	 * declarations changed in the code.
 	 */
-	public HashMap<String, ArrayList<Boolean>> processKey (String key, String project_folder, String project_name) {
+	public HashMap<String, ArrayList<Boolean>> processKey (String key) {
 		HashMap<String, ArrayList<Boolean>> changedMethods = new HashMap<>();
 		
 		// Make sure a java file is being processed
@@ -258,7 +256,7 @@ public class ExtractCodeDocModularity {
 		if (insertions.size() > 0) {
 			String afterCommitSource = "";
 			try {
-				afterCommitSource  = getSourceCode(afterCommitHash, filename, project_folder, project_name);
+				afterCommitSource  = getSourceCode(afterCommitHash, filename);
 			}
 			catch (Exception e) {
 				System.out.println("Loading Error: " + key);
@@ -275,7 +273,7 @@ public class ExtractCodeDocModularity {
 		if (deletions.size() > 0 ) {
 			String beforeCommitSource = "";
 			try {
-				beforeCommitSource = getSourceCode(beforeCommitHash, filename, project_folder, project_name);
+				beforeCommitSource = getSourceCode(beforeCommitHash, filename);
 			}
 			catch (Exception e) {
 				System.out.println("Loading Error: " + key);
@@ -318,17 +316,30 @@ public class ExtractCodeDocModularity {
 		return changedMethods;
 	}
 	
-	//take 2 args: absolute path to project folder and project name
+	
 	public static void main(String[] args) throws FileNotFoundException, IOException, ParseException { 
-		// Source of the JSON File to be parsed
-		String project_folder_path = args[0];
-		String project_name = args[1];//"gson";
-		String source = project_folder_path + project_name + "_last_2_years.json";
+		String project_name, location, source, destination;
+		System.out.println("All the paths can be either absolute or relative");
+		System.out.print("Enter the project name: ");
+		project_name = input.nextLine(); // guava
 		
-		// Destination of the output JSON File
-		String destination = project_folder_path + project_name + "_changedFunctions.json";
+		System.out.print("Enter the location of directory where output of getting_line_numbers.py is present: ");
+		location = input.nextLine(); // Example: C:/Users/Avyakt/Desktop/project_folder/
 		
+		source = location + project_name + "_last_2_years.json";
+		destination = location + project_name + "_changedFunctions.json";
+		
+		System.out.print("Enter the path where .git file for the repo is saved: ");
+		gitdir = input.nextLine(); // Example: C:/Users/Avyakt/Desktop/project_folder/guava/.git
+		
+		long startTime = System.currentTimeMillis();
+		
+		System.out.println("Project Name: " + project_name);
+		System.out.println("Source File: " + source);
+		System.out.println("Destination File: " + destination);
+		System.out.println("Path to the .git file for the project is: " + gitdir);
 		// Class instance
+		
 		ExtractCodeDocModularity ext = new ExtractCodeDocModularity(source);
 		
 		// Files Processed and total files
@@ -341,11 +352,11 @@ public class ExtractCodeDocModularity {
 		
 		while(keys.hasNext()) {
 			// Converting the key to string 
-			String key = (String)keys.next();
-			changedMethodsFromJson.putAll(ext.processKey(key, project_folder_path, project_name));
-			files_processed++;
 			if (files_processed % 20 == 0)
 				System.out.println("Progress: " + files_processed + "/" + total_files + ", Changed Functions: " + ext.functionsChanged);
+			String key = (String)keys.next();
+			changedMethodsFromJson.putAll(ext.processKey(key));
+			files_processed++;
 		}
 		System.out.println("Progress: " + files_processed + "/" + total_files + ", Changed Functions: " + ext.functionsChanged);
 		
@@ -365,6 +376,8 @@ public class ExtractCodeDocModularity {
 		} catch (IOException e) {
 	         e.printStackTrace();
 		}
+		long endTime = System.currentTimeMillis();
+		System.out.println(project_name + ", Time Taken = " + (((double)(endTime - startTime)))/1000);
 		System.out.println("Code Terminated");
 	}
 }
