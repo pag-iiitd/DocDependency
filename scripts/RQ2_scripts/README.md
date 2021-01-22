@@ -1,5 +1,5 @@
 # Pre-requisites:       
-1.  Python `version 3.8.3 (or above)       
+1.  Python version 3.8.3 (or above)       
 2.  Java(TM) SE Runtime Environment (build 1.8.0_144 and above)       
        
 # Setting up environments       
