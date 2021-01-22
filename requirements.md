@@ -6,11 +6,11 @@ This page includes useful information on the supported Operating Systems as well
 Microsoft windows was used to develop and run all the scripts used in the process of data extraction and filtering and hence we strongly recommend to run all the files on windows operating system itself.
 
 ## Software requirements
-###Pre-requisites:
+### Pre-requisites:
 1.  Python `version 3.8.3 (or above)`
 2.  Java(TM) SE Runtime Environment `(build 1.8.0_144 and above)`
 3.	Git for Windows
 
-###Setting up the Python Environment
+### Setting up the Python Environment
 1.  pip install [progress](https://pypi.org/project/progress/) (Progress Library: Helps with visual representation of logs processed)
 2.  pip install [gitpython](https://gitpython.readthedocs.io/en/stable/) (GitPython: Python library to use GitAPIs)
