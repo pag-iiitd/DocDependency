@@ -1,3 +1,4 @@
+
 # Pre-requisites:       
 1.  Python version 3.8.3 (or above)       
 2.  Java(TM) SE Runtime Environment (build 1.8.0_144 and above)        
@@ -21,7 +22,7 @@ The project jars have been provided in 'project_jars' folder
 1.  Open a terminal with the curent directory as the project folder       
 2.  Run the python script using command       
     `>   python3 getting_line_numbers.py <project_name>`       
-3.  This script will create a file named **"<project_name>_last_2_years.json"**. This file contains all the files changed in a given commit with the line numbers changed in each file between the commits.
+3.  This script will create a file named **<project_name>_last_2_years.json**. This file contains all the files changed in a given commit with the line numbers changed in each file between the commits.
 ## Getting functions changed between two commits (using ExtractCodeDocModularity):       
 1.  Execute the compiled ExtractCodeDocModularity.class by including the jars in the classpath, as in the command below. Pass the two arguments: the absolute path to <project_folder>. Eg is given below and the project's name       
     `> java -cp ".;./path/to/javaparser-core-3.14.3.jar;./path/to/org.json.simple-0.4.jar" ExtractCodeDocModularity`       
@@ -33,16 +34,16 @@ The project jars have been provided in 'project_jars' folder
     `Enter the project name: gson`                     
     `Enter the location of directory where output of getting_line_numbers.py is present: C:/Users/Avyakt/Desktop/project_folder/`             
     `Enter the path where .git file for the repo is saved: C:/Users/Avyakt/Desktop/project_folder/gson/.git`        
-3.  It will create a new JSON file with name **"<project_name>_changedFunctions.json"**. This file contains all the functions which evolved between two commits with the component which evolved in the commit (code/doc).        
-## Getting functions where only functions were changed (using filter_database.py):       
+3.  It will create a new JSON file with name **<project_name>_changedFunctions.json**. This file contains all the functions which evolved between two commits with the component which evolved in the commit (code/doc).        
+## Getting functions where only documentation was changed (using filter_database.py):       
 1.  Open a terminal in the project folder        
     >(Assuming filter_database.py and "<project_name>_changedFunctions.json" exist in this directory)       
 3.  Run the python script using command       
     `> python3 filter_database.py <project_name>`       
-4.  This script will create a file named **"<project_name>_changedFunctionsFiltered.json"**. This file contains all the functions for which only documentation was changed in the commit.
+4.  This script will create a file named **<project_name>_changedFunctionsFiltered.json**. This file contains all the functions for which only documentation was changed in the commit.
 ## Examples
- 1. Gson
- 2. Glide
+ 1. [Glide](https://github.com/pag-iiitd/DocDependency/tree/master/scripts/RQ2_exmples/glide_examples)
+ 2. [Gson](https://github.com/pag-iiitd/DocDependency/tree/master/scripts/RQ2_exmples/gson_examples)
 # Time taken by each project (in seconds)
 |library  |getting_line_numbers|javaparser | total
 |--|--|--|--
