@@ -3,8 +3,8 @@ The requirements to run all the scripts can be found in [REQUIREMENTS.md](https:
 
 # Data Extraction
 We followed a two-phase data extraction methodology to analyze the documentations in 11 open-source GitHub repositories or projects (listed in Table 1 of the paper). 
-1. Phase 1 prepares data for RQ 1 by randomly extracting functions from each project. The script used for data extraction and steps required to run the scripts can be found in [RQ1_scripts](https://github.com/pag-iiitd/DocDependency/tree/master/scripts/RQ1_scripts).
-2. Phase 2 prepares data for RQ 2,3,4,5 by extracting commit logs where only documentation changes were made to a method. The scripts and instructions to run these scripts can be found in [RQ2_scripts](https://github.com/pag-iiitd/DocDependency/tree/master/scripts/RQ2_scripts).   
+1. Phase 1 prepares data for RQ 1 by randomly extracting functions from each project. The script used for data extraction and steps required to run the scripts can be found in [RQ1_scripts](https://github.com/pag-iiitd/DocDependency/tree/master/scripts/RQ1_scripts). 
+2. Phase 2 prepares data for RQ 2,3,4,5 by extracting commit logs where only documentation changes were made to a method. The scripts and instructions to run these scripts and time required to run on each project can be found in [RQ2_scripts](https://github.com/pag-iiitd/DocDependency/tree/master/scripts/RQ2_scripts).   
 
 As an output, we obtained a dataset of 
 1. 50 functions from each project
