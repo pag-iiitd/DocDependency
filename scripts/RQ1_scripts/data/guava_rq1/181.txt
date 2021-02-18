@@ -1,3 +1,0 @@
-{"randomdocline":"to any {@code Runnable} passed to the default implementation of {@link #wrapTask(Runnable)}.","signature":"protected abstract Callable<T> wrapTask(Callable<T> callable)","doc":"Wraps a {@code Callable} for submission to the underlying executor. This method is also applied\r\nto any {@code Runnable} passed to the default implementation of {@link #wrapTask(Runnable)}.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/util\/concurrent\/WrappingExecutorService.java"}
-'9b94fb3965'
-'024e56a668'
