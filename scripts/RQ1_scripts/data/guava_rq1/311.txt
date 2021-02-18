@@ -1,6 +1,0 @@
-{"randomdocline":"@param length the length of the new array","signature":"public static T[] newArray(T[] reference, int length)","doc":"Returns a new array of the given length with the same type as a reference array.\r\n\r\n@param reference any array of the desired type\r\n@param length the length of the new array\r\n","source":"{\r\n    return Platform.newArray(reference, length);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\guava\/src\/com\/google\/common\/collect\/ObjectArrays.java"}
-'9b94fb3965'
-'63360f3f58'
-'fc5979f45d'
-'c4ec873e2c'
-'b492c55704'
