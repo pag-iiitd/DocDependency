@@ -12,7 +12,7 @@ For convenience all these files have been provided along, project-wise, in the '
 # Steps       
 0.  Unzip the scripts.zip file. Launch the git bash command prompt (https://www.stanleyulili.com/git/how-to-install-git-bash-on-windows/) and execute the below described commands       
        
-1.  Change your directory to the path where to clone the project repository       
+1.  Change your directory to the path where you would like to clone the project repository, e.g. Desktop      
 `> cd <absolute_path_to_working_folder>`       
 2.  clone the project repository. Sample to clone guava project:        
 `> git clone https://github.com/google/guava.git`       
