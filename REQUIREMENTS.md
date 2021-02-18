@@ -18,6 +18,7 @@ Run the following commands to install the required python packages
 
 ### Cloning this repository
 Launch the git bash command prompt (https://www.stanleyulili.com/git/how-to-install-git-bash-on-windows/) and clone this artefact repository using the command
-`https://github.com/pag-iiitd/DocDependency.git`
+
+`git clone https://github.com/pag-iiitd/DocDependency.git`
 
 Alternatively, you may download this artefact repository as a zip folder from https://github.com/pag-iiitd/DocDependency/archive/master.zip and unzip the folder.
