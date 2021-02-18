@@ -1,3 +1,0 @@
-{"randomdocline":"Returns an {@link EndpointPair} representing the endpoints of a directed edge.","signature":"public static EndpointPair<N> ordered(N source, N target)","doc":"Returns an {@link EndpointPair} representing the endpoints of a directed edge.\r\n","source":"{\r\n    return new Ordered<N>(source, target);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/graph\/EndpointPair.java"}
-'9b94fb3965'
-'cfe05dfda3'
