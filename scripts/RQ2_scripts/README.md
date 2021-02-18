@@ -50,9 +50,11 @@ The project jars have been provided in 'project_jars' folder
 ## Getting functions where only documentation was changed (using filter_database.py):       
 1.  Open a terminal in the 'project_folder'        
     >(Assuming filter_database.py and "<project_name>_changedFunctions.json" exist in this directory)       
-3.  Run the python script using command       
-    `> python filter_database.py <project_name>`       
-4.  This script will create a file named **<project_name>_changedFunctionsFiltered.json**. This file contains all the functions for which only documentation was changed in the commit.       
+2.  Run the python script using command       
+    `> python filter_database.py <project_name>`  
+    For example for gson project use command           
+    `> python filter_database.py gson`    
+3.  This script will create a file named **<project_name>_changedFunctionsFiltered.json**. This file contains all the functions for which only documentation was changed in the commit.       
 
 ## Examples        
  1. [Glide](https://github.com/pag-iiitd/DocDependency/tree/master/scripts/RQ2_exmples/glide_examples)
