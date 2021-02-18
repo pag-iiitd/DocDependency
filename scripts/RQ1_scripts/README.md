@@ -10,7 +10,7 @@ This readme file contains steps to produce files, containing method details, ana
 For convenience all these files have been provided along, project-wise, in the 'data' folder. Running all these steps per project will likely take less than 1 minute.  
        
 # Steps       
-0.  Clone this repository. Launch the git bash command prompt (https://www.stanleyulili.com/git/how-to-install-git-bash-on-windows/) and execute the below described commands     
+0.  Launch the git bash command prompt (https://www.stanleyulili.com/git/how-to-install-git-bash-on-windows/) and execute the below described commands     
        
 1.  Change your directory to the path where you would like to clone the project repository, e.g. Desktop      
 `> cd <absolute_path_to_working_folder>`       
