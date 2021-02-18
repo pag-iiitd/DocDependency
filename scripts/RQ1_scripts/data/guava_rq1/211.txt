@@ -1,3 +1,0 @@
-{"randomdocline":"Returns an immutable map containing the given entries, in order.","signature":"public static ImmutableBiMap<K, V> of(K k1, V v1, K k2, V v2)","doc":"Returns an immutable map containing the given entries, in order.\r\n\r\n@throws IllegalArgumentException if duplicate keys or values are added\r\n","source":"{\r\n    checkEntryNotNull(k1, v1);\r\n    checkEntryNotNull(k2, v2);\r\n    return new RegularImmutableBiMap<K, V>(new Object[] { k1, v1, k2, v2 }, 2);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/collect\/ImmutableBiMap.java"}
-'9b94fb3965'
-'b492c55704'
