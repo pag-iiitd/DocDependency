@@ -1,3 +1,0 @@
-{"randomdocline":"of {@code map}.","signature":" void putAll(Map<? extends K, ? extends V> map)","doc":"{@inheritDoc}\r\n\r\n<p><b>Warning:<\/b> the results of calling this method may vary depending on the iteration order\r\nof {@code map}.\r\n\r\n@throws IllegalArgumentException if an attempt to {@code put} any entry fails. Note that some\r\n    map entries may have been added to the bimap before the exception was thrown.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/collect\/BiMap.java"}
-'9b94fb3965'
-'b492c55704'
