@@ -1,3 +1,0 @@
-{"randomdocline":"relative to the specified comparator, and returns them via {@link #topK} in ascending order.","signature":"public static TopKSelector<T> least(int k, Comparator<? super T> comparator)","doc":"Returns a {@code TopKSelector} that collects the lowest {@code k} elements added to it,\r\nrelative to the specified comparator, and returns them via {@link #topK} in ascending order.\r\n\r\n@throws IllegalArgumentException if {@code k < 0} or {@code k > Integer.MAX_VALUE \/ 2}\r\n","source":"{\r\n    return new TopKSelector<T>(comparator, k);\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/collect\/TopKSelector.java"}
-'9b94fb3965'
-'7037b865b9'
