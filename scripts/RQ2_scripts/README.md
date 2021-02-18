@@ -21,7 +21,7 @@ The project jars have been provided in 'project_jars' folder
     `>   git clone <link to the github project>`        
     For example to clone gson project use command       
     `>   git clone https://github.com/google/gson`       
-    This step will create a folder with project_name (netty in above case)       
+    This step will create a folder with project_name (gson in above case)       
 
 # Running extraction scripts:       
 
