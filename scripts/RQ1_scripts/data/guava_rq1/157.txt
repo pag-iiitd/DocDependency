@@ -1,3 +1,0 @@
-{"randomdocline":"<p>Returns whether any bits changed as a result of this operation.","signature":" boolean put(T object, Funnel<? super T> funnel, int numHashFunctions, LockFreeBitArray bits)","doc":"Sets {@code numHashFunctions} bits of the given bit array, by hashing a user element.\r\n\r\n<p>Returns whether any bits changed as a result of this operation.\r\n","source":"","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/hash\/BloomFilter.java"}
-'9b94fb3965'
-'cec7952f28'
