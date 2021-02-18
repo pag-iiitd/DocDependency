@@ -1,6 +1,0 @@
-{"randomdocline":"Returns an immutable array containing the given values, in order.","signature":"public static ImmutableDoubleArray of(double e0, double e1)","doc":"Returns an immutable array containing the given values, in order.\r\n","source":"{\r\n    return new ImmutableDoubleArray(new double[] { e0, e1 });\r\n}","pathname":"D:\\Documents\\PA_Research\\DocModularity_Study\\guava\\android\/guava\/src\/com\/google\/common\/primitives\/ImmutableDoubleArray.java"}
-'8f7bbd4c73'
-'38e537e6ed'
-'9b94fb3965'
-'01bf8d29a2'
-'5090ad5976'
