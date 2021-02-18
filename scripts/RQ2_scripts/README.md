@@ -1,4 +1,3 @@
-
 # Pre-requisites:       
 1.  Python version 3.8.3 (or above)       
 2.  Java(TM) SE Runtime Environment (build 1.8.0_144 and above)        
@@ -15,7 +14,7 @@ The project jars have been provided in 'project_jars' folder
 
 ## Setting up the extraction environment:       
 1.  Create a new folder at any location, e.g., Desktop (In complete README.md this folder is referred as 'project_folder')       
-2.  Copy the folder named project_jars, getting_line_numbers.py and filter_database.py into 'project_folder'.
+2.  Copy the folder named project_jars and files getting_line_numbers.py and filter_database.py into 'project_folder'.
 3.  Open Command Prompt and change directory to 'project_folder'.        
     `>   cd <path_to_project_folder>`        
 4.  Clone the git repo into the 'project_folder' using the command       
@@ -29,7 +28,9 @@ The project jars have been provided in 'project_jars' folder
 ## Getting the line numbers which changed between commits (using getting_line_numbers.py):       
 1.  Open a terminal with the current directory as the 'project_folder'       
 2.  Run the python script using command       
-    `>   python3 getting_line_numbers.py <project_name>`       
+    `>   python getting_line_numbers.py <project_name>`       
+    For example for gson project use command           
+    `>   python getting_line_numbers.py gson`        
 3.  This script will create a file named **<project_name>_last_2_years.json**. This file contains all the files changed in a given commit with the line numbers changed in each file between the commits.
 
 ## Getting functions changed between two commits (using ExtractCodeDocModularity):       
@@ -50,7 +51,7 @@ The project jars have been provided in 'project_jars' folder
 1.  Open a terminal in the 'project_folder'        
     >(Assuming filter_database.py and "<project_name>_changedFunctions.json" exist in this directory)       
 3.  Run the python script using command       
-    `> python3 filter_database.py <project_name>`       
+    `> python filter_database.py <project_name>`       
 4.  This script will create a file named **<project_name>_changedFunctionsFiltered.json**. This file contains all the functions for which only documentation was changed in the commit.       
 
 ## Examples        
