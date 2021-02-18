@@ -4,11 +4,12 @@ import sys
 file = sys.argv[1]
 filename = f'{file}_changedFunctions.json'
 
+print(f'Reading from filename {filename}')
 with open(filename) as f:
 	init_database = json.load(f)
 
 # Print total number of examples in dataset
-print(len(init_database))
+print(f'Total number of functions (including all types of changes) = {len(init_database)}')
 
 filtered_database = {}
 count = 0
@@ -24,7 +25,7 @@ for i in init_database:
 			new_key += "_" + contents[con]
 		filtered_database[new_key] = init_database[i]
 
-print('files to be processed:', count)
+print(f'Total number of functions (with only documentation changes) = {count}')
 
 D = {}
 for i in filtered_database:
@@ -33,12 +34,11 @@ for i in filtered_database:
 		D[commit_id] += 1
 	else:
 		D[commit_id] = 1
-print('commits to be processed:', len(D))
+print(f'Total number of commits to be processed = {len(D)}')
 
 count1 = 0
 for i in D:
 	count1 += D[i]
-print(count1)
 
 # Creating a JSON Dump in pretty format
 init_database = json.dumps(init_database, sort_keys=True, indent=4)
