@@ -25,6 +25,7 @@ project_name=sys.argv[2] #e.g. guava
 repo_path= repo_paths_fname[:repo_paths_fname.rfind(path_sep)] #path to repository folder (eg. to guava)
 jars_path=current_path[:current_path.rfind(path_sep)]+path_sep+"project_jars"
 
+print('Reading java file paths..')
 with open(repo_paths_fname,'r') as f:
 	data=f.readlines()
 	size=len(data)
@@ -40,6 +41,7 @@ output_folder=repo_path+path_sep+project_name+"_rq1"
 if not os.path.exists(output_folder):
 	os.mkdir(output_folder)
 ctr=1 #to maintain serial number for creating txt files for method info
+print('Parsing java files to extract method information')
 for p in path_lines:
 	#call javaparser code with 2 inputs path of the file, sno for file naming
 	path_to_file=repo_path+path_sep+p[2:] #to remove ./
@@ -59,3 +61,5 @@ for filename in os.listdir(output_folder): # returns txt files in relative path 
 		
 		#change dir to github repo
 		os.system("git log -S \""+method_info["randomdocline"]+"\" --pretty=format:'%h' >> "+output_folder+path_sep+filename) # append the commit ids
+		
+print('Finished method information extraction.')
