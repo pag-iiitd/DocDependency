@@ -15,15 +15,17 @@ import os
 import sys
 import json
 from random import randint
+from tqdm import tqdm
 
 #assume current path is up to the point where getRQ1_commits.py is- in scripts folder
-current_path=os.getcwd()#inside script folder
-path_sep=os.path.sep
+current_path = os.getcwd() #inside script folder
+path_sep = os.path.sep
+
 #input sample: python getRQ1_commits.py  "D:\Study\guava\paths.txt" "guava"
-repo_paths_fname=sys.argv[1] #path to text file containing paths in a repo
-project_name=sys.argv[2] #e.g. guava
-repo_path= repo_paths_fname[:repo_paths_fname.rfind(path_sep)] #path to repository folder (eg. to guava)
-jars_path=current_path[:current_path.rfind(path_sep)]+path_sep+"project_jars"
+repo_paths_fname = sys.argv[1] #path to text file containing paths in a repo
+project_name = sys.argv[2] #e.g. guava
+repo_path =  repo_paths_fname[:repo_paths_fname.rfind(path_sep)] #path to repository folder (eg. to guava)
+jars_path = current_path[:current_path.rfind(path_sep)]+path_sep+"project_jars"
 
 print('Reading java file paths..')
 with open(repo_paths_fname,'r') as f:
@@ -31,26 +33,34 @@ with open(repo_paths_fname,'r') as f:
 	size=len(data)
 	path_lines=set() # to contain 50 file paths to java sources
 	set_size=0
-while(set_size<=200): # replace upper limit file number slightly greater than number of files needed
+
+# replace upper limit file number slightly greater than number of files needed
+while(set_size<=200): 
 	path_num = randint(0, size - 1)
 	if path_num in path_lines:
 		continue
 	path_lines.add(data[path_num].strip())
 	set_size=set_size+1
+
 output_folder=repo_path+path_sep+project_name+"_rq1"
+
 if not os.path.exists(output_folder):
 	os.mkdir(output_folder)
+	
 ctr=1 #to maintain serial number for creating txt files for method info
 print('Parsing java files to extract method information')
-for p in path_lines:
+path_lines = list(path_lines)
+for i in tqdm(range(len(path_lines))):
+	p = path_lines[i]
 	#call javaparser code with 2 inputs path of the file, sno for file naming
 	path_to_file=repo_path+path_sep+p[2:] #to remove ./
 	num_of_methods=1#randint(1,3)
 	for i in range(num_of_methods):
-		#print(path_to_file, "diff ",output_folder+path_sep+str(ctr))
+		# print(path_to_file, "diff ",output_folder+path_sep+str(ctr))
 		os.system("java -cp bin;"+jars_path+path_sep+"*;. ExtractMethodInfo \""+path_to_file+"\" \""+output_folder+path_sep+str(ctr)+"\"")
 		ctr=ctr+1
 os.chdir(repo_path)
+
 for filename in os.listdir(output_folder): # returns txt files in relative path to dir
 	#step 3
 	with open(output_folder+path_sep+filename,'a+') as f:
