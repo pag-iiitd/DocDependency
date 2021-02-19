@@ -24,10 +24,11 @@ For convenience all these files have been provided along, project-wise, in the '
 `> cd <path to getRQ1_commits.py>`       
 `> python -u getRQ1_commits.py  <Absolute path to the paths.txt> <project-name as appears in the github repo.>`    
 Sample:        
-`python -u getRQ1_commits.py "D:\Study\guava\paths.txt" "guava"`       
+`python -u getRQ1_commits.py "D:\Study\guava\paths.txt" "guava"`
+**NOTE:** If you would like to repeat the step 5. on a particular project, please make sure that you delete the folder **<project-name_rq1>** (example: guava_rq1) from the project repository folder (example: guava)
+
        
 # Output
-The script will create a folder **<project-name_rq1>** (example: guava_rq1) inside the project's folder and store a list of files contaning method details(signature, javadoc, source-code) used in analyzing RQ1.
+The script will create a folder **<project-name_rq1>** (example: guava_rq1) inside the project repository folder and store a list of files contaning method details(signature, javadoc, source-code) used in analyzing RQ1.
 
-# Note: 
-If you would like to repeat the step 5. on a particular project, please make sure that you delete the folder **<project-name_rq1>** (example: guava_rq1)
+
