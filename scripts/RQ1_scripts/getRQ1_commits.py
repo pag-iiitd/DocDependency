@@ -61,6 +61,7 @@ for i in tqdm(range(len(path_lines))):
 		ctr=ctr+1
 os.chdir(repo_path)
 
+print('Post-processing...')
 for filename in os.listdir(output_folder): # returns txt files in relative path to dir
 	#step 3
 	with open(output_folder+path_sep+filename,'a+') as f:
