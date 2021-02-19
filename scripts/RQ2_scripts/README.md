@@ -15,7 +15,7 @@ The project jars have been provided in 'project_jars' folder
 ## Setting up the extraction environment:       
 1.  Create a new folder at any location, e.g., Desktop (In complete README.md this folder is referred as 'project_folder')       
 2.  Copy the folder named project_jars and all the files in RQ2_scripts into the 'project_folder'.
-3.  Open the _Windows Command line interpreter (cmd.exe)_ and change directory to 'project_folder'.        
+3.  Open the _Windows Command line interpreter (cmd.exe)_, referred to as the command prompt in the following steps, and change directory to 'project_folder'.        
     `>   cd <path_to_project_folder>`        
 4.  Clone the git repo into the 'project_folder' using the command       
     `>   git clone <link to the github project>`        
