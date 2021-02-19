@@ -32,7 +32,7 @@ with open(repo_paths_fname,'r') as f:
 	path_lines=set() # to contain 50 file paths to java sources
 	set_size=0
 while(set_size<=200): # replace upper limit file number slightly greater than number of files needed
-	path_num = randint(0, size)
+	path_num = randint(0, size - 1)
 	if path_num in path_lines:
 		continue
 	path_lines.add(data[path_num].strip())
