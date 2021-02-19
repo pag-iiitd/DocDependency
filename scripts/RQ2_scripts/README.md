@@ -35,7 +35,7 @@ The project jars have been provided in 'project_jars' folder
 
 ## Getting functions changed between two commits (using ExtractCodeDocModularity):       
 1.  Execute the compiled ExtractCodeDocModularity.class by including the jars in the classpath, as in the command below.       
-    `> java -cp ".;./path/to/javaparser-core-3.14.3.jar;./path/to/org.json.simple-0.4.jar" ExtractCodeDocModularity`         
+    `> java -cp ".;./path/to/project_jars/javaparser-core-3.14.3.jar;./path/to/project_jars/org.json.simple-0.4.jar" ExtractCodeDocModularity`         
     For example: below project_jars folder is located in the 'project_folder' itself.       
     `> java -cp ".;./project_jars/javaparser-core-3.14.3.jar;./project_jars/org.json.simple-0.4.jar" ExtractCodeDocModularity`       
     OR       
