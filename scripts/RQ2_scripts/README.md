@@ -14,7 +14,7 @@ The project jars have been provided in 'project_jars' folder
 
 ## Setting up the extraction environment:       
 1.  Create a new folder at any location, e.g., Desktop (In complete README.md this folder is referred as 'project_folder')       
-2.  Copy the folder named project_jars and files getting_line_numbers.py and filter_database.py into 'project_folder'.
+2.  Copy the folder named project_jars and all the files in RQ2_scripts into the 'project_folder'.
 3.  Open the _Windows Command line interpreter (cmd.exe)_ and change directory to 'project_folder'.        
     `>   cd <path_to_project_folder>`        
 4.  Clone the git repo into the 'project_folder' using the command       
@@ -26,7 +26,7 @@ The project jars have been provided in 'project_jars' folder
 # Running extraction scripts:       
 
 ## Getting the line numbers which changed between commits (using getting_line_numbers.py):       
-1.  Open a terminal with the current directory as the 'project_folder'       
+1.  Open a command prompt with the current directory as the 'project_folder'       
 2.  Run the python script using command       
     `>   python getting_line_numbers.py <project_name>`       
     For example for gson project use command           
@@ -34,21 +34,22 @@ The project jars have been provided in 'project_jars' folder
 3.  This script will create a file named **<project_name>_last_2_years.json**. This file contains all the files changed in a given commit with the line numbers changed in each file between the commits.
 
 ## Getting functions changed between two commits (using ExtractCodeDocModularity):       
-1.  Execute the compiled ExtractCodeDocModularity.class by including the jars in the classpath, as in the command below.       
+1.  Open a command prompt with the current directory as the 'project_folder'       
+2.  Execute the compiled ExtractCodeDocModularity.class by including the jars in the classpath, as in the command below.       
     `> java -cp ".;./path/to/project_jars/javaparser-core-3.14.3.jar;./path/to/project_jars/org.json.simple-0.4.jar" ExtractCodeDocModularity`         
     For example: below project_jars folder is located in the 'project_folder' itself.       
     `> java -cp ".;./project_jars/javaparser-core-3.14.3.jar;./project_jars/org.json.simple-0.4.jar" ExtractCodeDocModularity`       
     OR       
     Execute the ExtractCodeDocModularity.jar using the command below:       
     `> java -jar .\ExtractCodeDocMoularity.jar`       
-2.  Program will take three inputs project name, location of the output of getting_line_numbers.py and location of .git file of the corresponding project. For example:        
+3.  Program will take three inputs project name, location of the output of getting_line_numbers.py and location of .git file of the corresponding project. For example:        
     `Enter the project name: gson`                     
     `Enter the location of directory where output of getting_line_numbers.py is present: C:/Users/Avyakt/Desktop/project_folder/`             
     `Enter the path where .git file for the repo is saved: C:/Users/Avyakt/Desktop/project_folder/gson/.git`        
-3.  It will create a new JSON file with name **<project_name>_changedFunctions.json**. This file contains all the functions which evolved between two commits with the component which evolved in the commit (code/doc).        
+4.  It will create a new JSON file with name **<project_name>_changedFunctions.json**. This file contains all the functions which evolved between two commits with the component which evolved in the commit (code/doc).        
 
 ## Getting functions where only documentation was changed (using filter_database.py):       
-1.  Open a terminal in the 'project_folder'        
+1.  Open a command prompt in the 'project_folder'        
     >(Assuming filter_database.py and "<project_name>_changedFunctions.json" exist in this directory)       
 2.  Run the python script using command       
     `> python filter_database.py <project_name>`  
